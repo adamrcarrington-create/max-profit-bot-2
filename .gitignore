@@ -1,0 +1,8 @@
+kalshi_private.txt
+.DS_Store
+logs/
+reports/
+__pycache__/
+*.log
+*.jsonl
+.env*
