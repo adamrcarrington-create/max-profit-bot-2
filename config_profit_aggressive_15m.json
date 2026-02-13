@@ -1,0 +1,59 @@
+{
+  "strategy": {
+    "base_half_spread": 0.008,
+    "min_half_spread": 0.003,
+    "max_half_spread": 0.040,
+    "volatility_multiplier": 2.0,
+    "inventory_skew": 0.012,
+    "momentum_alpha": 0.35,
+    "min_edge": 0.005,
+    "base_order_size": 8
+  },
+  "risk": {
+    "max_position": 200,
+    "max_order_size": 40,
+    "live_size_scale": 0.60,
+    "max_daily_loss": 20.0,
+    "max_drawdown": 15.0,
+    "volatility_hard_stop": 0.060,
+    "stale_data_seconds": 2.0,
+    "session_stop_loss_cents": 1000,
+    "session_take_profit_cents": 200,
+    "min_requote_seconds": 3.0,
+    "max_orders_per_market": 80,
+    "min_market_spread": 0.030,
+    "min_quote_edge": 0.004,
+    "preclose_guard_seconds": 120,
+    "entry_time_buffer_seconds": 0.0,
+    "no_trade_window_cycle_limit": 3,
+    "auto_roll_on_no_trade_window": true,
+    "momentum_soft_guard": 0.0030,
+    "momentum_hard_guard": 0.0080,
+    "adverse_side_size_cut": 0.85,
+    "toxicity_edge_boost": 0.005,
+    "take_profit_tier1": 0.012,
+    "take_profit_tier2": 0.025,
+    "stop_loss": 0.018,
+    "max_consecutive_losses": 8
+  },
+  "sim": {
+    "steps": 8000,
+    "starting_mid": 0.50,
+    "starting_spread": 0.016,
+    "drift": 0.0,
+    "volatility": 0.010,
+    "mean_reversion": 0.12,
+    "maker_fee_per_contract": 0.003,
+    "slippage_mean": 0.0006,
+    "adverse_selection": 0.0020,
+    "seed": 42
+  },
+  "target_return_pct": 0.15,
+  "max_drawdown_pct": 0.15,
+  "market_tickers": [
+    "KXBTC15M",
+    "KXETH15M",
+    "KXSOL15M"
+  ],
+  "market_ticker": "KXBTC15M"
+}
