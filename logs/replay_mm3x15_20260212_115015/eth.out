@@ -1,0 +1,37 @@
+replay_capture_start ticker=KXETH15M-26FEB121200-00 strike=1916.43 direction=up duration_s=420.0 interval_s=0.5 out=logs/replay_mm3x15_20260212_115015/eth.jsonl
+capture_progress rows=20 ref=1915.11 yes_bid=37 yes_ask=41 source=median_coinbase_kraken
+capture_progress rows=40 ref=1914.06 yes_bid=30 yes_ask=32 source=median_coinbase_kraken
+capture_progress rows=60 ref=1914.38 yes_bid=34 yes_ask=38 source=median_coinbase_kraken
+capture_progress rows=80 ref=1914.28 yes_bid=28 yes_ask=33 source=median_coinbase_kraken
+capture_progress rows=100 ref=1913.72 yes_bid=31 yes_ask=36 source=median_coinbase_kraken
+capture_progress rows=120 ref=1913.72 yes_bid=23 yes_ask=27 source=median_coinbase_kraken
+capture_progress rows=140 ref=1913.21 yes_bid=48 yes_ask=53 source=median_coinbase_kraken
+capture_progress rows=160 ref=1915.02 yes_bid=33 yes_ask=37 source=median_coinbase_kraken
+capture_progress rows=180 ref=1913.14 yes_bid=32 yes_ask=36 source=median_coinbase_kraken
+capture_progress rows=200 ref=1914.70 yes_bid=29 yes_ask=31 source=median_coinbase_kraken
+capture_progress rows=220 ref=1913.60 yes_bid=25 yes_ask=30 source=median_coinbase_kraken
+capture_progress rows=240 ref=1912.49 yes_bid=17 yes_ask=21 source=median_coinbase_kraken
+capture_progress rows=260 ref=1909.95 yes_bid=14 yes_ask=15 source=median_coinbase_kraken
+capture_progress rows=280 ref=1909.89 yes_bid=11 yes_ask=14 source=median_coinbase_kraken
+capture_progress rows=300 ref=1906.47 yes_bid=5 yes_ask=7 source=median_coinbase_kraken
+capture_progress rows=320 ref=1905.24 yes_bid=4 yes_ask=7 source=median_coinbase_kraken
+capture_progress rows=340 ref=1903.29 yes_bid=2 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=360 ref=1902.62 yes_bid=1 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=380 ref=1899.52 yes_bid=1 yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=400 ref=1900.54 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=420 ref=1900.16 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=440 ref=1900.20 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=460 ref=1898.85 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=480 ref=1898.85 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=500 ref=1900.91 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=520 ref=1900.77 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=540 ref=1901.67 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=560 ref=1902.82 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=580 ref=1903.31 yes_bid=1 yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=600 ref=1904.48 yes_bid=1 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=620 ref=1905.73 yes_bid=1 yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=640 ref=1905.40 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=660 ref=1905.43 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=680 ref=1906.26 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=700 ref=1906.13 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+replay_capture_done rows=703 errors=0 out=logs/replay_mm3x15_20260212_115015/eth.jsonl

@@ -1,0 +1,122 @@
+{
+  "capture_dir": "logs/replay_mm3x15_20260212_115015",
+  "profiles": {
+    "baseline_current": {
+      "overrides": {
+        "order_count": 1,
+        "mm_half_spread_cents": 1.5
+      },
+      "sum_pnl_cents": 73.4,
+      "sum_pnl_dollars": 0.734,
+      "sum_fills": 120,
+      "sum_cost_drag_cents": 39.6,
+      "sum_adverse_selection_rate": 0.0417,
+      "markets": {
+        "btc": {
+          "pnl_cents": 18.76,
+          "pnl_dollars": 0.1876,
+          "fills": 28,
+          "cost_drag_cents": 9.24,
+          "adverse_selection_rate": 0.1786,
+          "ending_inventory_gross": 28
+        },
+        "eth": {
+          "pnl_cents": 31.54,
+          "pnl_dollars": 0.3154,
+          "fills": 62,
+          "cost_drag_cents": 20.46,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 62
+        },
+        "sol": {
+          "pnl_cents": 23.1,
+          "pnl_dollars": 0.231,
+          "fills": 30,
+          "cost_drag_cents": 9.9,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 30
+        }
+      },
+      "lift_vs_baseline_cents": 0.0,
+      "lift_vs_baseline_dollars": 0.0
+    },
+    "tuned_moderate": {
+      "overrides": {
+        "order_count": 12,
+        "mm_half_spread_cents": 1.0
+      },
+      "sum_pnl_cents": 1015.1,
+      "sum_pnl_dollars": 10.151,
+      "sum_fills": 186,
+      "sum_cost_drag_cents": 618.9,
+      "sum_adverse_selection_rate": 0.0752,
+      "markets": {
+        "btc": {
+          "pnl_cents": 305.52,
+          "pnl_dollars": 3.0552,
+          "fills": 38,
+          "cost_drag_cents": 150.48,
+          "adverse_selection_rate": 0.2632,
+          "ending_inventory_gross": 456
+        },
+        "eth": {
+          "pnl_cents": 252.26,
+          "pnl_dollars": 2.5226,
+          "fills": 115,
+          "cost_drag_cents": 337.74,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 638
+        },
+        "sol": {
+          "pnl_cents": 457.32,
+          "pnl_dollars": 4.5732,
+          "fills": 33,
+          "cost_drag_cents": 130.68,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 396
+        }
+      },
+      "lift_vs_baseline_cents": 941.7,
+      "lift_vs_baseline_dollars": 9.417
+    },
+    "tuned_high": {
+      "overrides": {
+        "order_count": 24,
+        "mm_half_spread_cents": 1.5
+      },
+      "sum_pnl_cents": 1778.78,
+      "sum_pnl_dollars": 17.7878,
+      "sum_fills": 231,
+      "sum_cost_drag_cents": 965.22,
+      "sum_adverse_selection_rate": 0.0543,
+      "markets": {
+        "btc": {
+          "pnl_cents": 420.66,
+          "pnl_dollars": 4.2066,
+          "fills": 45,
+          "cost_drag_cents": 251.34,
+          "adverse_selection_rate": 0.1786,
+          "ending_inventory_gross": 638
+        },
+        "eth": {
+          "pnl_cents": 909.06,
+          "pnl_dollars": 9.0906,
+          "fills": 115,
+          "cost_drag_cents": 404.94,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 638
+        },
+        "sol": {
+          "pnl_cents": 449.06,
+          "pnl_dollars": 4.4906,
+          "fills": 71,
+          "cost_drag_cents": 308.94,
+          "adverse_selection_rate": 0.0,
+          "ending_inventory_gross": 638
+        }
+      },
+      "lift_vs_baseline_cents": 1705.38,
+      "lift_vs_baseline_dollars": 17.0538
+    }
+  }
+}

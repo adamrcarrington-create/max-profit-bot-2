@@ -1,0 +1,37 @@
+replay_capture_start ticker=KXSOL15M-26FEB121200-00 strike=79.0515 direction=up duration_s=420.0 interval_s=0.5 out=logs/replay_mm3x15_20260212_115015/sol.jsonl
+capture_progress rows=20 ref=78.91 yes_bid=29 yes_ask=33 source=median_coinbase_kraken
+capture_progress rows=40 ref=78.84 yes_bid=21 yes_ask=23 source=median_coinbase_kraken
+capture_progress rows=60 ref=78.82 yes_bid=24 yes_ask=29 source=median_coinbase_kraken
+capture_progress rows=80 ref=78.82 yes_bid=19 yes_ask=23 source=median_coinbase_kraken
+capture_progress rows=100 ref=78.79 yes_bid=21 yes_ask=24 source=median_coinbase_kraken
+capture_progress rows=120 ref=78.78 yes_bid=15 yes_ask=18 source=median_coinbase_kraken
+capture_progress rows=140 ref=78.74 yes_bid=31 yes_ask=36 source=median_coinbase_kraken
+capture_progress rows=160 ref=78.83 yes_bid=21 yes_ask=24 source=median_coinbase_kraken
+capture_progress rows=180 ref=78.74 yes_bid=20 yes_ask=22 source=median_coinbase_kraken
+capture_progress rows=200 ref=78.80 yes_bid=16 yes_ask=18 source=median_coinbase_kraken
+capture_progress rows=220 ref=78.71 yes_bid=13 yes_ask=17 source=median_coinbase_kraken
+capture_progress rows=240 ref=78.68 yes_bid=10 yes_ask=11 source=median_coinbase_kraken
+capture_progress rows=260 ref=78.58 yes_bid=7 yes_ask=10 source=median_coinbase_kraken
+capture_progress rows=280 ref=78.60 yes_bid=6 yes_ask=8 source=median_coinbase_kraken
+capture_progress rows=300 ref=78.53 yes_bid=3 yes_ask=6 source=median_coinbase_kraken
+capture_progress rows=320 ref=78.54 yes_bid=4 yes_ask=6 source=median_coinbase_kraken
+capture_progress rows=340 ref=78.43 yes_bid=2 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=360 ref=78.33 yes_bid=1 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=380 ref=78.36 yes_bid=2 yes_ask=5 source=median_coinbase_kraken
+capture_progress rows=400 ref=78.33 yes_bid=1 yes_ask=3 source=median_coinbase_kraken
+capture_progress rows=420 ref=78.33 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=440 ref=78.34 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=460 ref=78.30 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=480 ref=78.25 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=500 ref=78.21 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=520 ref=78.22 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=540 ref=78.21 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+capture_progress rows=560 ref=78.28 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=580 ref=78.25 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=600 ref=78.31 yes_bid=1 yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=620 ref=78.35 yes_bid=1 yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=640 ref=78.36 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=660 ref=78.37 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=680 ref=78.38 yes_bid=None yes_ask=2 source=median_coinbase_kraken
+capture_progress rows=700 ref=78.37 yes_bid=None yes_ask=1 source=median_coinbase_kraken
+replay_capture_done rows=708 errors=0 out=logs/replay_mm3x15_20260212_115015/sol.jsonl

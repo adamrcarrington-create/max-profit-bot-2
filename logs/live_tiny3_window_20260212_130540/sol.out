@@ -1,0 +1,232 @@
+2026-02-12 13:05:40,632 INFO market_roll old=NONE new=KXSOL15M-26FEB121315-15
+2026-02-12 13:05:41,559 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-12 13:05:42,508 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.918 depth_ratio=23.43 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:05:42,509 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.918 depth_ratio=23.43 mid_move=0.00
+2026-02-12 13:05:42,840 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_live_tiny3_sol.json payload={"as_of":"2026-02-12T18:05:42Z","ticker":"KXSOL15M-26FEB121315-15","series_ticker":"KXSOL15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.815,"last_kalshi_implied_yes_probability":0.815,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":0.9181350954478708,"yes_depth":5225,"no_depth":223,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.09754705429077148,"book_stale_seconds":0.09728407859802246},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchange_
+2026-02-12 13:05:42,841 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.070 depth_ratio=1.15 mid_move=2.00
+2026-02-12 13:05:43,880 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.935 depth_ratio=29.96 mid_move=2.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:05:43,880 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.935 depth_ratio=29.96 mid_move=2.00
+2026-02-12 13:05:44,913 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.928 depth_ratio=26.83 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:05:46,241 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.137 depth_ratio=1.32 mid_move=0.00
+2026-02-12 13:05:46,241 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.67s
+2026-02-12 13:05:47,583 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.935 depth_ratio=29.76 mid_move=1.00
+2026-02-12 13:05:47,583 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=0.33s
+2026-02-12 13:05:48,871 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.062 depth_ratio=1.13 mid_move=1.50
+2026-02-12 13:05:48,920 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=no action=buy count=1 price=18 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-N-3c3e952f42","created_time":"2026-02-12T18:05:48.910077Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:05:48.910077Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":18,"no_price_dollars":"0.1800","order_group_id":null,"order_id":"f7a44ffb-ca86-463f-ac65-95016f4a095b","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":82,"yes_price_dollars":"0.8200"}}
+2026-02-12 13:05:51,994 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.883 depth_ratio=16.13 mid_move=2.00
+2026-02-12 13:05:53,337 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.143 depth_ratio=1.33 mid_move=1.50
+2026-02-12 13:05:53,692 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=no action=buy count=1 price=18 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-N-bb7712090f","created_time":"2026-02-12T18:05:53.684676Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:05:53.684676Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":18,"no_price_dollars":"0.1800","order_group_id":null,"order_id":"524b6575-9129-46d1-beaa-b5c35adcfe3c","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":82,"yes_price_dollars":"0.8200"}}
+2026-02-12 13:05:55,706 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=no action=buy count=1 price=16 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-N-766b2d0fc6","created_time":"2026-02-12T18:05:55.695091Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:05:55.695091Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":16,"no_price_dollars":"0.1600","order_group_id":null,"order_id":"4371a0c5-fca9-440e-886e-cc7acb6f2d72","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":84,"yes_price_dollars":"0.8400"}}
+2026-02-12 13:05:56,001 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.845 depth_ratio=11.91 mid_move=1.50
+2026-02-12 13:05:57,009 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.342 depth_ratio=2.04 mid_move=0.00
+2026-02-12 13:05:59,352 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.863 depth_ratio=13.56 mid_move=0.00
+2026-02-12 13:06:02,707 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.319 depth_ratio=1.93 mid_move=0.50
+2026-02-12 13:06:03,055 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.186 depth_ratio=1.46 mid_move=1.50
+2026-02-12 13:06:04,371 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=yes action=buy count=1 price=84 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-Y-e90c219bca","created_time":"2026-02-12T18:06:04.360954Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:04.360954Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":16,"no_price_dollars":"0.1600","order_group_id":null,"order_id":"e294f92d-0827-4597-a971-435fcf90af3e","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":84,"yes_price_dollars":"0.8400"}}
+2026-02-12 13:06:05,380 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.925 depth_ratio=25.64 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:05,381 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.925 depth_ratio=25.64 mid_move=0.00
+2026-02-12 13:06:07,391 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.077 depth_ratio=1.17 mid_move=0.00
+2026-02-12 13:06:07,391 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.60s
+2026-02-12 13:06:08,742 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=0.25s
+2026-02-12 13:06:10,066 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.895 depth_ratio=17.98 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:10,067 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.895 depth_ratio=17.98 mid_move=0.00
+2026-02-12 13:06:11,402 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.074 depth_ratio=1.16 mid_move=1.50
+2026-02-12 13:06:11,402 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.66s
+2026-02-12 13:06:12,069 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.914 depth_ratio=22.31 mid_move=0.00
+2026-02-12 13:06:13,067 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.915 depth_ratio=22.42 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:14,746 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.087 depth_ratio=1.19 mid_move=0.50
+2026-02-12 13:06:14,746 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.32s
+2026-02-12 13:06:21,765 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.908 depth_ratio=20.81 mid_move=1.00
+2026-02-12 13:06:22,435 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.171 depth_ratio=1.41 mid_move=1.50
+2026-02-12 13:06:24,505 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.893 depth_ratio=17.65 mid_move=1.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:24,505 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.893 depth_ratio=17.65 mid_move=1.50
+2026-02-12 13:06:26,170 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.355 depth_ratio=2.10 mid_move=1.50
+2026-02-12 13:06:26,170 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.34s
+2026-02-12 13:06:27,450 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.938 depth_ratio=31.02 mid_move=3.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:27,451 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.938 depth_ratio=31.02 mid_move=3.50
+2026-02-12 13:06:28,854 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.205 depth_ratio=1.52 mid_move=0.00
+2026-02-12 13:06:28,854 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.60s
+2026-02-12 13:06:34,482 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121315-15 side=yes value=0.037 threshold=0.050 price=77 ask=78
+2026-02-12 13:06:36,553 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.896 depth_ratio=18.32 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:06:36,554 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.896 depth_ratio=18.32 mid_move=0.00
+2026-02-12 13:06:36,887 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.094 depth_ratio=1.21 mid_move=1.00
+2026-02-12 13:06:37,559 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.99s
+2026-02-12 13:06:38,955 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=0.60s
+2026-02-12 13:06:41,637 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.867 depth_ratio=14.02 mid_move=0.00
+2026-02-12 13:06:42,280 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.171 depth_ratio=1.41 mid_move=0.00
+2026-02-12 13:06:49,060 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=77 ask=79
+2026-02-12 13:06:50,390 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121315-15 side=yes value=0.041 threshold=0.050 price=77 ask=78
+2026-02-12 13:06:51,726 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121315-15 side=yes value=0.041 threshold=0.050 price=77 ask=78
+2026-02-12 13:06:53,089 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=yes action=buy count=1 price=77 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-Y-688a06d20b","created_time":"2026-02-12T18:06:53.082915Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:53.082915Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":23,"no_price_dollars":"0.2300","order_group_id":null,"order_id":"aca2506a-1e38-4ac9-ad4c-281139c8f8b2","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":77,"yes_price_dollars":"0.7700"}}
+2026-02-12 13:06:55,740 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=yes action=buy count=1 price=79 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-Y-89abe8c9a2","created_time":"2026-02-12T18:06:55.733446Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:55.733446Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":21,"no_price_dollars":"0.2100","order_group_id":null,"order_id":"bc35453c-edbe-4d93-a42a-b90a34baeb3a","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":79,"yes_price_dollars":"0.7900"}}
+2026-02-12 13:06:57,941 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=yes action=buy count=1 price=80 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-Y-3e16dae5a7","created_time":"2026-02-12T18:06:57.934653Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:57.934653Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":20,"no_price_dollars":"0.2000","order_group_id":null,"order_id":"343f44a4-7ef3-4a7e-a6e7-e6be80069174","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":80,"yes_price_dollars":"0.8000"}}
+2026-02-12 13:06:59,141 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.853 depth_ratio=12.64 mid_move=0.00
+2026-02-12 13:07:01,889 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.847 depth_ratio=12.05 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:01,890 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.847 depth_ratio=12.05 mid_move=1.00
+2026-02-12 13:07:03,224 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.124 depth_ratio=1.28 mid_move=3.50
+2026-02-12 13:07:03,225 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.67s
+2026-02-12 13:07:03,512 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.871 depth_ratio=14.55 mid_move=3.00
+2026-02-12 13:07:04,905 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.843 depth_ratio=11.77 mid_move=1.00
+2026-02-12 13:07:04,905 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.61s
+2026-02-12 13:07:06,520 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.272 depth_ratio=1.75 mid_move=0.50
+2026-02-12 13:07:06,572 INFO mm_quote ticker=KXSOL15M-26FEB121315-15 side=yes action=buy count=1 price=84 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121315-15-B-Y-7b75cfd3cd","created_time":"2026-02-12T18:07:06.566232Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:07:06.566232Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":16,"no_price_dollars":"0.1600","order_group_id":null,"order_id":"b5d450f3-8b14-424c-8d35-123aeaab81fd","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":84,"yes_price_dollars":"0.8400"}}
+2026-02-12 13:07:08,924 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.848 depth_ratio=12.14 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:08,924 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.848 depth_ratio=12.14 mid_move=0.00
+2026-02-12 13:07:09,253 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.073 depth_ratio=1.16 mid_move=0.50
+2026-02-12 13:07:10,256 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.67s
+2026-02-12 13:07:11,641 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.436 depth_ratio=2.54 mid_move=2.00
+2026-02-12 13:07:11,642 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=0.28s
+2026-02-12 13:07:15,268 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.745 depth_ratio=6.86 mid_move=0.00
+2026-02-12 13:07:17,312 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.811 depth_ratio=9.60 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:17,312 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.811 depth_ratio=9.60 mid_move=0.00
+2026-02-12 13:07:18,326 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.811 depth_ratio=9.56 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:19,346 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.798 depth_ratio=8.92 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:21,005 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.800 depth_ratio=9.00 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:21,345 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.295 depth_ratio=1.84 mid_move=0.00
+2026-02-12 13:07:22,295 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.766 depth_ratio=7.54 mid_move=0.00
+2026-02-12 13:07:22,296 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.71s
+2026-02-12 13:07:24,026 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.280 depth_ratio=1.78 mid_move=0.50
+2026-02-12 13:07:24,305 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.769 depth_ratio=7.66 mid_move=0.50
+2026-02-12 13:07:26,049 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.476 depth_ratio=2.82 mid_move=0.50
+2026-02-12 13:07:36,813 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.787 depth_ratio=8.40 mid_move=1.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:36,815 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.787 depth_ratio=8.40 mid_move=1.00
+2026-02-12 13:07:37,873 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.787 depth_ratio=8.40 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:39,541 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.786 depth_ratio=8.32 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:40,827 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.445 depth_ratio=2.60 mid_move=1.00
+2026-02-12 13:07:40,827 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=2.39s
+2026-02-12 13:07:41,857 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.36s
+2026-02-12 13:07:42,897 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=0.32s
+2026-02-12 13:07:44,232 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.868 depth_ratio=14.11 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:44,232 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.868 depth_ratio=14.11 mid_move=0.50
+2026-02-12 13:07:45,575 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.868 depth_ratio=14.11 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:07:46,857 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.495 depth_ratio=2.96 mid_move=1.00
+2026-02-12 13:07:46,857 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.99s
+2026-02-12 13:08:50,573 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.852 depth_ratio=12.54 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:50,575 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.852 depth_ratio=12.54 mid_move=0.50
+2026-02-12 13:08:52,210 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.851 depth_ratio=12.41 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:53,242 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.851 depth_ratio=12.41 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:54,582 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.852 depth_ratio=12.55 mid_move=0.50
+2026-02-12 13:08:54,582 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.66s
+2026-02-12 13:08:55,929 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121315-15 pause=3.0s imbalance=0.850 depth_ratio=12.35 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:55,930 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=pause imbalance=0.850 depth_ratio=12.35 mid_move=0.50
+2026-02-12 13:08:56,197 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=skew imbalance=0.812 depth_ratio=9.61 mid_move=2.00
+2026-02-12 13:08:57,201 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.447 depth_ratio=2.62 mid_move=1.50
+2026-02-12 13:08:57,201 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121315-15 pause_left=1.73s
+2026-02-12 13:09:34,833 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.134 depth_ratio=1.31 mid_move=0.00
+2026-02-12 13:09:45,558 WARNING data_stale_guard ref_age=inf book_age=3.347 book_stale=3.347 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:09:45,612 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:09:49,180 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.350 depth_ratio=2.08 mid_move=0.00
+2026-02-12 13:09:50,521 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=normal imbalance=0.065 depth_ratio=1.14 mid_move=0.00
+2026-02-12 13:09:57,584 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121315-15 regime=widen imbalance=0.477 depth_ratio=2.82 mid_move=0.00
+2026-02-12 13:10:00,948 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:01,561 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:02,564 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:03,955 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:04,574 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:05,639 INFO mm_skip_pinned ticker=KXSOL15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:17,692 WARNING data_stale_guard ref_age=inf book_age=3.804 book_stale=3.804 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:17,748 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:22,121 WARNING data_stale_guard ref_age=inf book_age=3.824 book_stale=4.042 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:26,572 WARNING data_stale_guard ref_age=inf book_age=8.275 book_stale=8.493 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:31,687 WARNING data_stale_guard ref_age=inf book_age=3.510 book_stale=3.510 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:44,122 WARNING data_stale_guard ref_age=inf book_age=3.650 book_stale=3.650 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:44,479 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:10:49,568 WARNING data_stale_guard ref_age=inf book_age=3.805 book_stale=4.010 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:03,104 WARNING data_stale_guard ref_age=inf book_age=3.062 book_stale=3.062 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:03,443 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:08,158 WARNING data_stale_guard ref_age=inf book_age=3.774 book_stale=3.774 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:12,377 WARNING data_stale_guard ref_age=inf book_age=7.994 book_stale=7.994 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:17,157 WARNING data_stale_guard ref_age=inf book_age=12.774 book_stale=12.773 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:21,322 WARNING data_stale_guard ref_age=inf book_age=16.938 book_stale=16.938 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:21,665 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:27,625 WARNING data_stale_guard ref_age=inf book_age=3.777 book_stale=3.777 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:31,776 WARNING data_stale_guard ref_age=inf book_age=7.927 book_stale=7.927 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:35,958 WARNING data_stale_guard ref_age=inf book_age=12.110 book_stale=12.110 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:40,730 WARNING data_stale_guard ref_age=inf book_age=16.882 book_stale=16.882 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:40,785 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:45,146 WARNING data_stale_guard ref_age=inf book_age=3.813 book_stale=4.027 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:49,325 WARNING data_stale_guard ref_age=inf book_age=7.992 book_stale=8.207 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:54,099 WARNING data_stale_guard ref_age=inf book_age=12.766 book_stale=12.981 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:58,257 WARNING data_stale_guard ref_age=inf book_age=16.924 book_stale=17.139 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:11:58,597 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:03,581 WARNING data_stale_guard ref_age=inf book_age=3.396 book_stale=3.396 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:08,982 WARNING data_stale_guard ref_age=inf book_age=3.175 book_stale=3.175 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:13,098 WARNING data_stale_guard ref_age=inf book_age=3.229 book_stale=3.229 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:22,552 WARNING data_stale_guard ref_age=inf book_age=3.523 book_stale=3.523 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:22,902 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:29,667 WARNING data_stale_guard ref_age=inf book_age=3.363 book_stale=3.363 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:34,065 WARNING data_stale_guard ref_age=inf book_age=7.761 book_stale=7.761 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:40,668 WARNING data_stale_guard ref_age=inf book_age=4.192 book_stale=4.192 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:41,003 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:47,692 WARNING data_stale_guard ref_age=inf book_age=3.493 book_stale=3.493 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:52,095 WARNING data_stale_guard ref_age=inf book_age=3.821 book_stale=3.821 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:58,937 WARNING data_stale_guard ref_age=inf book_age=4.328 book_stale=4.328 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:12:59,278 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:04,759 WARNING data_stale_guard ref_age=inf book_age=3.713 book_stale=3.713 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:10,208 WARNING data_stale_guard ref_age=inf book_age=3.954 book_stale=3.954 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:14,712 WARNING data_stale_guard ref_age=inf book_age=8.458 book_stale=8.458 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:15,070 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:19,430 WARNING data_stale_guard ref_age=inf book_age=3.824 book_stale=4.021 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:29,939 WARNING data_stale_guard ref_age=inf book_age=3.740 book_stale=3.740 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:30,004 WARNING mm_stale_reconnect ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:34,386 WARNING data_stale_guard ref_age=inf book_age=3.842 book_stale=4.050 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:40,865 WARNING data_stale_guard ref_age=inf book_age=3.277 book_stale=3.277 ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:45,299 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:48,432 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:50,433 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:53,259 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:55,314 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:57,353 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:13:59,481 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:01,516 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:04,331 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:06,394 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:08,449 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:10,606 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:12,619 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:15,443 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:17,824 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:19,883 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:22,387 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:24,438 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:26,546 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:29,070 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:31,450 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:33,497 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:35,959 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:37,996 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:40,136 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:42,195 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:44,599 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:46,649 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:49,150 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:51,219 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:53,358 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:55,453 WARNING force_flatten ticker=KXSOL15M-26FEB121315-15
+2026-02-12 13:14:57,528 WARNING market_roll_gap series=KXSOL15M err=no_active_markets_for_series=KXSOL15M
+2026-02-12 13:15:04,473 WARNING market_roll_gap series=KXSOL15M err=no_active_markets_for_series=KXSOL15M
+2026-02-12 13:15:10,603 INFO market_roll old=NONE new=KXSOL15M-26FEB121330-30
+2026-02-12 13:15:11,628 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:11,959 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:12,969 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:14,000 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:14,975 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:16,382 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:17,025 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:17,996 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:19,000 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:20,402 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:21,070 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/61 no=39/71 max_spread=12
+2026-02-12 13:15:22,029 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/72 no=28/71 max_spread=12
+2026-02-12 13:15:23,072 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/72 no=28/71 max_spread=12
+2026-02-12 13:15:24,100 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=29/72 no=28/71 max_spread=12
+2026-02-12 13:15:25,046 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:26,443 INFO mm_skip_spread_wide ticker=KXSOL15M-26FEB121330-30 yes=39/61 no=39/61 max_spread=12
+2026-02-12 13:15:27,812 INFO mm_quote ticker=KXSOL15M-26FEB121330-30 side=yes action=buy count=1 price=45 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121330-30-B-Y-f2c6daa53c","created_time":"2026-02-12T18:15:27.804237Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:15:27.804237Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":55,"no_price_dollars":"0.5500","order_group_id":null,"order_id":"fff6ae37-f38e-4be2-b6cc-c58c92390dc9","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":45,"yes_price_dollars":"0.4500"}}
+2026-02-12 13:15:36,566 INFO mm_quote ticker=KXSOL15M-26FEB121330-30 side=yes action=buy count=1 price=46 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXSOL15M-26FEB121330-30-B-Y-4b73eb349e","created_time":"2026-02-12T18:15:36.557913Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:15:36.557913Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":54,"no_price_dollars":"0.5400","order_group_id":null,"order_id":"95fda64f-2ff4-421e-bf2d-3dfcd41a698e","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXSOL15M-26FEB121330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":46,"yes_price_dollars":"0.4600"}}
+2026-02-12 13:15:37,632 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121330-30 pause=3.0s imbalance=0.004 depth_ratio=1.01 mid_move=6.00 spreads=5/5 triggers=move:1 imbalance:0 depth:0
+2026-02-12 13:15:37,633 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121330-30 regime=pause imbalance=0.004 depth_ratio=1.01 mid_move=6.00
+2026-02-12 13:15:38,613 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121330-30 regime=normal imbalance=0.005 depth_ratio=1.01 mid_move=2.00
+2026-02-12 13:15:40,365 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121330-30 pause_left=0.27s
+2026-02-12 13:15:40,598 INFO runtime limit reached; exiting.
+2026-02-12 13:15:41,992 WARNING cancel_all_orders result={"canceled":1,"errors":["http_error status=404 method=DELETE path=/portfolio/orders/2ad68595-99b4-4944-8c09-cb586670175c body={\"error\":{\"code\":\"not_found\",\"message\":\"not found\",\"service\":\"exchange\"}}"]}

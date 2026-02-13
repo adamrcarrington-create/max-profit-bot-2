@@ -1,0 +1,106 @@
+2026-02-12 11:37:41,637 INFO market_roll old=NONE new=KXSOL15M-26FEB121145-45
+2026-02-12 11:47:25,078 INFO market_roll old=NONE new=KXSOL15M-26FEB121200-00
+2026-02-12 11:47:25,911 INFO mm_quote ticker=KXSOL15M-26FEB121200-00 side=yes action=buy count=12 price=34 post_only=1 dry_run=1
+2026-02-12 11:47:25,914 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_sol.json payload={"as_of":"2026-02-12T16:47:25Z","ticker":"KXSOL15M-26FEB121200-00","series_ticker":"KXSOL15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.36,"last_kalshi_implied_yes_probability":0.36,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":4,"spread_no":4,"imbalance":-0.0009669309611293754,"yes_depth":5166,"no_depth":5176,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.34821605682373047,"book_stale_seconds":0.34819626808166504},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchan
+2026-02-12 11:47:27,588 INFO mm_skip_spread_narrow ticker=KXSOL15M-26FEB121200-00 yes=38/39 no=61/62 min_spread=2
+2026-02-12 11:47:28,630 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.937 depth_ratio=30.69 mid_move=3.00
+2026-02-12 11:47:28,630 INFO mm_quote ticker=KXSOL15M-26FEB121200-00 side=yes action=buy count=4 price=39 post_only=1 dry_run=1
+2026-02-12 11:47:30,648 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.002 depth_ratio=1.00 mid_move=1.50
+2026-02-12 11:47:30,649 INFO mm_skip_spread_narrow ticker=KXSOL15M-26FEB121200-00 yes=38/39 no=61/62 min_spread=2
+2026-02-12 11:47:31,640 INFO mm_quote ticker=KXSOL15M-26FEB121200-00 side=yes action=buy count=12 price=35 post_only=1 dry_run=1
+2026-02-12 11:47:33,614 INFO mm_quote ticker=KXSOL15M-26FEB121200-00 side=yes action=buy count=12 price=36 post_only=1 dry_run=1
+2026-02-12 11:47:39,635 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.894 depth_ratio=17.81 mid_move=3.00
+2026-02-12 11:47:39,635 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.093 threshold=0.200 price=33 ask=38
+2026-02-12 11:47:42,648 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121200-00 pause=8.0s imbalance=0.896 depth_ratio=18.29 mid_move=2.00 spreads=3/3 triggers=move:0 imbalance:1 depth:1
+2026-02-12 11:47:42,648 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=pause imbalance=0.896 depth_ratio=18.29 mid_move=2.00
+2026-02-12 11:47:43,686 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.932 depth_ratio=28.32 mid_move=2.00
+2026-02-12 11:47:43,686 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=6.96s
+2026-02-12 11:47:44,656 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.197 depth_ratio=1.49 mid_move=1.00
+2026-02-12 11:47:45,659 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.889 depth_ratio=16.94 mid_move=3.00
+2026-02-12 11:47:45,660 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=4.99s
+2026-02-12 11:47:47,055 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121200-00 pause=8.0s imbalance=0.013 depth_ratio=1.03 mid_move=5.00 spreads=5/5 triggers=move:1 imbalance:0 depth:0
+2026-02-12 11:47:47,055 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=pause imbalance=0.013 depth_ratio=1.03 mid_move=5.00
+2026-02-12 11:47:47,669 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.009 depth_ratio=1.02 mid_move=1.50
+2026-02-12 11:47:48,674 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=6.38s
+2026-02-12 11:47:49,712 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.890 depth_ratio=17.25 mid_move=1.00
+2026-02-12 11:47:49,712 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=5.34s
+2026-02-12 11:47:50,680 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.010 depth_ratio=1.02 mid_move=1.00
+2026-02-12 11:47:51,685 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=3.37s
+2026-02-12 11:47:53,080 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.893 depth_ratio=17.65 mid_move=2.50
+2026-02-12 11:47:53,081 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=1.97s
+2026-02-12 11:47:53,693 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.022 depth_ratio=1.05 mid_move=1.00
+2026-02-12 11:47:54,695 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121200-00 pause=8.0s imbalance=0.858 depth_ratio=13.13 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 11:47:54,696 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=pause imbalance=0.858 depth_ratio=13.13 mid_move=1.00
+2026-02-12 11:47:55,738 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.857 depth_ratio=13.02 mid_move=1.00
+2026-02-12 11:47:55,739 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=6.96s
+2026-02-12 11:47:56,703 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.023 depth_ratio=1.05 mid_move=1.00
+2026-02-12 11:47:57,706 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=4.99s
+2026-02-12 11:47:59,090 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.857 depth_ratio=13.01 mid_move=1.50
+2026-02-12 11:47:59,091 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=3.61s
+2026-02-12 11:48:00,712 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=1.98s
+2026-02-12 11:48:01,751 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.020 depth_ratio=1.04 mid_move=2.50
+2026-02-12 11:48:01,751 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=0.94s
+2026-02-12 11:48:02,722 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.857 depth_ratio=13.02 mid_move=0.00
+2026-02-12 11:48:07,838 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.073 depth_ratio=1.16 mid_move=1.00
+2026-02-12 11:48:07,839 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.122 threshold=0.200 price=31 ask=36
+2026-02-12 11:48:09,756 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121200-00 pause=8.0s imbalance=0.931 depth_ratio=28.19 mid_move=2.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 11:48:09,757 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=pause imbalance=0.931 depth_ratio=28.19 mid_move=2.00
+2026-02-12 11:48:11,199 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.119 depth_ratio=1.27 mid_move=3.50
+2026-02-12 11:48:11,199 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=6.56s
+2026-02-12 11:48:12,768 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=4.99s
+2026-02-12 11:48:13,821 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=3.94s
+2026-02-12 11:48:15,780 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=1.98s
+2026-02-12 11:48:17,179 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=skew imbalance=0.921 depth_ratio=24.16 mid_move=0.50
+2026-02-12 11:48:17,179 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121200-00 pause_left=0.58s
+2026-02-12 11:48:18,787 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.093 threshold=0.200 price=26 ask=31
+2026-02-12 11:48:19,828 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.093 threshold=0.200 price=27 ask=32
+2026-02-12 11:48:21,798 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.073 threshold=0.200 price=27 ask=31
+2026-02-12 11:48:23,191 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121200-00 regime=normal imbalance=0.104 depth_ratio=1.23 mid_move=0.00
+2026-02-12 11:48:24,812 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121200-00 side=yes value=0.173 threshold=0.200 price=28 ask=33
+2026-02-12 11:48:25,815 INFO runtime limit reached; exiting.
+2026-02-12 12:38:43,976 INFO market_roll old=NONE new=KXSOL15M-26FEB121245-45
+2026-02-12 12:38:44,933 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.960 depth_ratio=48.73 mid_move=0.00
+2026-02-12 12:38:44,934 INFO mm_quote ticker=KXSOL15M-26FEB121245-45 side=no action=buy count=7 price=20 post_only=1 dry_run=1
+2026-02-12 12:38:44,938 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_sol.json payload={"as_of":"2026-02-12T17:38:44Z","ticker":"KXSOL15M-26FEB121245-45","series_ticker":"KXSOL15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.78,"last_kalshi_implied_yes_probability":0.78,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":4,"spread_no":4,"imbalance":0.959779927907418,"yes_depth":5165,"no_depth":106,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.03959321975708008,"book_stale_seconds":0.03953194618225098},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchange_dif
+2026-02-12 12:38:46,623 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.242 depth_ratio=1.64 mid_move=1.50
+2026-02-12 12:38:46,623 INFO mm_quote ticker=KXSOL15M-26FEB121245-45 side=no action=buy count=12 price=21 post_only=1 dry_run=1
+2026-02-12 12:38:47,924 INFO mm_quote ticker=KXSOL15M-26FEB121245-45 side=no action=buy count=12 price=23 post_only=1 dry_run=1
+2026-02-12 12:38:49,685 INFO mm_queue_skip_low_value ticker=KXSOL15M-26FEB121245-45 side=no value=0.038 threshold=0.050 price=23 ask=25
+2026-02-12 12:38:51,639 INFO mm_quote ticker=KXSOL15M-26FEB121245-45 side=no action=buy count=12 price=22 post_only=1 dry_run=1
+2026-02-12 12:39:06,699 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121245-45 pause=3.0s imbalance=0.005 depth_ratio=1.01 mid_move=5.00 spreads=4/4 triggers=move:1 imbalance:0 depth:0
+2026-02-12 12:39:06,701 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.005 depth_ratio=1.01 mid_move=5.00
+2026-02-12 12:39:07,704 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.095 depth_ratio=1.21 mid_move=4.50
+2026-02-12 12:39:07,705 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=2.00s
+2026-02-12 12:39:08,758 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=0.94s
+2026-02-12 12:39:13,723 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121245-45 pause=3.0s imbalance=0.207 depth_ratio=1.52 mid_move=7.50 spreads=4/4 triggers=move:1 imbalance:0 depth:0
+2026-02-12 12:39:13,723 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.207 depth_ratio=1.52 mid_move=7.50
+2026-02-12 12:39:14,758 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.926 depth_ratio=26.11 mid_move=0.00
+2026-02-12 12:39:14,759 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=1.96s
+2026-02-12 12:39:16,735 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121245-45 pause=3.0s imbalance=0.919 depth_ratio=23.59 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 12:39:16,735 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.919 depth_ratio=23.59 mid_move=0.00
+2026-02-12 12:39:18,125 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.923 depth_ratio=24.81 mid_move=1.50
+2026-02-12 12:39:18,126 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=1.61s
+2026-02-12 12:39:18,736 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.914 depth_ratio=22.31 mid_move=0.50
+2026-02-12 12:39:19,740 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.925 depth_ratio=25.72 mid_move=0.50
+2026-02-12 12:39:19,740 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=2.00s
+2026-02-12 12:39:20,772 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=0.96s
+2026-02-12 12:39:21,745 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.935 depth_ratio=30.00 mid_move=0.50
+2026-02-12 12:39:22,747 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.107 depth_ratio=1.24 mid_move=1.00
+2026-02-12 12:39:22,748 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=2.00s
+2026-02-12 12:39:24,149 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.931 depth_ratio=27.81 mid_move=2.50
+2026-02-12 12:39:24,150 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=0.60s
+2026-02-12 12:39:24,757 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.002 depth_ratio=1.00 mid_move=0.00
+2026-02-12 12:39:30,173 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121245-45 pause=3.0s imbalance=0.380 depth_ratio=2.22 mid_move=5.50 spreads=5/5 triggers=move:1 imbalance:0 depth:0
+2026-02-12 12:39:30,174 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.380 depth_ratio=2.22 mid_move=5.50
+2026-02-12 12:39:30,783 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.003 depth_ratio=1.01 mid_move=3.00
+2026-02-12 12:39:31,785 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=1.39s
+2026-02-12 12:39:32,819 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=0.35s
+2026-02-12 12:39:37,805 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=skew imbalance=0.930 depth_ratio=27.54 mid_move=1.50
+2026-02-12 12:39:38,833 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.009 depth_ratio=1.02 mid_move=0.00
+2026-02-12 12:39:39,814 WARNING mm_toxic_pause ticker=KXSOL15M-26FEB121245-45 pause=3.0s imbalance=0.312 depth_ratio=1.91 mid_move=5.50 spreads=4/4 triggers=move:1 imbalance:0 depth:0
+2026-02-12 12:39:39,814 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=pause imbalance=0.312 depth_ratio=1.91 mid_move=5.50
+2026-02-12 12:39:40,818 INFO mm_toxic_regime ticker=KXSOL15M-26FEB121245-45 regime=normal imbalance=0.087 depth_ratio=1.19 mid_move=3.00
+2026-02-12 12:39:40,818 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=2.00s
+2026-02-12 12:39:42,213 INFO mm_toxic_hold ticker=KXSOL15M-26FEB121245-45 pause_left=0.60s
+2026-02-12 12:39:44,837 INFO runtime limit reached; exiting.
+2026-02-12 12:42:59,466 INFO market_roll old=NONE new=KXSOL15M-26FEB121245-45

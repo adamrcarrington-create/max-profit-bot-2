@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-02-11T18:23:22Z",
+  "ticker": "KXBTC15M-26FEB111330-30",
+  "series_ticker": "KXBTC15M",
+  "window_minutes": 15,
+  "wins": 0,
+  "losses": 0,
+  "fill_count": 0,
+  "slippage_cents": 0.0,
+  "adverse_selection_count": 0,
+  "adverse_selection_total": 0,
+  "adverse_selection_rate": 0.0,
+  "last_real_yes_probability": 0.5,
+  "last_kalshi_implied_yes_probability": 0.945,
+  "edge_threshold": 0.05,
+  "order_attempts": 0,
+  "order_failures": 0,
+  "last_401_epoch": 0.0,
+  "regime": "calm",
+  "microstructure": {
+    "spread_yes": 1,
+    "spread_no": 1,
+    "imbalance": -0.2840948726892222,
+    "yes_depth": 4105,
+    "no_depth": 7363,
+    "pinned_state": false,
+    "zero_spread_state": false,
+    "book_age_seconds": 0.01557302474975586,
+    "book_stale_seconds": 0.01554107666015625
+  },
+  "reference": {
+    "source": "median_coinbase_kraken",
+    "last_error": "",
+    "spot_price": 66744.1275,
+    "perp_price": null,
+    "coinbase_price": 66755.955,
+    "kraken_price": 66732.3,
+    "cross_exchange_diff_pct": 0.00035441320286940355,
+    "flash_spike_pause_remaining_seconds": 0.0,
+    "return_30s": 0.0,
+    "return_1m": 0.0,
+    "return_15m": 0.0
+  },
+  "inventory": {
+    "gross_position": 0,
+    "net_exposure": 0
+  }
+}

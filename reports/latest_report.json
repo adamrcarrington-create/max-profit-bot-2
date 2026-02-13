@@ -1,0 +1,909 @@
+{
+  "generated_at_utc": "2026-02-11T13:09:01.531469+00:00",
+  "config": {
+    "strategy": {
+      "base_half_spread": 0.01,
+      "min_half_spread": 0.004,
+      "max_half_spread": 0.035,
+      "volatility_multiplier": 1.8,
+      "inventory_skew": 0.01,
+      "momentum_alpha": 0.3,
+      "min_edge": 0.006,
+      "base_order_size": 5
+    },
+    "risk": {
+      "max_position": 150,
+      "max_order_size": 30,
+      "live_size_scale": 0.45,
+      "max_daily_loss": 18.0,
+      "max_drawdown": 14.0,
+      "volatility_hard_stop": 0.055,
+      "stale_data_seconds": 2.5,
+      "session_stop_loss_cents": 1200,
+      "session_take_profit_cents": 250,
+      "min_requote_seconds": 4.0,
+      "max_orders_per_market": 60,
+      "min_market_spread": 0.035,
+      "min_quote_edge": 0.006,
+      "preclose_guard_seconds": 180.0,
+      "entry_time_buffer_seconds": 0.0,
+      "no_trade_window_cycle_limit": 4,
+      "auto_roll_on_no_trade_window": true,
+      "momentum_soft_guard": 0.0035,
+      "momentum_hard_guard": 0.0085,
+      "adverse_side_size_cut": 0.8,
+      "toxicity_edge_boost": 0.004,
+      "take_profit_tier1": 0.015,
+      "take_profit_tier2": 0.03,
+      "stop_loss": 0.02,
+      "max_consecutive_losses": 10
+    },
+    "sim": {
+      "steps": 2200,
+      "starting_mid": 0.5,
+      "starting_spread": 0.018,
+      "drift": 0.0,
+      "volatility": 0.008,
+      "mean_reversion": 0.1,
+      "maker_fee_per_contract": 0.004,
+      "slippage_mean": 0.0008,
+      "adverse_selection": 0.0025,
+      "seed": 7
+    },
+    "target_return_pct": 0.1,
+    "max_drawdown_pct": 0.18,
+    "market_tickers": [
+      "KXBTC15M",
+      "KXETH15M",
+      "KXSOL15M"
+    ],
+    "market_ticker": "KXBTC15M"
+  },
+  "combined_summary": {
+    "market_count": 3.0,
+    "median_return_pct_avg": 1.076289461741662,
+    "p10_return_pct_worst": 1.0188162688754192,
+    "p90_return_pct_best": 1.1320600279853954,
+    "max_drawdown_p90_pct_worst": 0.0035763281553992956,
+    "kill_rate_worst": 0.0,
+    "avg_pnl_total": 161.41139003172637,
+    "avg_trades_total": 5373.0,
+    "avg_win_rate_mean": 0.9954151217691006,
+    "pass_ratio": 1.0,
+    "per_market_max_position": 50.0,
+    "per_market_max_order_size": 10.0
+  },
+  "markets": [
+    {
+      "market": "KXBTC15M",
+      "go_no_go": "pass",
+      "active_strategy": {
+        "base_half_spread": 0.012,
+        "min_half_spread": 0.006,
+        "max_half_spread": 0.036000000000000004,
+        "volatility_multiplier": 1.8,
+        "inventory_skew": 0.014,
+        "momentum_alpha": 0.45,
+        "min_edge": 0.009600000000000001,
+        "base_order_size": 16
+      },
+      "summary": {
+        "episodes": 25,
+        "avg_pnl": 53.856447957609575,
+        "median_return_pct": 1.0827035258168434,
+        "p10_return_pct": 1.0188162688754192,
+        "p90_return_pct": 1.117874242698616,
+        "max_drawdown_p90_pct": 0.0035763281553992956,
+        "avg_trades": 1786.44,
+        "kill_rate": 0.0,
+        "avg_win_rate": 0.9950623706737605
+      },
+      "episodes": [
+        {
+          "final_pnl": 54.956154968492505,
+          "return_pct": 1.0991230993698502,
+          "max_drawdown_pct": 0.002134272603258438,
+          "trade_count": 1784,
+          "win_rate": 0.9910858995137763,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.14311304840833,
+          "return_pct": 1.0628622609681666,
+          "max_drawdown_pct": 0.002748135519185695,
+          "trade_count": 1738,
+          "win_rate": 0.9941027801179444,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.526719572320424,
+          "return_pct": 1.0905343914464085,
+          "max_drawdown_pct": 0.0021230047040828024,
+          "trade_count": 1829,
+          "win_rate": 0.9928115015974441,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.75294262623214,
+          "return_pct": 1.0950588525246427,
+          "max_drawdown_pct": 0.0017298259405804117,
+          "trade_count": 1842,
+          "win_rate": 0.9984459984459985,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.49860653385554,
+          "return_pct": 1.0899721306771109,
+          "max_drawdown_pct": 0.0023925465774811984,
+          "trade_count": 1783,
+          "win_rate": 0.9951573849878934,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 50.836500459462826,
+          "return_pct": 1.0167300091892566,
+          "max_drawdown_pct": 0.0021547171734351877,
+          "trade_count": 1742,
+          "win_rate": 0.9950331125827815,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.893712134930794,
+          "return_pct": 1.117874242698616,
+          "max_drawdown_pct": 0.001512809212447408,
+          "trade_count": 1801,
+          "win_rate": 0.9991935483870967,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 49.02170461247326,
+          "return_pct": 0.9804340922494652,
+          "max_drawdown_pct": 0.0037588325942300572,
+          "trade_count": 1657,
+          "win_rate": 0.9938542581211589,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.87250790386554,
+          "return_pct": 1.1174501580773109,
+          "max_drawdown_pct": 0.001372960013560771,
+          "trade_count": 1866,
+          "win_rate": 0.9984459984459985,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.122626785603074,
+          "return_pct": 1.1024525357120616,
+          "max_drawdown_pct": 0.004966479223302649,
+          "trade_count": 1792,
+          "win_rate": 0.9935379644588045,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.436133622669786,
+          "return_pct": 1.0487226724533958,
+          "max_drawdown_pct": 0.0020748720631499394,
+          "trade_count": 1761,
+          "win_rate": 0.9958881578947368,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.98839589248152,
+          "return_pct": 1.0797679178496304,
+          "max_drawdown_pct": 0.0016442723849436902,
+          "trade_count": 1776,
+          "win_rate": 0.9942903752039152,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.64682170353419,
+          "return_pct": 1.0529364340706837,
+          "max_drawdown_pct": 0.0027475785397094834,
+          "trade_count": 1789,
+          "win_rate": 0.9951259138911455,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.2821863825854,
+          "return_pct": 1.0656437276517081,
+          "max_drawdown_pct": 0.0027128509851013405,
+          "trade_count": 1836,
+          "win_rate": 0.9937205651491365,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.782425312289824,
+          "return_pct": 1.1156485062457966,
+          "max_drawdown_pct": 0.0016141632289770058,
+          "trade_count": 1801,
+          "win_rate": 0.9951456310679612,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.77868544029154,
+          "return_pct": 1.0755737088058308,
+          "max_drawdown_pct": 0.0013252055689335408,
+          "trade_count": 1778,
+          "win_rate": 0.9991961414790996,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.5535477031765,
+          "return_pct": 1.0310709540635299,
+          "max_drawdown_pct": 0.0015545295193322773,
+          "trade_count": 1721,
+          "win_rate": 0.9915824915824916,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.93017874930331,
+          "return_pct": 1.118603574986066,
+          "max_drawdown_pct": 0.0035763281553992956,
+          "trade_count": 1843,
+          "win_rate": 0.9913249211356467,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.44406964491945,
+          "return_pct": 1.028881392898389,
+          "max_drawdown_pct": 0.0014025522792532287,
+          "trade_count": 1764,
+          "win_rate": 0.9967051070840197,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 50.940813443770956,
+          "return_pct": 1.0188162688754192,
+          "max_drawdown_pct": 0.002216589523995509,
+          "trade_count": 1744,
+          "win_rate": 0.9958779884583677,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.5996740186651,
+          "return_pct": 1.091993480373302,
+          "max_drawdown_pct": 0.0019130478235886983,
+          "trade_count": 1793,
+          "win_rate": 0.9943639291465378,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.130987556239624,
+          "return_pct": 1.0826197511247926,
+          "max_drawdown_pct": 0.001747238846022654,
+          "trade_count": 1753,
+          "win_rate": 0.9975349219391948,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 57.479613560617096,
+          "return_pct": 1.1495922712123419,
+          "max_drawdown_pct": 0.0010778658687142695,
+          "trade_count": 1863,
+          "win_rate": 0.9945397815912637,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.13517629084217,
+          "return_pct": 1.0827035258168434,
+          "max_drawdown_pct": 0.0034269637423851407,
+          "trade_count": 1755,
+          "win_rate": 0.9950980392156863,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.657900973208505,
+          "return_pct": 1.1131580194641701,
+          "max_drawdown_pct": 0.0027970321323327594,
+          "trade_count": 1850,
+          "win_rate": 0.9944968553459119,
+          "killed": false,
+          "kill_reason": ""
+        }
+      ],
+      "optimization": {
+        "best_strategy": {
+          "base_half_spread": 0.012,
+          "min_half_spread": 0.006,
+          "max_half_spread": 0.036000000000000004,
+          "volatility_multiplier": 1.8,
+          "inventory_skew": 0.014,
+          "momentum_alpha": 0.45,
+          "min_edge": 0.009600000000000001,
+          "base_order_size": 16
+        },
+        "summary": {
+          "episodes": 10,
+          "avg_pnl": 54.519539629194114,
+          "median_return_pct": 1.0994236903532855,
+          "p10_return_pct": 1.0324573995112996,
+          "p90_return_pct": 1.1360215910132374,
+          "max_drawdown_p90_pct": 0.0023889671286094673,
+          "avg_trades": 1801.8,
+          "kill_rate": 0.0,
+          "avg_win_rate": 0.9952364018636911
+        },
+        "objective_score": 11.991609039691385,
+        "met_target": true
+      }
+    },
+    {
+      "market": "KXETH15M",
+      "go_no_go": "pass",
+      "active_strategy": {
+        "base_half_spread": 0.012,
+        "min_half_spread": 0.006,
+        "max_half_spread": 0.036000000000000004,
+        "volatility_multiplier": 1.8,
+        "inventory_skew": 0.014,
+        "momentum_alpha": 0.2,
+        "min_edge": 0.009600000000000001,
+        "base_order_size": 16
+      },
+      "summary": {
+        "episodes": 25,
+        "avg_pnl": 53.788688642073524,
+        "median_return_pct": 1.0783016453257797,
+        "p10_return_pct": 1.026454012607109,
+        "p90_return_pct": 1.1251233767245632,
+        "max_drawdown_p90_pct": 0.003551492047483089,
+        "avg_trades": 1802.72,
+        "kill_rate": 0.0,
+        "avg_win_rate": 0.9956183147117641
+      },
+      "episodes": [
+        {
+          "final_pnl": 54.01243220152212,
+          "return_pct": 1.0802486440304424,
+          "max_drawdown_pct": 0.0018186013703284586,
+          "trade_count": 1866,
+          "win_rate": 0.9976816074188563,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.8541238472545,
+          "return_pct": 1.07708247694509,
+          "max_drawdown_pct": 0.0024129843347529345,
+          "trade_count": 1791,
+          "win_rate": 0.9943135662063363,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 57.083096995394065,
+          "return_pct": 1.1416619399078813,
+          "max_drawdown_pct": 0.0030038738295426358,
+          "trade_count": 1884,
+          "win_rate": 0.9977116704805492,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.48306484275104,
+          "return_pct": 1.1096612968550208,
+          "max_drawdown_pct": 0.0028034368113860355,
+          "trade_count": 1819,
+          "win_rate": 0.9976019184652278,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.444012349134645,
+          "return_pct": 1.048880246982693,
+          "max_drawdown_pct": 0.0024514308148965293,
+          "trade_count": 1732,
+          "win_rate": 0.9958053691275168,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.32270063035544,
+          "return_pct": 1.026454012607109,
+          "max_drawdown_pct": 0.0016726017973148189,
+          "trade_count": 1811,
+          "win_rate": 0.9928286852589642,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.43114917975894,
+          "return_pct": 1.0886229835951788,
+          "max_drawdown_pct": 0.008670143961578915,
+          "trade_count": 1781,
+          "win_rate": 0.9927302100161551,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.915082266288984,
+          "return_pct": 1.0783016453257797,
+          "max_drawdown_pct": 0.0015209809656320772,
+          "trade_count": 1777,
+          "win_rate": 0.9951495553759094,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.11661419917001,
+          "return_pct": 1.0623322839834002,
+          "max_drawdown_pct": 0.001650519832726829,
+          "trade_count": 1763,
+          "win_rate": 0.9975247524752475,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.25616883622816,
+          "return_pct": 1.1251233767245632,
+          "max_drawdown_pct": 0.001789448219073897,
+          "trade_count": 1839,
+          "win_rate": 0.9921630094043887,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.244485751155516,
+          "return_pct": 1.0248897150231102,
+          "max_drawdown_pct": 0.00217396570872765,
+          "trade_count": 1740,
+          "win_rate": 0.9966442953020134,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.849195483264886,
+          "return_pct": 1.1169839096652978,
+          "max_drawdown_pct": 0.002191211213485218,
+          "trade_count": 1889,
+          "win_rate": 0.9977046671767407,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.80184902075836,
+          "return_pct": 1.0760369804151673,
+          "max_drawdown_pct": 0.0020975426214481273,
+          "trade_count": 1775,
+          "win_rate": 0.9967266775777414,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.60661482792778,
+          "return_pct": 1.0921322965585556,
+          "max_drawdown_pct": 0.0016909580168517379,
+          "trade_count": 1758,
+          "win_rate": 0.9950372208436724,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.436427317401986,
+          "return_pct": 1.0287285463480398,
+          "max_drawdown_pct": 0.002524163229655443,
+          "trade_count": 1761,
+          "win_rate": 0.9950617283950617,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.6910411764157,
+          "return_pct": 1.073820823528314,
+          "max_drawdown_pct": 0.0014466664383103289,
+          "trade_count": 1780,
+          "win_rate": 0.9950617283950617,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.28336512335702,
+          "return_pct": 1.0856673024671404,
+          "max_drawdown_pct": 0.0015602365454472533,
+          "trade_count": 1889,
+          "win_rate": 0.9992424242424243,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.655630507228224,
+          "return_pct": 1.0731126101445645,
+          "max_drawdown_pct": 0.001780236350099127,
+          "trade_count": 1798,
+          "win_rate": 0.9935327405012127,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.96989685284839,
+          "return_pct": 1.059397937056968,
+          "max_drawdown_pct": 0.003551492047483089,
+          "trade_count": 1835,
+          "win_rate": 0.9936658749010293,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.3065197082627,
+          "return_pct": 1.086130394165254,
+          "max_drawdown_pct": 0.0019144024339408006,
+          "trade_count": 1863,
+          "win_rate": 0.9922480620155039,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 49.60778757577672,
+          "return_pct": 0.9921557515155344,
+          "max_drawdown_pct": 0.001790039969474293,
+          "trade_count": 1719,
+          "win_rate": 0.9957698815566836,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.46207289923699,
+          "return_pct": 1.0892414579847398,
+          "max_drawdown_pct": 0.00172304422278998,
+          "trade_count": 1817,
+          "win_rate": 0.9967663702506063,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.653146772693795,
+          "return_pct": 1.093062935453876,
+          "max_drawdown_pct": 0.005077469678004434,
+          "trade_count": 1799,
+          "win_rate": 0.9959871589085072,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.89440086622741,
+          "return_pct": 1.1378880173245483,
+          "max_drawdown_pct": 0.0014804603739702316,
+          "trade_count": 1822,
+          "win_rate": 0.9984126984126984,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.33633682142476,
+          "return_pct": 1.026726736428495,
+          "max_drawdown_pct": 0.002612180338482375,
+          "trade_count": 1760,
+          "win_rate": 0.995085995085995,
+          "killed": false,
+          "kill_reason": ""
+        }
+      ],
+      "optimization": {
+        "best_strategy": {
+          "base_half_spread": 0.012,
+          "min_half_spread": 0.006,
+          "max_half_spread": 0.036000000000000004,
+          "volatility_multiplier": 1.8,
+          "inventory_skew": 0.014,
+          "momentum_alpha": 0.2,
+          "min_edge": 0.009600000000000001,
+          "base_order_size": 16
+        },
+        "summary": {
+          "episodes": 10,
+          "avg_pnl": 53.842299648591954,
+          "median_return_pct": 1.0728954992025814,
+          "p10_return_pct": 1.0507566136770512,
+          "p90_return_pct": 1.1095897382367235,
+          "max_drawdown_p90_pct": 0.002563265553965408,
+          "avg_trades": 1771.4,
+          "kill_rate": 0.0,
+          "avg_win_rate": 0.9971203056560667
+        },
+        "objective_score": 11.726135399916453,
+        "met_target": true
+      }
+    },
+    {
+      "market": "KXSOL15M",
+      "go_no_go": "pass",
+      "active_strategy": {
+        "base_half_spread": 0.012,
+        "min_half_spread": 0.006,
+        "max_half_spread": 0.036000000000000004,
+        "volatility_multiplier": 1.8,
+        "inventory_skew": 0.008,
+        "momentum_alpha": 0.2,
+        "min_edge": 0.009600000000000001,
+        "base_order_size": 12
+      },
+      "summary": {
+        "episodes": 25,
+        "avg_pnl": 53.766253432043264,
+        "median_return_pct": 1.0678632140823634,
+        "p10_return_pct": 1.0432113835576424,
+        "p90_return_pct": 1.1320600279853954,
+        "max_drawdown_p90_pct": 0.002846276064392512,
+        "avg_trades": 1783.84,
+        "kill_rate": 0.0,
+        "avg_win_rate": 0.9955646799217774
+      },
+      "episodes": [
+        {
+          "final_pnl": 54.40423092556334,
+          "return_pct": 1.0880846185112667,
+          "max_drawdown_pct": 0.002446364388895845,
+          "trade_count": 1902,
+          "win_rate": 0.9977341389728097,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.938565006701445,
+          "return_pct": 1.098771300134029,
+          "max_drawdown_pct": 0.0014419139884202892,
+          "trade_count": 1741,
+          "win_rate": 0.9966969446738233,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.92701089079034,
+          "return_pct": 1.0585402178158068,
+          "max_drawdown_pct": 0.0015639843282173871,
+          "trade_count": 1709,
+          "win_rate": 0.9965899403239556,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.01410235310524,
+          "return_pct": 1.0202820470621048,
+          "max_drawdown_pct": 0.0018033764469884517,
+          "trade_count": 1735,
+          "win_rate": 0.9958263772954925,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.02519358900811,
+          "return_pct": 1.0805038717801623,
+          "max_drawdown_pct": 0.00130616503388012,
+          "trade_count": 1792,
+          "win_rate": 0.9991922455573505,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.06873578549668,
+          "return_pct": 1.0613747157099336,
+          "max_drawdown_pct": 0.0017649707190471986,
+          "trade_count": 1769,
+          "win_rate": 0.9943273905996759,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.26372819050651,
+          "return_pct": 1.0452745638101302,
+          "max_drawdown_pct": 0.0028209314998140834,
+          "trade_count": 1716,
+          "win_rate": 0.9906382978723405,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.71238718202432,
+          "return_pct": 1.0542477436404865,
+          "max_drawdown_pct": 0.0009502242894296842,
+          "trade_count": 1802,
+          "win_rate": 0.9991876523151909,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 51.561893138982335,
+          "return_pct": 1.0312378627796468,
+          "max_drawdown_pct": 0.00174070169775149,
+          "trade_count": 1766,
+          "win_rate": 0.9967159277504105,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.902757500877875,
+          "return_pct": 1.0580551500175575,
+          "max_drawdown_pct": 0.0027103578373637127,
+          "trade_count": 1738,
+          "win_rate": 0.9966527196652719,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.45458908475097,
+          "return_pct": 1.1290917816950194,
+          "max_drawdown_pct": 0.0043097382388739905,
+          "trade_count": 1836,
+          "win_rate": 0.9937205651491365,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.18973652938487,
+          "return_pct": 1.0437947305876973,
+          "max_drawdown_pct": 0.0015852520390146195,
+          "trade_count": 1754,
+          "win_rate": 0.9975247524752475,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 55.27010197171057,
+          "return_pct": 1.1054020394342112,
+          "max_drawdown_pct": 0.0021855869563377796,
+          "trade_count": 1818,
+          "win_rate": 0.9959871589085072,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.27167441887021,
+          "return_pct": 1.0654334883774041,
+          "max_drawdown_pct": 0.001986406063506365,
+          "trade_count": 1794,
+          "win_rate": 0.9919289749798225,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.160569177882124,
+          "return_pct": 1.0432113835576424,
+          "max_drawdown_pct": 0.0016593980663652985,
+          "trade_count": 1700,
+          "win_rate": 0.9965546942291128,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.75491347838028,
+          "return_pct": 1.1350982695676057,
+          "max_drawdown_pct": 0.002232018597572818,
+          "trade_count": 1856,
+          "win_rate": 0.9969040247678018,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.411274476102164,
+          "return_pct": 1.0882254895220433,
+          "max_drawdown_pct": 0.001980075353484523,
+          "trade_count": 1825,
+          "win_rate": 0.9984202211690363,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.603001399269765,
+          "return_pct": 1.1320600279853954,
+          "max_drawdown_pct": 0.0017249649731294525,
+          "trade_count": 1823,
+          "win_rate": 0.9952191235059761,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.43313430549925,
+          "return_pct": 1.068662686109985,
+          "max_drawdown_pct": 0.002288106113468871,
+          "trade_count": 1765,
+          "win_rate": 0.9926289926289926,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 54.293801414912934,
+          "return_pct": 1.0858760282982587,
+          "max_drawdown_pct": 0.0017411316680556864,
+          "trade_count": 1817,
+          "win_rate": 0.9951495553759094,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 56.91884867158085,
+          "return_pct": 1.138376973431617,
+          "max_drawdown_pct": 0.002846276064392512,
+          "trade_count": 1789,
+          "win_rate": 0.9959514170040485,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.39316070411817,
+          "return_pct": 1.0678632140823634,
+          "max_drawdown_pct": 0.003014997314000851,
+          "trade_count": 1804,
+          "win_rate": 0.9943775100401606,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 52.28309552589972,
+          "return_pct": 1.0456619105179943,
+          "max_drawdown_pct": 0.0020268354544410983,
+          "trade_count": 1748,
+          "win_rate": 0.9925681255161024,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.68774373258805,
+          "return_pct": 1.0737548746517611,
+          "max_drawdown_pct": 0.0019345739678681183,
+          "trade_count": 1834,
+          "win_rate": 0.9968304278922345,
+          "killed": false,
+          "kill_reason": ""
+        },
+        {
+          "final_pnl": 53.21208634707551,
+          "return_pct": 1.0642417269415103,
+          "max_drawdown_pct": 0.0016104518302050154,
+          "trade_count": 1763,
+          "win_rate": 0.9917898193760263,
+          "killed": false,
+          "kill_reason": ""
+        }
+      ],
+      "optimization": {
+        "best_strategy": {
+          "base_half_spread": 0.012,
+          "min_half_spread": 0.006,
+          "max_half_spread": 0.036000000000000004,
+          "volatility_multiplier": 1.8,
+          "inventory_skew": 0.008,
+          "momentum_alpha": 0.2,
+          "min_edge": 0.009600000000000001,
+          "base_order_size": 12
+        },
+        "summary": {
+          "episodes": 10,
+          "avg_pnl": 54.712863835234735,
+          "median_return_pct": 1.1022587284853358,
+          "p10_return_pct": 1.0626504399814671,
+          "p90_return_pct": 1.128116602451901,
+          "max_drawdown_p90_pct": 0.0041814110350746605,
+          "avg_trades": 1840.1,
+          "kill_rate": 0.0,
+          "avg_win_rate": 0.9948709501500719
+        },
+        "objective_score": 12.017987732714774,
+        "met_target": true
+      }
+    }
+  ]
+}

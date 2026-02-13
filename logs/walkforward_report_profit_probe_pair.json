@@ -1,0 +1,1077 @@
+{
+  "base_config": "kalshi_hft/config.paper_robust.json",
+  "inputs_glob": "logs/replay_capture_profit_probe*.jsonl",
+  "files_used": [
+    "logs/replay_capture_profit_probe_fresh.jsonl",
+    "logs/replay_capture_profit_probe_run2.jsonl",
+    "logs/replay_capture_profit_probe_run2_frozen.jsonl"
+  ],
+  "train_ratio": 0.6,
+  "candidates_tested": 5833,
+  "best": {
+    "name": "baseline",
+    "params": {},
+    "aggregate": {
+      "train_pnl_cents": -108.73,
+      "train_fills": 101,
+      "train_cost_drag_cents": 23.23,
+      "test_pnl_cents": 34.75,
+      "test_fills": 25,
+      "test_cost_drag_cents": 5.75,
+      "score": 43.4625
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+        "train_pnl_cents": 99.47,
+        "train_fills": 11,
+        "test_pnl_cents": 42.13,
+        "test_fills": 19
+      },
+      {
+        "file": "logs/replay_capture_profit_probe_run2.jsonl",
+        "train_pnl_cents": -122.19,
+        "train_fills": 53,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+        "train_pnl_cents": -86.01,
+        "train_fills": 37,
+        "test_pnl_cents": -7.38,
+        "test_fills": 6
+      }
+    ]
+  },
+  "best_with_test_fills": {
+    "name": "baseline",
+    "params": {},
+    "aggregate": {
+      "train_pnl_cents": -108.73,
+      "train_fills": 101,
+      "train_cost_drag_cents": 23.23,
+      "test_pnl_cents": 34.75,
+      "test_fills": 25,
+      "test_cost_drag_cents": 5.75,
+      "score": 43.4625
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+        "train_pnl_cents": 99.47,
+        "train_fills": 11,
+        "test_pnl_cents": 42.13,
+        "test_fills": 19
+      },
+      {
+        "file": "logs/replay_capture_profit_probe_run2.jsonl",
+        "train_pnl_cents": -122.19,
+        "train_fills": 53,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+        "train_pnl_cents": -86.01,
+        "train_fills": 37,
+        "test_pnl_cents": -7.38,
+        "test_fills": 6
+      }
+    ]
+  },
+  "top10": [
+    {
+      "name": "baseline",
+      "params": {},
+      "aggregate": {
+        "train_pnl_cents": -108.73,
+        "train_fills": 101,
+        "train_cost_drag_cents": 23.23,
+        "test_pnl_cents": 34.75,
+        "test_fills": 25,
+        "test_cost_drag_cents": 5.75,
+        "score": 43.4625
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 99.47,
+          "train_fills": 11,
+          "test_pnl_cents": 42.13,
+          "test_fills": 19
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -122.19,
+          "train_fills": 53,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -86.01,
+          "train_fills": 37,
+          "test_pnl_cents": -7.38,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    }
+  ],
+  "top10_with_test_fills": [
+    {
+      "name": "baseline",
+      "params": {},
+      "aggregate": {
+        "train_pnl_cents": -108.73,
+        "train_fills": 101,
+        "train_cost_drag_cents": 23.23,
+        "test_pnl_cents": 34.75,
+        "test_fills": 25,
+        "test_cost_drag_cents": 5.75,
+        "score": 43.4625
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 99.47,
+          "train_fills": 11,
+          "test_pnl_cents": 42.13,
+          "test_fills": 19
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -122.19,
+          "train_fills": 53,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -86.01,
+          "train_fills": 37,
+          "test_pnl_cents": -7.38,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.5,
+        "strategy.maker_slippage_cents_per_contract": 0.35,
+        "strategy.mm_half_spread_cents": 0.5,
+        "strategy.max_yes_spread_cents_for_mm": 30.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.2,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -287.32,
+        "train_fills": 64,
+        "train_cost_drag_cents": 24.32,
+        "test_pnl_cents": -19.8,
+        "test_fills": 10,
+        "test_cost_drag_cents": 3.8,
+        "score": -10.99
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 2.48,
+          "test_fills": 4
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2.jsonl",
+          "train_pnl_cents": -176.44,
+          "train_fills": 38,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_profit_probe_run2_frozen.jsonl",
+          "train_pnl_cents": -110.88,
+          "train_fills": 26,
+          "test_pnl_cents": -22.28,
+          "test_fills": 6
+        }
+      ]
+    }
+  ]
+}

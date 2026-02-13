@@ -1,0 +1,390 @@
+{
+  "tested": 120000,
+  "top10": [
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": -0.5
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": -0.2
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": 0.0
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": 0.2
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": -0.5
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": -0.2
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": 0.0
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 4,
+        "strategy.inventory_exit_min_edge_cents": 0.2
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6,
+        "strategy.inventory_exit_min_edge_cents": -0.5
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    },
+    {
+      "score": 88.66,
+      "pnl_sum": 45.4,
+      "min_file_pnl": 14.63,
+      "fills_sum": 70,
+      "params": {
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.mm_half_spread_cents": 1.0,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 6,
+        "risk.max_net_exposure": 6,
+        "strategy.inventory_exit_min_edge_cents": -0.2
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 30.77,
+          "fills": 51,
+          "signals": 199,
+          "raw": 42.5,
+          "cost_drag": 11.73,
+          "ending_net": 1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 14.63,
+          "fills": 19,
+          "signals": 174,
+          "raw": 19.0,
+          "cost_drag": 4.37,
+          "ending_net": -1
+        }
+      }
+    }
+  ],
+  "best_robust_positive_both": {
+    "score": 88.66,
+    "pnl_sum": 45.4,
+    "min_file_pnl": 14.63,
+    "fills_sum": 70,
+    "params": {
+      "strategy.edge_threshold": 0.0,
+      "strategy.min_ev_cents_per_contract": 0.2,
+      "strategy.model_edge_multiplier": 0.0,
+      "strategy.mm_half_spread_cents": 1.0,
+      "strategy.max_order_count": 1,
+      "execution.max_orders_per_minute": 2,
+      "risk.max_gross_position": 4,
+      "risk.max_net_exposure": 4,
+      "strategy.inventory_exit_min_edge_cents": -0.5
+    },
+    "per_file": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl": 30.77,
+        "fills": 51,
+        "signals": 199,
+        "raw": 42.5,
+        "cost_drag": 11.73,
+        "ending_net": 1
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl": 14.63,
+        "fills": 19,
+        "signals": 174,
+        "raw": 19.0,
+        "cost_drag": 4.37,
+        "ending_net": -1
+      }
+    }
+  }
+}

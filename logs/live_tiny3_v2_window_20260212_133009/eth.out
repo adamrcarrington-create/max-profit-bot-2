@@ -1,0 +1,468 @@
+2026-02-12 13:30:09,575 INFO market_roll old=NONE new=KXETH15M-26FEB121345-45
+2026-02-12 13:30:10,460 INFO position_baseline_set scope=delta_from_start gross=140 net=140
+2026-02-12 13:30:10,848 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:11,135 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_live_tiny3_v2_eth.json payload={"as_of":"2026-02-12T18:30:11Z","ticker":"KXETH15M-26FEB121345-45","series_ticker":"KXETH15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.495,"last_kalshi_implied_yes_probability":0.495,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":21,"spread_no":21,"imbalance":0.6485182632667126,"yes_depth":1196,"no_depth":255,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.620758056640625,"book_stale_seconds":0.6207289695739746},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchange_d
+2026-02-12 13:30:11,466 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:12,504 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:13,476 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:14,543 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:15,922 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=43/60 no=40/57 max_spread=12
+2026-02-12 13:30:16,492 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=43/60 no=40/57 max_spread=12
+2026-02-12 13:30:17,493 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=45/60 no=40/55 max_spread=12
+2026-02-12 13:30:18,893 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=45/59 no=41/55 max_spread=12
+2026-02-12 13:30:19,499 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=46/59 no=41/54 max_spread=12
+2026-02-12 13:30:20,504 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=46/59 no=41/54 max_spread=12
+2026-02-12 13:30:21,895 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=46/59 no=41/54 max_spread=12
+2026-02-12 13:30:22,514 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=46/59 no=41/54 max_spread=12
+2026-02-12 13:30:23,897 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=46/59 no=41/54 max_spread=12
+2026-02-12 13:30:25,585 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-27b1749972","created_time":"2026-02-12T18:30:25.568722Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:30:25.568722Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":53,"no_price_dollars":"0.5300","order_group_id":null,"order_id":"b2218b4a-6453-4c4d-ac18-fbe926be6b51","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":47,"yes_price_dollars":"0.4700"}}
+2026-02-12 13:30:25,919 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-89ebbfc215","created_time":"2026-02-12T18:30:25.906406Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:30:25.906406Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":47,"no_price_dollars":"0.4700","order_group_id":null,"order_id":"b8a896b9-19c1-4dee-b7a3-6eb57d98e3ec","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":53,"yes_price_dollars":"0.5300"}}
+2026-02-12 13:30:27,317 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.994 depth_ratio=335.20 mid_move=1.50
+2026-02-12 13:30:29,324 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.717 depth_ratio=6.06 mid_move=0.00
+2026-02-12 13:30:29,325 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:30,330 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:31,393 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:32,730 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:33,344 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=42/59 no=41/58 max_spread=12
+2026-02-12 13:30:34,376 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/59 no=41/61 max_spread=12
+2026-02-12 13:30:35,354 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/59 no=41/61 max_spread=12
+2026-02-12 13:30:36,359 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=42/59 no=41/58 max_spread=12
+2026-02-12 13:30:38,096 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:38,369 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:39,374 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:40,403 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/56 no=44/61 max_spread=12
+2026-02-12 13:30:41,384 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/54 no=46/61 max_spread=12
+2026-02-12 13:30:42,445 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:43,779 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:44,399 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/60 no=40/61 max_spread=12
+2026-02-12 13:30:45,404 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=39/56 no=44/61 max_spread=12
+2026-02-12 13:30:46,797 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=41/56 no=44/59 max_spread=12
+2026-02-12 13:30:47,414 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=41/55 no=45/59 max_spread=12
+2026-02-12 13:30:48,415 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=41/55 no=45/59 max_spread=12
+2026-02-12 13:30:49,803 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=42/55 no=45/58 max_spread=12
+2026-02-12 13:30:50,425 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=42/55 no=45/58 max_spread=12
+2026-02-12 13:30:51,487 INFO mm_skip_spread_wide ticker=KXETH15M-26FEB121345-45 yes=42/55 no=45/58 max_spread=12
+2026-02-12 13:30:53,162 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.016 depth_ratio=1.03 mid_move=0.00
+2026-02-12 13:30:53,510 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=45 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-b995a742d9","created_time":"2026-02-12T18:30:53.498697Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:30:53.498697Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":55,"no_price_dollars":"0.5500","order_group_id":null,"order_id":"b6617cf7-1fc7-47bb-8b1a-8857930bd210","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":45,"yes_price_dollars":"0.4500"}}
+2026-02-12 13:30:53,845 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=49 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-424155e132","created_time":"2026-02-12T18:30:53.832733Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:30:53.832733Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":49,"no_price_dollars":"0.4900","order_group_id":null,"order_id":"b0d7b837-6d07-4a06-9d6a-d1e6186fe6d4","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":51,"yes_price_dollars":"0.5100"}}
+2026-02-12 13:30:55,239 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.928 depth_ratio=26.85 mid_move=1.50
+2026-02-12 13:30:57,254 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.005 depth_ratio=1.01 mid_move=2.00
+2026-02-12 13:30:58,448 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=41 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-33656bd220","created_time":"2026-02-12T18:30:58.436555Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:30:58.436555Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":59,"no_price_dollars":"0.5900","order_group_id":null,"order_id":"10e0cc33-b724-4373-9013-c1b99b32c77c","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":41,"yes_price_dollars":"0.4100"}}
+2026-02-12 13:30:59,649 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.905 depth_ratio=20.04 mid_move=2.00
+2026-02-12 13:31:01,270 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.113 depth_ratio=1.26 mid_move=3.00
+2026-02-12 13:31:02,662 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.095 depth_ratio=1.21 mid_move=7.50 spreads=2/2 triggers=move:1 imbalance:0 depth:0
+2026-02-12 13:31:02,662 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.095 depth_ratio=1.21 mid_move=7.50
+2026-02-12 13:31:03,277 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.052 depth_ratio=1.11 mid_move=0.50
+2026-02-12 13:31:04,282 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.38s
+2026-02-12 13:31:07,691 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.950 depth_ratio=39.03 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:31:07,691 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.950 depth_ratio=39.03 mid_move=0.00
+2026-02-12 13:31:09,090 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.472 depth_ratio=2.79 mid_move=0.50
+2026-02-12 13:31:09,091 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.60s
+2026-02-12 13:31:09,752 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.148 depth_ratio=1.35 mid_move=1.00
+2026-02-12 13:31:16,201 INFO mm_queue_skip_low_value ticker=KXETH15M-26FEB121345-45 side=yes value=0.033 threshold=0.050 price=36 ask=38
+2026-02-12 13:31:18,554 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.930 depth_ratio=27.74 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:31:18,554 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.930 depth_ratio=27.74 mid_move=0.50
+2026-02-12 13:31:19,889 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.003 depth_ratio=1.01 mid_move=0.00
+2026-02-12 13:31:19,890 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.94s
+2026-02-12 13:31:21,559 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.904 depth_ratio=19.91 mid_move=1.00
+2026-02-12 13:31:21,842 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.330 depth_ratio=1.98 mid_move=0.50
+2026-02-12 13:31:22,898 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.874 depth_ratio=14.91 mid_move=0.50
+2026-02-12 13:31:25,856 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.019 depth_ratio=1.04 mid_move=0.50
+2026-02-12 13:31:25,933 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=35 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-bbb73ca7a9","created_time":"2026-02-12T18:31:25.920652Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:31:25.920652Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":65,"no_price_dollars":"0.6500","order_group_id":null,"order_id":"d0686685-8599-4b3a-964e-4e483c91dff6","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":35,"yes_price_dollars":"0.3500"}}
+2026-02-12 13:31:27,920 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.921 depth_ratio=24.28 mid_move=0.00
+2026-02-12 13:31:28,589 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.149 depth_ratio=1.35 mid_move=1.00
+2026-02-12 13:31:29,272 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.882 depth_ratio=16.02 mid_move=1.50
+2026-02-12 13:31:34,191 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.221 depth_ratio=1.57 mid_move=1.00
+2026-02-12 13:31:34,267 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=34 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-9b4111767e","created_time":"2026-02-12T18:31:34.255427Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:31:34.255427Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":66,"no_price_dollars":"0.6600","order_group_id":null,"order_id":"601ef015-8b7d-4fe2-b7ba-d43f0e177bea","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":34,"yes_price_dollars":"0.3400"}}
+2026-02-12 13:31:34,812 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.842 depth_ratio=11.64 mid_move=1.00
+2026-02-12 13:31:37,820 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.057 depth_ratio=1.12 mid_move=0.00
+2026-02-12 13:31:41,829 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.300 depth_ratio=1.86 mid_move=1.00
+2026-02-12 13:31:43,511 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.808 depth_ratio=9.39 mid_move=2.00
+2026-02-12 13:31:49,869 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.313 depth_ratio=1.91 mid_move=0.00
+2026-02-12 13:31:50,201 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.840 depth_ratio=11.50 mid_move=0.00
+2026-02-12 13:31:52,883 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.117 depth_ratio=1.27 mid_move=1.00
+2026-02-12 13:31:54,956 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.644 depth_ratio=4.62 mid_move=0.00
+2026-02-12 13:31:55,594 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.942 depth_ratio=33.65 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:31:55,594 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.942 depth_ratio=33.65 mid_move=0.50
+2026-02-12 13:31:57,356 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.950 depth_ratio=38.68 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:31:59,037 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.911 depth_ratio=21.50 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:32:00,317 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.940 depth_ratio=32.45 mid_move=1.00
+2026-02-12 13:32:00,317 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=1.39s
+2026-02-12 13:32:01,721 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.143 depth_ratio=1.33 mid_move=0.50
+2026-02-12 13:32:02,040 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=25 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-b35c40a18d","created_time":"2026-02-12T18:32:02.02717Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:32:02.02717Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":75,"no_price_dollars":"0.7500","order_group_id":null,"order_id":"4215e3ca-d733-43b8-b017-f2b179260733","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":25,"yes_price_dollars":"0.2500"}}
+2026-02-12 13:32:02,323 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.557 depth_ratio=3.51 mid_move=2.50
+2026-02-12 13:32:05,057 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.907 depth_ratio=20.47 mid_move=2.50
+2026-02-12 13:32:20,218 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.313 depth_ratio=1.91 mid_move=3.50
+2026-02-12 13:32:20,893 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.188 depth_ratio=1.46 mid_move=2.50
+2026-02-12 13:32:22,565 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.902 depth_ratio=19.39 mid_move=0.00
+2026-02-12 13:32:22,883 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.131 depth_ratio=1.30 mid_move=1.00
+2026-02-12 13:32:23,846 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.442 depth_ratio=2.58 mid_move=1.00
+2026-02-12 13:32:25,246 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.934 depth_ratio=29.15 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:32:25,246 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.934 depth_ratio=29.15 mid_move=1.00
+2026-02-12 13:32:25,885 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.022 depth_ratio=1.05 mid_move=0.50
+2026-02-12 13:32:27,579 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.407 depth_ratio=2.37 mid_move=3.50
+2026-02-12 13:32:27,866 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.231 depth_ratio=1.60 mid_move=3.00
+2026-02-12 13:32:29,596 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.862 depth_ratio=13.49 mid_move=1.50
+2026-02-12 13:32:33,951 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.013 depth_ratio=1.03 mid_move=1.00
+2026-02-12 13:32:34,002 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=33 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-229c11bd07","created_time":"2026-02-12T18:32:33.989653Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:32:33.989653Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":67,"no_price_dollars":"0.6700","order_group_id":null,"order_id":"ecbadadc-8b65-4a1d-9c66-8a2fbfa232c5","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":33,"yes_price_dollars":"0.3300"}}
+2026-02-12 13:32:35,335 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.839 depth_ratio=11.44 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:32:35,336 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.839 depth_ratio=11.44 mid_move=1.00
+2026-02-12 13:32:36,019 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.852 depth_ratio=12.48 mid_move=0.50
+2026-02-12 13:32:38,084 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.132 depth_ratio=1.30 mid_move=0.00
+2026-02-12 13:32:38,409 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=31 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-b5e01a6e8e","created_time":"2026-02-12T18:32:38.396825Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:32:38.396825Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"049d5678-9f1a-4e12-86b5-f67bb6146029","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":31,"yes_price_dollars":"0.3100"}}
+2026-02-12 13:32:38,725 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.839 depth_ratio=11.46 mid_move=0.00
+2026-02-12 13:32:40,468 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.063 depth_ratio=1.13 mid_move=2.00
+2026-02-12 13:32:40,806 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=29 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-6953b6d9ee","created_time":"2026-02-12T18:32:40.79376Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:32:40.79376Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":71,"no_price_dollars":"0.7100","order_group_id":null,"order_id":"f1f63e87-ec8f-439d-a8da-0bf564cace1e","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":29,"yes_price_dollars":"0.2900"}}
+2026-02-12 13:32:42,142 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.856 depth_ratio=12.90 mid_move=0.00
+2026-02-12 13:32:43,482 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.426 depth_ratio=2.48 mid_move=1.00
+2026-02-12 13:32:45,041 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.860 depth_ratio=13.29 mid_move=2.50
+2026-02-12 13:32:51,231 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.251 depth_ratio=1.67 mid_move=0.00
+2026-02-12 13:32:51,560 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=24 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-1d4958be5a","created_time":"2026-02-12T18:32:51.548649Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:32:51.548649Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":76,"no_price_dollars":"0.7600","order_group_id":null,"order_id":"9e321dcc-8550-496f-aa51-a7706108d446","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":24,"yes_price_dollars":"0.2400"}}
+2026-02-12 13:32:51,561 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.857 depth_ratio=13.01 mid_move=2.00
+2026-02-12 13:32:52,612 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.000 depth_ratio=1.00 mid_move=1.00
+2026-02-12 13:32:57,986 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.950 depth_ratio=39.40 mid_move=0.50
+2026-02-12 13:32:58,980 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.010 depth_ratio=1.02 mid_move=0.00
+2026-02-12 13:33:00,601 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.840 depth_ratio=11.51 mid_move=0.50
+2026-02-12 13:33:04,002 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.085 depth_ratio=1.19 mid_move=0.00
+2026-02-12 13:33:04,351 INFO mm_tp_ioc ticker=KXETH15M-26FEB121345-45 side=yes action=sell count=1 price=31 reduce_only=1 order_response={"order":{"action":"sell","client_order_id":"MM-KXETH15M-26FEB121345-45-IOC-Y-250f2b75ec","created_time":"2026-02-12T18:33:04.339314Z","expiration_time":null,"fill_count":1,"fill_count_fp":"1.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:33:04.339314Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"5e77293b-5565-411e-95cd-5267619f6cd7","queue_position":0,"remaining_count":0,"remaining_count_fp":"0.00","side":"yes","status":"executed","subaccount_number":0,"taker_fees":2,"taker_fees_dollars":"0.0200","taker_fill_cost":68,"taker_fill_cost_dollars":"0.6800","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price"
+2026-02-12 13:33:04,351 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.416 depth_ratio=2.43 mid_move=1.50
+2026-02-12 13:33:05,353 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.918 depth_ratio=23.27 mid_move=4.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:05,354 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.918 depth_ratio=23.27 mid_move=4.00
+2026-02-12 13:33:06,744 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.935 depth_ratio=29.88 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:07,752 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.874 depth_ratio=14.93 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:08,762 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.918 depth_ratio=23.29 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:09,399 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.592 depth_ratio=3.90 mid_move=1.50
+2026-02-12 13:33:10,377 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.38s
+2026-02-12 13:33:12,110 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.035 depth_ratio=1.07 mid_move=1.00
+2026-02-12 13:33:12,424 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.680 depth_ratio=5.26 mid_move=8.00 spreads=5/5 triggers=move:1 imbalance:0 depth:1
+2026-02-12 13:33:12,424 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.680 depth_ratio=5.26 mid_move=8.00
+2026-02-12 13:33:13,434 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.181 depth_ratio=1.44 mid_move=11.50 spreads=4/4 triggers=move:1 imbalance:0 depth:0
+2026-02-12 13:33:14,443 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.527 depth_ratio=3.23 mid_move=1.50
+2026-02-12 13:33:14,444 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.99s
+2026-02-12 13:33:16,119 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.014 depth_ratio=1.03 mid_move=1.50
+2026-02-12 13:33:19,357 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.908 depth_ratio=20.69 mid_move=0.50
+2026-02-12 13:33:21,148 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.128 depth_ratio=1.29 mid_move=4.00
+2026-02-12 13:33:22,424 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.908 depth_ratio=20.73 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:22,424 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.908 depth_ratio=20.73 mid_move=0.00
+2026-02-12 13:33:23,486 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.882 depth_ratio=15.94 mid_move=0.50
+2026-02-12 13:33:23,486 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.94s
+2026-02-12 13:33:25,833 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.141 depth_ratio=1.33 mid_move=1.00
+2026-02-12 13:33:26,837 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.442 depth_ratio=2.59 mid_move=1.00
+2026-02-12 13:33:28,228 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.936 depth_ratio=30.24 mid_move=2.00
+2026-02-12 13:33:28,898 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.277 depth_ratio=1.77 mid_move=3.50
+2026-02-12 13:33:30,983 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.904 depth_ratio=19.79 mid_move=0.00
+2026-02-12 13:33:33,886 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.441 depth_ratio=2.58 mid_move=1.50
+2026-02-12 13:33:35,579 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.168 depth_ratio=1.40 mid_move=1.50
+2026-02-12 13:33:35,915 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-f2ec433f69","created_time":"2026-02-12T18:33:35.901773Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:33:35.901773Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":47,"no_price_dollars":"0.4700","order_group_id":null,"order_id":"fd793ddc-c436-438a-bb1d-7c48c2cc1777","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":53,"yes_price_dollars":"0.5300"}}
+2026-02-12 13:33:37,648 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.402 depth_ratio=2.35 mid_move=1.00
+2026-02-12 13:33:38,314 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.937 depth_ratio=30.90 mid_move=0.50
+2026-02-12 13:33:40,707 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.949 depth_ratio=38.29 mid_move=3.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:40,708 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.949 depth_ratio=38.29 mid_move=3.00
+2026-02-12 13:33:41,754 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.949 depth_ratio=38.29 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:42,331 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.947 depth_ratio=37.07 mid_move=1.00
+2026-02-12 13:33:45,404 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.543 depth_ratio=3.38 mid_move=0.50
+2026-02-12 13:33:47,065 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.950 depth_ratio=39.29 mid_move=0.00
+2026-02-12 13:33:50,076 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.899 depth_ratio=18.88 mid_move=1.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:33:50,077 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.899 depth_ratio=18.88 mid_move=1.50
+2026-02-12 13:33:51,360 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.122 depth_ratio=1.28 mid_move=4.00
+2026-02-12 13:33:51,360 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=1.00s
+2026-02-12 13:33:53,771 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=45 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-74242973ff","created_time":"2026-02-12T18:33:53.759662Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:33:53.759662Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":45,"no_price_dollars":"0.4500","order_group_id":null,"order_id":"2b51f2a9-4986-4e7f-904a-72540f5506a0","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":55,"yes_price_dollars":"0.5500"}}
+2026-02-12 13:33:54,505 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.868 depth_ratio=14.10 mid_move=1.00
+2026-02-12 13:33:56,841 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.239 depth_ratio=1.63 mid_move=2.50
+2026-02-12 13:33:58,511 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.448 depth_ratio=2.62 mid_move=0.50
+2026-02-12 13:34:01,269 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.914 depth_ratio=22.18 mid_move=2.00
+2026-02-12 13:34:02,291 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.093 depth_ratio=1.21 mid_move=4.00
+2026-02-12 13:34:02,599 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-47ba8aa7a9","created_time":"2026-02-12T18:34:02.581817Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:34:02.581817Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":47,"no_price_dollars":"0.4700","order_group_id":null,"order_id":"3d7212ae-ada1-4e6e-9a80-b670e94a99f1","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":53,"yes_price_dollars":"0.5300"}}
+2026-02-12 13:34:02,927 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.903 depth_ratio=19.63 mid_move=5.00
+2026-02-12 13:34:05,943 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.345 depth_ratio=2.05 mid_move=3.50
+2026-02-12 13:34:06,947 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.119 depth_ratio=1.27 mid_move=3.50
+2026-02-12 13:34:07,303 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=45 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-414b91c3ea","created_time":"2026-02-12T18:34:07.292234Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:34:07.292234Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":45,"no_price_dollars":"0.4500","order_group_id":null,"order_id":"0a294304-0117-4a9b-959c-5b8e154d87e5","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":55,"yes_price_dollars":"0.5500"}}
+2026-02-12 13:34:08,622 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.903 depth_ratio=19.61 mid_move=2.00
+2026-02-12 13:34:09,281 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.405 depth_ratio=2.36 mid_move=2.00
+2026-02-12 13:34:09,974 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.063 depth_ratio=1.13 mid_move=1.50
+2026-02-12 13:34:10,049 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-b0804826b6","created_time":"2026-02-12T18:34:10.03747Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:34:10.03747Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":47,"no_price_dollars":"0.4700","order_group_id":null,"order_id":"8b740b18-97b5-485e-9ea2-73b4d1f85ba1","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":53,"yes_price_dollars":"0.5300"}}
+2026-02-12 13:34:11,697 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.913 depth_ratio=21.93 mid_move=0.00
+2026-02-12 13:34:12,052 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.091 depth_ratio=1.20 mid_move=1.50
+2026-02-12 13:34:14,092 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.488 depth_ratio=2.90 mid_move=2.00
+2026-02-12 13:34:17,099 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.933 depth_ratio=28.64 mid_move=0.50
+2026-02-12 13:34:22,237 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.110 depth_ratio=1.25 mid_move=1.00
+2026-02-12 13:34:24,263 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.381 depth_ratio=2.23 mid_move=0.00
+2026-02-12 13:34:25,275 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.929 depth_ratio=26.99 mid_move=0.50
+2026-02-12 13:34:27,289 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.005 depth_ratio=1.01 mid_move=1.00
+2026-02-12 13:34:29,077 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.891 depth_ratio=17.42 mid_move=0.00
+2026-02-12 13:34:29,701 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.863 depth_ratio=13.64 mid_move=3.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:34:29,701 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.863 depth_ratio=13.64 mid_move=3.00
+2026-02-12 13:34:30,370 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.895 depth_ratio=18.03 mid_move=1.00
+2026-02-12 13:34:31,379 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.32s
+2026-02-12 13:34:36,760 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.660 depth_ratio=4.89 mid_move=4.50
+2026-02-12 13:34:39,440 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.897 depth_ratio=18.36 mid_move=0.00
+2026-02-12 13:34:40,843 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.158 depth_ratio=1.37 mid_move=6.00 spreads=5/5 triggers=move:1 imbalance:0 depth:0
+2026-02-12 13:34:40,844 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.158 depth_ratio=1.37 mid_move=6.00
+2026-02-12 13:34:42,184 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.084 depth_ratio=1.18 mid_move=0.50
+2026-02-12 13:34:42,185 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.66s
+2026-02-12 13:34:42,845 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.877 depth_ratio=15.26 mid_move=1.00
+2026-02-12 13:34:44,196 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.036 depth_ratio=1.07 mid_move=2.00
+2026-02-12 13:34:44,533 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=44 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-a243d6c4b8","created_time":"2026-02-12T18:34:44.520641Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:34:44.520641Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":44,"no_price_dollars":"0.4400","order_group_id":null,"order_id":"69073730-0566-43ba-b40f-e07caa1a1a03","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":56,"yes_price_dollars":"0.5600"}}
+2026-02-12 13:34:47,220 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.344 depth_ratio=2.05 mid_move=1.00
+2026-02-12 13:34:47,558 INFO mm_cancel_order_already_gone ticker=KXETH15M-26FEB121345-45 kind=buy side=no order_id=69073730-0566-43ba-b40f-e07caa1a1a03
+2026-02-12 13:34:47,969 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.840 depth_ratio=11.51 mid_move=3.50
+2026-02-12 13:34:54,925 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.839 depth_ratio=11.40 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:34:54,926 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.839 depth_ratio=11.40 mid_move=0.00
+2026-02-12 13:34:55,263 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.201 depth_ratio=1.50 mid_move=3.00
+2026-02-12 13:34:55,927 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=1.00s
+2026-02-12 13:34:57,695 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=51 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-eb91a3a464","created_time":"2026-02-12T18:34:57.682754Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:34:57.682754Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":49,"no_price_dollars":"0.4900","order_group_id":null,"order_id":"a4dba879-f352-46dc-a643-a6854bb3e002","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":51,"yes_price_dollars":"0.5100"}}
+2026-02-12 13:35:00,035 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.901 depth_ratio=19.16 mid_move=0.00
+2026-02-12 13:35:01,003 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.052 depth_ratio=1.11 mid_move=0.50
+2026-02-12 13:35:04,794 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.896 depth_ratio=18.20 mid_move=0.00
+2026-02-12 13:35:07,200 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.462 depth_ratio=2.72 mid_move=4.50
+2026-02-12 13:35:09,211 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.841 depth_ratio=11.57 mid_move=1.00
+2026-02-12 13:35:15,249 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.869 depth_ratio=14.27 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:35:15,250 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.869 depth_ratio=14.27 mid_move=1.00
+2026-02-12 13:35:16,257 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.028 depth_ratio=1.06 mid_move=0.00
+2026-02-12 13:35:16,257 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.99s
+2026-02-12 13:35:17,281 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.904 depth_ratio=19.88 mid_move=1.00
+2026-02-12 13:35:21,284 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.825 depth_ratio=10.42 mid_move=1.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:35:21,284 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.825 depth_ratio=10.42 mid_move=1.00
+2026-02-12 13:35:21,980 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.283 depth_ratio=1.79 mid_move=2.50
+2026-02-12 13:35:23,018 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.27s
+2026-02-12 13:35:24,026 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.881 depth_ratio=15.87 mid_move=0.00
+2026-02-12 13:35:31,133 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.561 depth_ratio=3.55 mid_move=4.50
+2026-02-12 13:35:33,179 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.835 depth_ratio=11.09 mid_move=0.50
+2026-02-12 13:35:38,192 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.202 depth_ratio=1.51 mid_move=1.00
+2026-02-12 13:35:38,192 INFO mm_queue_skip_low_value ticker=KXETH15M-26FEB121345-45 side=yes value=0.033 threshold=0.050 price=69 ask=71
+2026-02-12 13:35:39,189 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.297 depth_ratio=1.84 mid_move=0.50
+2026-02-12 13:35:41,230 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.947 depth_ratio=36.83 mid_move=0.00
+2026-02-12 13:35:44,311 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.398 depth_ratio=2.32 mid_move=1.50
+2026-02-12 13:35:44,645 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.187 depth_ratio=1.46 mid_move=0.50
+2026-02-12 13:35:45,642 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.924 depth_ratio=25.40 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:35:45,642 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.924 depth_ratio=25.40 mid_move=0.50
+2026-02-12 13:35:46,989 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.880 depth_ratio=15.65 mid_move=2.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:35:47,594 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.568 depth_ratio=3.63 mid_move=3.50
+2026-02-12 13:35:49,654 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.972 depth_ratio=69.31 mid_move=0.50
+2026-02-12 13:35:51,670 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.954 depth_ratio=42.73 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:35:51,670 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.954 depth_ratio=42.73 mid_move=0.50
+2026-02-12 13:35:53,573 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.953 depth_ratio=41.83 mid_move=0.50
+2026-02-12 13:35:53,574 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.10s
+2026-02-12 13:35:56,656 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.524 depth_ratio=3.20 mid_move=2.00
+2026-02-12 13:35:58,398 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.112 depth_ratio=1.25 mid_move=3.00
+2026-02-12 13:35:58,727 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=72 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-2d20da3016","created_time":"2026-02-12T18:35:58.714551Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:35:58.714551Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":28,"no_price_dollars":"0.2800","order_group_id":null,"order_id":"74e8fe47-c1c6-4fa9-b819-fcd8d5cbf949","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":72,"yes_price_dollars":"0.7200"}}
+2026-02-12 13:35:59,045 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.917 depth_ratio=22.97 mid_move=0.00
+2026-02-12 13:36:01,130 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.103 depth_ratio=1.23 mid_move=0.00
+2026-02-12 13:36:01,486 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=71 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-cdeae307c3","created_time":"2026-02-12T18:36:01.472666Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:36:01.472666Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":29,"no_price_dollars":"0.2900","order_group_id":null,"order_id":"ac04d1ee-961e-40b5-bb0e-4c8ef794173c","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":71,"yes_price_dollars":"0.7100"}}
+2026-02-12 13:36:03,197 INFO mm_queue_hold ticker=KXETH15M-26FEB121345-45 side=yes prev=71 new=72 prev_value=0.113 new_value=0.093 improve=-0.020 min_improve=0.100
+2026-02-12 13:36:04,206 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.901 depth_ratio=19.25 mid_move=2.00
+2026-02-12 13:36:10,246 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.191 depth_ratio=1.47 mid_move=0.50
+2026-02-12 13:36:10,315 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=75 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-8df7194d9a","created_time":"2026-02-12T18:36:10.302849Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:36:10.302849Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":25,"no_price_dollars":"0.2500","order_group_id":null,"order_id":"dfa9166b-6fe8-48d9-b1b4-e0c76fac744a","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":75,"yes_price_dollars":"0.7500"}}
+2026-02-12 13:36:12,667 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.446 depth_ratio=2.61 mid_move=0.00
+2026-02-12 13:36:13,021 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.950 depth_ratio=38.89 mid_move=1.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:13,021 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.950 depth_ratio=38.89 mid_move=1.50
+2026-02-12 13:36:14,022 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.580 depth_ratio=3.76 mid_move=4.00
+2026-02-12 13:36:14,023 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=1.00s
+2026-02-12 13:36:15,426 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.921 depth_ratio=24.33 mid_move=1.50
+2026-02-12 13:36:17,442 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.155 depth_ratio=1.37 mid_move=2.50
+2026-02-12 13:36:17,803 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=76 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-b807dfe000","created_time":"2026-02-12T18:36:17.789864Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:36:17.789864Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":24,"no_price_dollars":"0.2400","order_group_id":null,"order_id":"edb73b73-8aa1-4cf9-85cf-66b8972fde85","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":76,"yes_price_dollars":"0.7600"}}
+2026-02-12 13:36:18,100 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.911 depth_ratio=21.48 mid_move=2.50
+2026-02-12 13:36:19,064 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.165 depth_ratio=1.39 mid_move=1.00
+2026-02-12 13:36:21,141 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=no action=buy count=1 price=21 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-N-e4d0a9e81b","created_time":"2026-02-12T18:36:21.129201Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:36:21.129201Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":21,"no_price_dollars":"0.2100","order_group_id":null,"order_id":"d3a59fa3-cb38-47d1-8a37-77556c71a60d","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":79,"yes_price_dollars":"0.7900"}}
+2026-02-12 13:36:22,202 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.917 depth_ratio=23.18 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:22,202 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.917 depth_ratio=23.18 mid_move=0.50
+2026-02-12 13:36:22,558 INFO mm_cancel_order_already_gone ticker=KXETH15M-26FEB121345-45 kind=buy side=no order_id=d3a59fa3-cb38-47d1-8a37-77556c71a60d
+2026-02-12 13:36:23,221 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.938 depth_ratio=31.35 mid_move=2.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:24,890 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.907 depth_ratio=20.40 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:25,239 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.948 depth_ratio=37.39 mid_move=1.50
+2026-02-12 13:36:26,169 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.440 depth_ratio=2.57 mid_move=2.50
+2026-02-12 13:36:26,170 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.72s
+2026-02-12 13:36:27,907 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.950 depth_ratio=39.15 mid_move=0.00
+2026-02-12 13:36:28,190 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.638 depth_ratio=4.52 mid_move=1.00
+2026-02-12 13:36:29,937 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.912 depth_ratio=21.76 mid_move=2.50
+2026-02-12 13:36:30,247 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.015 depth_ratio=1.03 mid_move=0.50
+2026-02-12 13:36:31,209 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.905 depth_ratio=20.02 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:31,209 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.905 depth_ratio=20.02 mid_move=0.50
+2026-02-12 13:36:32,303 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.907 depth_ratio=20.41 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:34,629 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.909 depth_ratio=20.88 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:34,629 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.944 depth_ratio=34.69 mid_move=1.50
+2026-02-12 13:36:35,640 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.940 depth_ratio=32.19 mid_move=2.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:35,641 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.940 depth_ratio=32.19 mid_move=2.50
+2026-02-12 13:36:37,046 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.880 depth_ratio=15.60 mid_move=0.50
+2026-02-12 13:36:37,047 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.59s
+2026-02-12 13:36:39,407 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.008 depth_ratio=1.02 mid_move=0.50
+2026-02-12 13:36:40,673 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.464 depth_ratio=2.73 mid_move=2.00
+2026-02-12 13:36:42,077 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.926 depth_ratio=25.85 mid_move=0.00
+2026-02-12 13:36:44,436 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.837 depth_ratio=11.28 mid_move=2.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:44,437 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.837 depth_ratio=11.28 mid_move=2.00
+2026-02-12 13:36:44,709 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.014 depth_ratio=1.03 mid_move=4.50
+2026-02-12 13:36:46,446 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.865 depth_ratio=13.82 mid_move=3.00
+2026-02-12 13:36:46,721 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.132 depth_ratio=1.30 mid_move=1.50
+2026-02-12 13:36:49,804 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.905 depth_ratio=19.96 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:49,805 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.905 depth_ratio=19.96 mid_move=0.00
+2026-02-12 13:36:50,816 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.933 depth_ratio=28.80 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:52,219 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.210 depth_ratio=1.53 mid_move=5.00
+2026-02-12 13:36:52,219 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.60s
+2026-02-12 13:36:52,836 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.521 depth_ratio=3.18 mid_move=2.00
+2026-02-12 13:36:54,920 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.858 depth_ratio=13.05 mid_move=0.00
+2026-02-12 13:36:55,235 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.872 depth_ratio=14.58 mid_move=3.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:36:55,235 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.872 depth_ratio=14.58 mid_move=3.00
+2026-02-12 13:36:55,923 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.866 depth_ratio=13.89 mid_move=3.50
+2026-02-12 13:36:56,990 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.25s
+2026-02-12 13:37:00,987 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.001 depth_ratio=1.00 mid_move=1.50
+2026-02-12 13:37:01,375 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=69 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-deae989ff0","created_time":"2026-02-12T18:37:01.362963Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:37:01.362963Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":31,"no_price_dollars":"0.3100","order_group_id":null,"order_id":"8d3d921f-91fd-458d-ab6b-3ca6d4bdcdc5","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":69,"yes_price_dollars":"0.6900"}}
+2026-02-12 13:37:03,287 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.862 depth_ratio=13.54 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:03,287 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.862 depth_ratio=13.54 mid_move=0.50
+2026-02-12 13:37:05,031 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.900 depth_ratio=19.04 mid_move=0.00
+2026-02-12 13:37:05,031 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.26s
+2026-02-12 13:37:08,319 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.869 depth_ratio=14.27 mid_move=2.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:08,319 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.869 depth_ratio=14.27 mid_move=2.50
+2026-02-12 13:37:09,329 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.178 depth_ratio=1.43 mid_move=3.00
+2026-02-12 13:37:09,329 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.99s
+2026-02-12 13:37:11,415 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.917 depth_ratio=23.22 mid_move=0.00
+2026-02-12 13:37:11,751 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.024 depth_ratio=1.05 mid_move=0.50
+2026-02-12 13:37:12,426 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.343 depth_ratio=2.04 mid_move=0.00
+2026-02-12 13:37:13,830 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.109 depth_ratio=1.25 mid_move=0.50
+2026-02-12 13:37:14,167 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=72 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-20fee57f41","created_time":"2026-02-12T18:37:14.149607Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:37:14.149607Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":28,"no_price_dollars":"0.2800","order_group_id":null,"order_id":"bc395e1e-f86a-4fa6-bac2-00b78bf4510e","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":72,"yes_price_dollars":"0.7200"}}
+2026-02-12 13:37:16,519 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.797 depth_ratio=8.88 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:16,520 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.797 depth_ratio=8.88 mid_move=0.00
+2026-02-12 13:37:17,166 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.824 depth_ratio=10.36 mid_move=4.50
+2026-02-12 13:37:17,863 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.66s
+2026-02-12 13:37:21,267 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.183 depth_ratio=1.45 mid_move=1.00
+2026-02-12 13:37:21,894 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.848 depth_ratio=12.12 mid_move=0.00
+2026-02-12 13:37:22,919 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.901 depth_ratio=19.12 mid_move=3.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:22,919 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.901 depth_ratio=19.12 mid_move=3.00
+2026-02-12 13:37:24,303 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.896 depth_ratio=18.30 mid_move=2.50
+2026-02-12 13:37:24,303 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.62s
+2026-02-12 13:37:42,110 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.942 depth_ratio=33.49 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:42,111 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.942 depth_ratio=33.49 mid_move=0.00
+2026-02-12 13:37:43,121 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.942 depth_ratio=33.49 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:44,516 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.926 depth_ratio=26.04 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:45,134 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.087 depth_ratio=1.19 mid_move=3.00
+2026-02-12 13:37:47,543 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=81 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-40b6ed30a9","created_time":"2026-02-12T18:37:47.52984Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:37:47.52984Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":19,"no_price_dollars":"0.1900","order_group_id":null,"order_id":"9ec2c213-7a08-4078-9b1f-2751fdb33b77","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":81,"yes_price_dollars":"0.8100"}}
+2026-02-12 13:37:47,862 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.857 depth_ratio=12.95 mid_move=0.50
+2026-02-12 13:37:49,600 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.912 depth_ratio=21.82 mid_move=2.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:49,601 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.912 depth_ratio=21.82 mid_move=2.50
+2026-02-12 13:37:51,277 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.916 depth_ratio=22.75 mid_move=1.50
+2026-02-12 13:37:51,278 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.32s
+2026-02-12 13:37:57,333 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.842 depth_ratio=11.63 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:37:57,334 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.842 depth_ratio=11.63 mid_move=0.50
+2026-02-12 13:37:58,661 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.890 depth_ratio=17.24 mid_move=1.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:00,347 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.497 depth_ratio=2.98 mid_move=2.00
+2026-02-12 13:38:00,347 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.31s
+2026-02-12 13:38:01,632 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.801 depth_ratio=9.07 mid_move=1.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:01,632 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.801 depth_ratio=9.07 mid_move=1.00
+2026-02-12 13:38:03,723 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.707 depth_ratio=5.83 mid_move=0.00
+2026-02-12 13:38:04,731 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.178 depth_ratio=1.43 mid_move=1.00
+2026-02-12 13:38:04,779 INFO mm_quote ticker=KXETH15M-26FEB121345-45 side=yes action=buy count=1 price=89 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB121345-45-B-Y-6694495de7","created_time":"2026-02-12T18:38:04.76637Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:38:04.76637Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":11,"no_price_dollars":"0.1100","order_group_id":null,"order_id":"8b86f1e4-74e9-47a0-94e6-e368947d7223","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB121345-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":89,"yes_price_dollars":"0.8900"}}
+2026-02-12 13:38:06,137 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.588 depth_ratio=3.86 mid_move=1.00
+2026-02-12 13:38:06,746 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.772 depth_ratio=7.77 mid_move=1.00
+2026-02-12 13:38:08,821 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.804 depth_ratio=9.19 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:08,821 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.804 depth_ratio=9.19 mid_move=0.00
+2026-02-12 13:38:09,131 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.663 depth_ratio=4.94 mid_move=1.00
+2026-02-12 13:38:09,832 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.99s
+2026-02-12 13:38:10,890 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.760 depth_ratio=7.33 mid_move=0.50
+2026-02-12 13:38:12,584 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.617 depth_ratio=4.22 mid_move=1.00
+2026-02-12 13:38:19,967 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.811 depth_ratio=9.58 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:19,968 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.811 depth_ratio=9.58 mid_move=0.50
+2026-02-12 13:38:21,669 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.798 depth_ratio=8.90 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:22,990 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.696 depth_ratio=5.57 mid_move=0.50
+2026-02-12 13:38:22,991 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.95s
+2026-02-12 13:38:25,015 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.832 depth_ratio=10.87 mid_move=0.50
+2026-02-12 13:38:28,379 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.705 depth_ratio=5.78 mid_move=0.50
+2026-02-12 13:38:29,400 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.720 depth_ratio=6.15 mid_move=0.50
+2026-02-12 13:38:30,031 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.798 depth_ratio=8.89 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:30,031 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.798 depth_ratio=8.89 mid_move=0.00
+2026-02-12 13:38:32,082 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.785 depth_ratio=8.30 mid_move=0.50
+2026-02-12 13:38:32,083 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.93s
+2026-02-12 13:38:35,456 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.894 depth_ratio=17.93 mid_move=1.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:35,456 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.894 depth_ratio=17.93 mid_move=1.50
+2026-02-12 13:38:36,861 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.734 depth_ratio=6.51 mid_move=0.00
+2026-02-12 13:38:36,861 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.59s
+2026-02-12 13:38:37,537 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.690 depth_ratio=5.45 mid_move=2.00
+2026-02-12 13:38:39,209 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.112 depth_ratio=1.25 mid_move=0.00
+2026-02-12 13:38:39,518 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.686 depth_ratio=5.37 mid_move=2.00
+2026-02-12 13:38:41,890 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.806 depth_ratio=9.29 mid_move=0.50
+2026-02-12 13:38:50,697 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.784 depth_ratio=8.27 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:50,698 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.784 depth_ratio=8.27 mid_move=0.50
+2026-02-12 13:38:52,052 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.630 depth_ratio=4.41 mid_move=1.00
+2026-02-12 13:38:52,053 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.64s
+2026-02-12 13:38:52,666 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.748 depth_ratio=6.95 mid_move=0.50
+2026-02-12 13:38:56,744 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.818 depth_ratio=9.97 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:38:56,745 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.818 depth_ratio=9.97 mid_move=0.50
+2026-02-12 13:38:59,786 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.856 depth_ratio=12.93 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:00,818 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.847 depth_ratio=12.03 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:01,859 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.854 depth_ratio=12.67 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:02,896 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.869 depth_ratio=14.25 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:04,898 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.854 depth_ratio=12.67 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:05,906 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.844 depth_ratio=11.80 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:07,647 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.837 depth_ratio=11.26 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:09,719 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.852 depth_ratio=12.54 mid_move=4.00
+2026-02-12 13:39:09,719 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.26s
+2026-02-12 13:39:11,110 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.695 depth_ratio=5.55 mid_move=3.50
+2026-02-12 13:39:12,067 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.728 depth_ratio=6.34 mid_move=0.50
+2026-02-12 13:39:14,417 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.849 depth_ratio=12.25 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:39:14,418 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.849 depth_ratio=12.25 mid_move=0.50
+2026-02-12 13:39:15,080 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.738 depth_ratio=6.65 mid_move=0.00
+2026-02-12 13:39:16,059 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.705 depth_ratio=5.77 mid_move=1.50
+2026-02-12 13:39:16,059 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.36s
+2026-02-12 13:39:31,223 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=skew imbalance=0.760 depth_ratio=7.32 mid_move=1.00
+2026-02-12 13:39:36,359 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.613 depth_ratio=4.17 mid_move=0.00
+2026-02-12 13:40:31,685 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.216 depth_ratio=1.55 mid_move=0.50
+2026-02-12 13:40:34,655 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.301 depth_ratio=1.86 mid_move=0.00
+2026-02-12 13:40:36,730 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.241 depth_ratio=1.63 mid_move=0.00
+2026-02-12 13:40:37,741 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.513 depth_ratio=3.11 mid_move=0.00
+2026-02-12 13:40:39,757 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.878 depth_ratio=15.43 mid_move=1.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:39,757 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.878 depth_ratio=15.43 mid_move=1.00
+2026-02-12 13:40:42,059 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.884 depth_ratio=16.26 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:43,070 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.880 depth_ratio=15.63 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:44,134 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.879 depth_ratio=15.58 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:45,480 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.872 depth_ratio=14.59 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:46,834 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.871 depth_ratio=14.51 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:47,107 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.567 depth_ratio=3.62 mid_move=0.50
+2026-02-12 13:40:48,142 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.69s
+2026-02-12 13:40:50,127 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.858 depth_ratio=13.04 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:50,128 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=pause imbalance=0.858 depth_ratio=13.04 mid_move=0.00
+2026-02-12 13:40:52,211 WARNING mm_toxic_pause ticker=KXETH15M-26FEB121345-45 pause=2.0s imbalance=0.858 depth_ratio=13.04 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:40:53,606 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.438 depth_ratio=2.56 mid_move=0.50
+2026-02-12 13:40:53,607 INFO mm_toxic_hold ticker=KXETH15M-26FEB121345-45 pause_left=0.95s
+2026-02-12 13:41:04,359 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=normal imbalance=0.164 depth_ratio=1.39 mid_move=0.00
+2026-02-12 13:41:04,631 INFO mm_toxic_regime ticker=KXETH15M-26FEB121345-45 regime=widen imbalance=0.705 depth_ratio=5.78 mid_move=0.50
+2026-02-12 13:41:10,751 WARNING data_stale_guard ref_age=inf book_age=3.012 book_stale=3.012 ticker=KXETH15M-26FEB121345-45
+2026-02-12 13:41:10,803 WARNING mm_stale_reconnect ticker=KXETH15M-26FEB121345-45
+2026-02-12 13:41:13,969 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:14,671 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:15,681 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:17,088 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:17,747 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:18,705 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:19,733 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:20,777 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:21,722 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:23,108 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:23,733 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:24,812 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:25,779 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:26,757 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:28,161 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:29,159 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:29,773 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:30,782 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:31,818 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:33,188 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:33,805 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:34,836 WARNING data_stale_guard ref_age=inf book_age=3.798 book_stale=3.798 ticker=KXETH15M-26FEB121345-45
+2026-02-12 13:41:35,199 WARNING mm_stale_reconnect ticker=KXETH15M-26FEB121345-45
+2026-02-12 13:41:36,589 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:37,602 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:38,592 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:39,561 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:40,564 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:42,301 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:42,573 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:43,580 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:44,614 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=98/99 no=1/2
+2026-02-12 13:41:46,995 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:57,166 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:41:58,846 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:42:04,840 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:42:07,251 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:42:07,857 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:42:08,901 INFO mm_skip_pinned ticker=KXETH15M-26FEB121345-45 yes=97/99 no=1/3
+2026-02-12 13:42:09,875 INFO runtime limit reached; exiting.
+2026-02-12 13:42:10,036 WARNING cancel_all_orders result={"canceled":0,"errors":[]}

@@ -1,0 +1,227 @@
+{
+  "input": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+  "tested": 7680,
+  "top10": [
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 2,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.5
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 2,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.6
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 2,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.7
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 3,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.5
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 3,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.6
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 3,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.7
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 4,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.5
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 4,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.6
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 1,
+        "max_order_count": 4,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.7
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    },
+    {
+      "params": {
+        "edge_threshold": 0.05,
+        "snipe_edge_threshold": 0.09,
+        "min_ev_cents_per_contract": 0.8,
+        "base_order_count": 2,
+        "max_order_count": 2,
+        "maker_slippage_cents_per_contract": 0.3,
+        "taker_slippage_cents_per_contract": 0.5
+      },
+      "pnl_cents_mark_to_market": 0.0,
+      "fills": 0,
+      "signals": 91,
+      "fill_rate": 0.0,
+      "adverse_selection_rate": 0.0,
+      "ending_inventory": {
+        "yes": 0,
+        "no": 0,
+        "gross": 0,
+        "net": 0
+      }
+    }
+  ],
+  "best_positive_count": 0
+}

@@ -1,0 +1,1251 @@
+{
+  "files": [
+    "replay_capture_profit_probe_fresh.jsonl",
+    "replay_capture_profit_probe_run2_frozen.jsonl",
+    "replay_capture_latest.jsonl",
+    "replay_capture_active.jsonl"
+  ],
+  "tested": 3264,
+  "top20": [
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 10,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 20,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 30,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 60,
+        "risk.max_gross_position": 12,
+        "risk.max_net_exposure": 12
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 10,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 20,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 30,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 60,
+        "risk.max_gross_position": 18,
+        "risk.max_net_exposure": 18
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 10,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 20,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 30,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 60,
+        "risk.max_gross_position": 24,
+        "risk.max_net_exposure": 24
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    {
+      "label": "aggr",
+      "score": 636.6,
+      "pnl_sum_cents": 880.8,
+      "min_file_pnl_cents": 0.0,
+      "fills_sum": 52,
+      "max_ending_gross": 840,
+      "all_positive": false,
+      "params": {
+        "strategy_mode": "hft",
+        "strategy.edge_threshold": 0.0,
+        "strategy.min_ev_cents_per_contract": 0.2,
+        "strategy.model_edge_multiplier": 0.0,
+        "strategy.maker_only": true,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.cross_side_arb_enabled": true,
+        "strategy.cross_side_arb_min_edge_cents": 0.6,
+        "strategy.cross_side_arb_max_count": 1,
+        "strategy.inventory_exit_enabled": true,
+        "strategy.inventory_exit_min_edge_cents": -0.5,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.mm_half_spread_cents": 1.5,
+        "strategy.max_order_count": 20,
+        "strategy.base_order_count": 20,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30
+      },
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 726.8,
+          "fills": 42,
+          "cost_drag_cents": 193.2,
+          "ending_gross": 840,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 154.0,
+          "fills": 10,
+          "cost_drag_cents": 46.0,
+          "ending_gross": 200,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_active.jsonl": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "ending_gross": 0,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    }
+  ],
+  "best_all_positive": null,
+  "best_overall": {
+    "label": "aggr",
+    "score": 636.6,
+    "pnl_sum_cents": 880.8,
+    "min_file_pnl_cents": 0.0,
+    "fills_sum": 52,
+    "max_ending_gross": 840,
+    "all_positive": false,
+    "params": {
+      "strategy_mode": "hft",
+      "strategy.edge_threshold": 0.0,
+      "strategy.min_ev_cents_per_contract": 0.2,
+      "strategy.model_edge_multiplier": 0.0,
+      "strategy.maker_only": true,
+      "strategy.snipe_edge_threshold": 9.0,
+      "strategy.cross_side_arb_enabled": true,
+      "strategy.cross_side_arb_min_edge_cents": 0.6,
+      "strategy.cross_side_arb_max_count": 1,
+      "strategy.inventory_exit_enabled": true,
+      "strategy.inventory_exit_min_edge_cents": -0.5,
+      "strategy.max_yes_spread_cents_for_mm": 20.0,
+      "strategy.mm_half_spread_cents": 1.5,
+      "strategy.max_order_count": 20,
+      "strategy.base_order_count": 20,
+      "execution.max_orders_per_minute": 4,
+      "risk.max_gross_position": 12,
+      "risk.max_net_exposure": 12
+    },
+    "per_file": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl_cents": 726.8,
+        "fills": 42,
+        "cost_drag_cents": 193.2,
+        "ending_gross": 840,
+        "adverse_selection_rate": 0.075
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl_cents": 154.0,
+        "fills": 10,
+        "cost_drag_cents": 46.0,
+        "ending_gross": 200,
+        "adverse_selection_rate": 0.1
+      },
+      "replay_capture_latest.jsonl": {
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "cost_drag_cents": 0.0,
+        "ending_gross": 0,
+        "adverse_selection_rate": 0.0
+      },
+      "replay_capture_active.jsonl": {
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "cost_drag_cents": 0.0,
+        "ending_gross": 0,
+        "adverse_selection_rate": 0.0
+      }
+    }
+  }
+}

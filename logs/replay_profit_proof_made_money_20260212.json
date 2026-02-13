@@ -1,0 +1,74 @@
+{
+  "replay_files": [
+    "replay_capture_profit_probe_fresh.jsonl",
+    "replay_capture_profit_probe_run2_frozen.jsonl"
+  ],
+  "results": {
+    "made_money_defaults": {
+      "pnl_sum_cents": 71.86,
+      "pnl_sum_dollars": 0.7186,
+      "fills_sum": 59,
+      "max_ending_gross": 86,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 45.22,
+          "fills": 43,
+          "cost_drag_cents": 19.78,
+          "ending_gross": 86,
+          "adverse_selection_rate": 0.075
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 26.64,
+          "fills": 16,
+          "cost_drag_cents": 7.36,
+          "ending_gross": 32,
+          "adverse_selection_rate": 0.0625
+        }
+      }
+    },
+    "safer_notes_defaults": {
+      "pnl_sum_cents": 43.5,
+      "pnl_sum_dollars": 0.435,
+      "fills_sum": 50,
+      "max_ending_gross": 40,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 35.8,
+          "fills": 40,
+          "cost_drag_cents": 9.2,
+          "ending_gross": 40,
+          "adverse_selection_rate": 0.0789
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 7.7,
+          "fills": 10,
+          "cost_drag_cents": 2.3,
+          "ending_gross": 10,
+          "adverse_selection_rate": 0.1
+        }
+      }
+    },
+    "scaled_profit_proof": {
+      "pnl_sum_cents": 1089.6,
+      "pnl_sum_dollars": 10.896,
+      "fills_sum": 70,
+      "max_ending_gross": 1224,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 738.48,
+          "fills": 51,
+          "cost_drag_cents": 281.52,
+          "ending_gross": 1224,
+          "adverse_selection_rate": 0.0612
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 351.12,
+          "fills": 19,
+          "cost_drag_cents": 104.88,
+          "ending_gross": 456,
+          "adverse_selection_rate": 0.0526
+        }
+      }
+    }
+  }
+}

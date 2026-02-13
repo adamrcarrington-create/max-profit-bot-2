@@ -1,0 +1,133 @@
+2026-02-12 11:37:39,619 INFO market_roll old=NONE new=KXBTC15M-26FEB121145-45
+2026-02-12 11:37:40,440 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=91/92 no=8/9 min_spread=2
+2026-02-12 11:37:40,441 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_btc.json payload={"as_of":"2026-02-12T16:37:40Z","ticker":"KXBTC15M-26FEB121145-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.915,"last_kalshi_implied_yes_probability":0.915,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.10500352360817478,"yes_depth":1905,"no_depth":2352,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.17537927627563477,"book_stale_seconds":0.17532110214233398},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchan
+2026-02-12 11:37:41,117 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=91/92 no=8/9 min_spread=2
+2026-02-12 11:37:42,123 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.454 depth_ratio=2.66 mid_move=0.00
+2026-02-12 11:37:42,123 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=91/92 no=8/9 min_spread=2
+2026-02-12 11:38:26,324 INFO market_roll old=NONE new=KXBTC15M-26FEB121145-45
+2026-02-12 11:38:27,176 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=89/90 no=10/11 min_spread=2
+2026-02-12 11:38:27,178 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_btc.json payload={"as_of":"2026-02-12T16:38:27Z","ticker":"KXBTC15M-26FEB121145-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.895,"last_kalshi_implied_yes_probability":0.895,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":0.13481828839390386,"yes_depth":1452,"no_depth":1107,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.014451980590820312,"book_stale_seconds":0.014404296875},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchange_di
+2026-02-12 11:38:27,850 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.607 depth_ratio=4.09 mid_move=1.00
+2026-02-12 11:38:27,850 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121145-45 side=no value=0.053 threshold=0.200 price=10 ask=13
+2026-02-12 11:38:28,855 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.068 depth_ratio=1.15 mid_move=0.50
+2026-02-12 11:38:29,900 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.400 depth_ratio=2.33 mid_move=0.50
+2026-02-12 11:38:29,900 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=88/89 no=11/12 min_spread=2
+2026-02-12 11:38:30,863 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.163 depth_ratio=1.39 mid_move=1.50
+2026-02-12 11:38:34,877 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=85/86 no=14/15 min_spread=2
+2026-02-12 11:38:35,945 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=85/86 no=14/15 min_spread=2
+2026-02-12 11:38:36,985 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=85/86 no=14/15 min_spread=2
+2026-02-12 11:38:38,927 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=86/87 no=13/14 min_spread=2
+2026-02-12 11:38:39,896 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.298 depth_ratio=1.85 mid_move=2.50
+2026-02-12 11:38:44,952 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.084 depth_ratio=1.18 mid_move=1.00
+2026-02-12 11:38:48,321 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.350 depth_ratio=2.08 mid_move=1.50
+2026-02-12 11:38:48,321 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=89/90 no=10/11 min_spread=2
+2026-02-12 11:38:48,934 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=89/90 no=10/11 min_spread=2
+2026-02-12 11:38:49,938 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.062 depth_ratio=1.13 mid_move=1.00
+2026-02-12 11:38:49,938 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=88/89 no=11/12 min_spread=2
+2026-02-12 11:38:50,978 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.685 depth_ratio=5.35 mid_move=1.50
+2026-02-12 11:38:51,941 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.105 depth_ratio=1.23 mid_move=1.00
+2026-02-12 11:38:54,342 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.413 depth_ratio=2.41 mid_move=1.00
+2026-02-12 11:38:55,961 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.278 depth_ratio=1.77 mid_move=0.50
+2026-02-12 11:38:55,961 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=87/88 no=12/13 min_spread=2
+2026-02-12 11:38:57,097 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.356 depth_ratio=2.11 mid_move=1.50
+2026-02-12 11:39:00,981 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.128 depth_ratio=1.29 mid_move=0.00
+2026-02-12 11:39:03,025 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=89/90 no=10/11 min_spread=2
+2026-02-12 11:39:03,991 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.484 depth_ratio=2.88 mid_move=1.00
+2026-02-12 11:39:03,991 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=90/91 no=9/10 min_spread=2
+2026-02-12 11:39:04,996 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:06,397 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.275 depth_ratio=1.76 mid_move=0.00
+2026-02-12 11:39:06,397 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:07,002 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.481 depth_ratio=2.86 mid_move=0.00
+2026-02-12 11:39:07,002 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:11,015 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121145-45 side=yes value=0.053 threshold=0.200 price=92 ask=95
+2026-02-12 11:39:14,023 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.200 depth_ratio=1.50 mid_move=1.00
+2026-02-12 11:39:15,073 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.423 depth_ratio=2.47 mid_move=0.00
+2026-02-12 11:39:17,038 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:22,057 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:23,062 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:24,458 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:25,072 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:26,078 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:27,122 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:28,088 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:39:32,103 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.048 depth_ratio=1.10 mid_move=0.00
+2026-02-12 11:39:33,230 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.311 depth_ratio=1.90 mid_move=1.00
+2026-02-12 11:39:35,114 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:36,528 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:37,124 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:38,126 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.204 depth_ratio=1.51 mid_move=0.00
+2026-02-12 11:39:38,128 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=92/93 no=7/8 min_spread=2
+2026-02-12 11:39:39,166 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.416 depth_ratio=2.43 mid_move=1.00
+2026-02-12 11:39:39,167 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:40,128 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.197 depth_ratio=1.49 mid_move=0.00
+2026-02-12 11:39:40,128 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:41,131 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:42,532 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.468 depth_ratio=2.76 mid_move=0.50
+2026-02-12 11:39:43,139 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:44,140 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.041 depth_ratio=1.09 mid_move=0.50
+2026-02-12 11:39:44,141 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:45,180 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.555 depth_ratio=3.49 mid_move=0.00
+2026-02-12 11:39:45,181 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:47,153 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.101 depth_ratio=1.22 mid_move=0.00
+2026-02-12 11:39:47,154 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:48,544 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:49,161 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.404 depth_ratio=2.36 mid_move=0.00
+2026-02-12 11:39:49,162 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=93/94 no=6/7 min_spread=2
+2026-02-12 11:39:50,165 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.053 depth_ratio=1.11 mid_move=0.50
+2026-02-12 11:39:51,209 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121145-45 side=yes value=0.053 threshold=0.200 price=93 ask=96
+2026-02-12 11:39:52,174 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.628 depth_ratio=4.37 mid_move=0.00
+2026-02-12 11:39:55,182 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.099 depth_ratio=1.22 mid_move=1.00
+2026-02-12 11:39:56,187 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.364 depth_ratio=2.15 mid_move=1.00
+2026-02-12 11:39:58,193 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.147 depth_ratio=1.34 mid_move=0.50
+2026-02-12 11:40:00,597 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.310 depth_ratio=1.90 mid_move=0.50
+2026-02-12 11:40:00,597 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=94/95 no=5/6 min_spread=2
+2026-02-12 11:40:01,205 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=95/96 no=4/5 min_spread=2
+2026-02-12 11:40:04,212 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:05,215 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:06,622 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:07,226 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:08,230 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:09,276 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.089 depth_ratio=1.20 mid_move=0.00
+2026-02-12 11:40:09,277 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:16,259 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.430 depth_ratio=2.51 mid_move=0.50
+2026-02-12 11:40:16,260 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:17,264 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:18,666 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.216 depth_ratio=1.55 mid_move=0.00
+2026-02-12 11:40:18,667 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:19,273 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:20,274 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=96/97 no=3/4 min_spread=2
+2026-02-12 11:40:21,319 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=95/96 no=4/5 min_spread=2
+2026-02-12 11:40:22,279 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=widen imbalance=0.308 depth_ratio=1.89 mid_move=0.00
+2026-02-12 11:40:22,279 INFO mm_skip_spread_narrow ticker=KXBTC15M-26FEB121145-45 yes=95/96 no=4/5 min_spread=2
+2026-02-12 11:40:24,681 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121145-45 regime=normal imbalance=0.154 depth_ratio=1.36 mid_move=0.00
+2026-02-12 11:40:26,288 INFO runtime limit reached; exiting.
+2026-02-12 12:36:29,431 INFO market_roll old=NONE new=KXBTC15M-26FEB121245-45
+2026-02-12 12:36:30,281 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=widen imbalance=0.509 depth_ratio=3.08 mid_move=0.00
+2026-02-12 12:36:30,282 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.013 threshold=0.050 price=16 ask=17
+2026-02-12 12:36:30,286 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_btc.json payload={"as_of":"2026-02-12T17:36:30Z","ticker":"KXBTC15M-26FEB121245-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.165,"last_kalshi_implied_yes_probability":0.165,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.5094186204092696,"yes_depth":1810,"no_depth":5569,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.08362483978271484,"book_stale_seconds":0.08354592323303223},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchang
+2026-02-12 12:36:31,969 INFO mm_quote ticker=KXBTC15M-26FEB121245-45 side=yes action=buy count=10 price=17 post_only=1 dry_run=1
+2026-02-12 12:36:32,996 INFO mm_quote ticker=KXBTC15M-26FEB121245-45 side=yes action=buy count=10 price=16 post_only=1 dry_run=1
+2026-02-12 12:36:35,022 INFO mm_quote ticker=KXBTC15M-26FEB121245-45 side=yes action=buy count=10 price=15 post_only=1 dry_run=1
+2026-02-12 12:36:36,985 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 12:36:37,990 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 12:36:39,021 INFO mm_quote ticker=KXBTC15M-26FEB121245-45 side=yes action=buy count=10 price=17 post_only=1 dry_run=1
+2026-02-12 12:36:40,046 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 12:36:50,039 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=21 ask=23
+2026-02-12 12:36:51,430 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=22 ask=24
+2026-02-12 12:36:53,046 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.013 threshold=0.050 price=23 ask=24
+2026-02-12 12:36:54,081 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=23 ask=25
+2026-02-12 12:36:57,442 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=20 ask=22
+2026-02-12 12:37:00,101 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=normal imbalance=0.269 depth_ratio=1.74 mid_move=0.50
+2026-02-12 12:37:00,103 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 12:37:01,069 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=widen imbalance=0.394 depth_ratio=2.30 mid_move=0.00
+2026-02-12 12:37:08,097 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.033 threshold=0.050 price=21 ask=23
+2026-02-12 12:37:20,149 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=skew imbalance=0.782 depth_ratio=8.18 mid_move=1.00
+2026-02-12 12:37:21,539 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=widen imbalance=0.510 depth_ratio=3.09 mid_move=0.00
+2026-02-12 12:37:26,172 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=yes value=0.013 threshold=0.050 price=24 ask=25
+2026-02-12 12:37:29,179 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=normal imbalance=0.242 depth_ratio=1.64 mid_move=2.00
+2026-02-12 12:37:30,183 INFO runtime limit reached; exiting.
+2026-02-12 12:42:57,473 INFO market_roll old=NONE new=KXBTC15M-26FEB121245-45
+2026-02-12 12:42:58,377 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=widen imbalance=0.452 depth_ratio=2.65 mid_move=0.00
+2026-02-12 12:42:58,377 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121245-45 side=no value=0.033 threshold=0.050 price=93 ask=95
+2026-02-12 12:42:58,378 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_paper_3x15_btc.json payload={"as_of":"2026-02-12T17:42:58Z","ticker":"KXBTC15M-26FEB121245-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.06,"last_kalshi_implied_yes_probability":0.06,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":2,"spread_no":2,"imbalance":0.4518106760402191,"yes_depth":8880,"no_depth":3353,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.21215391159057617,"book_stale_seconds":0.21211600303649902},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchange_d
+2026-02-12 12:42:59,062 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121245-45 regime=normal imbalance=0.079 depth_ratio=1.17 mid_move=0.00

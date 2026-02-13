@@ -1,0 +1,70 @@
+{
+  "config": "kalshi_hft/config.paper_robust.json",
+  "aggregate": {
+    "pnl_cents": 448.32,
+    "fills": 116,
+    "signals": 555,
+    "raw_pnl_before_costs_cents": 475.0,
+    "cost_drag_cents": 26.679999999999996,
+    "active_files": 4,
+    "profitable_files": 4
+  },
+  "per_file": [
+    {
+      "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+      "pnl_cents": 139.05,
+      "fills": 15,
+      "signals": 64,
+      "raw_pnl_before_costs_cents": 142.5,
+      "cost_drag_cents": 3.45
+    },
+    {
+      "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+      "pnl_cents": 70.96,
+      "fills": 48,
+      "signals": 145,
+      "raw_pnl_before_costs_cents": 82.0,
+      "cost_drag_cents": 11.04
+    },
+    {
+      "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+      "pnl_cents": 89.94,
+      "fills": 22,
+      "signals": 146,
+      "raw_pnl_before_costs_cents": 95.0,
+      "cost_drag_cents": 5.06
+    },
+    {
+      "file": "logs/replay_capture_active.jsonl",
+      "pnl_cents": 0.0,
+      "fills": 0,
+      "signals": 0,
+      "raw_pnl_before_costs_cents": 0.0,
+      "cost_drag_cents": 0.0
+    },
+    {
+      "file": "logs/replay_capture_latest.jsonl",
+      "pnl_cents": 0.0,
+      "fills": 0,
+      "signals": 1,
+      "raw_pnl_before_costs_cents": 0.0,
+      "cost_drag_cents": 0.0
+    },
+    {
+      "file": "logs/replay_capture_profit_probe_fresh.jsonl",
+      "pnl_cents": 148.37,
+      "fills": 31,
+      "signals": 199,
+      "raw_pnl_before_costs_cents": 155.5,
+      "cost_drag_cents": 7.13
+    },
+    {
+      "file": "logs/replay_capture_smoke.jsonl",
+      "pnl_cents": 0.0,
+      "fills": 0,
+      "signals": 0,
+      "raw_pnl_before_costs_cents": 0.0,
+      "cost_drag_cents": 0.0
+    }
+  ]
+}

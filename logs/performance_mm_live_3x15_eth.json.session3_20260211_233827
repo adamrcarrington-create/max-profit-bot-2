@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-02-12T04:30:04Z",
+  "ticker": "KXETH15M-26FEB112345-45",
+  "series_ticker": "KXETH15M",
+  "window_minutes": 15,
+  "wins": 0,
+  "losses": 0,
+  "fill_count": 0,
+  "slippage_cents": 0.0,
+  "adverse_selection_count": 0,
+  "adverse_selection_total": 0,
+  "adverse_selection_rate": 0.0,
+  "last_real_yes_probability": 0.575,
+  "last_kalshi_implied_yes_probability": 0.575,
+  "edge_threshold": 0.08,
+  "order_attempts": 0,
+  "order_failures": 0,
+  "last_401_epoch": 0.0,
+  "regime": "mm",
+  "microstructure": {
+    "spread_yes": 35,
+    "spread_no": 35,
+    "imbalance": 0.0013186813186813187,
+    "yes_depth": 1139,
+    "no_depth": 1136,
+    "pinned_state": false,
+    "zero_spread_state": false,
+    "book_age_seconds": 0.09332084655761719,
+    "book_stale_seconds": 0.3290262222290039
+  },
+  "reference": {
+    "source": "",
+    "last_error": "",
+    "spot_price": null,
+    "perp_price": null,
+    "coinbase_price": null,
+    "kraken_price": null,
+    "cross_exchange_diff_pct": 0.0,
+    "flash_spike_pause_remaining_seconds": 0.0,
+    "return_30s": 0.0,
+    "return_1m": 0.0,
+    "return_15m": 0.0
+  },
+  "request_rate_limit": {
+    "max_requests_per_second": 3.0,
+    "rate_limit_wait_count": 109,
+    "rate_limit_wait_seconds_total": 22.757859,
+    "last_429_epoch": 0.0,
+    "last_rate_limit_headers": {
+      "x_rate_limit_limit": "",
+      "x_rate_limit_remaining": "",
+      "x_rate_limit_reset": "",
+      "retry_after": ""
+    }
+  },
+  "inventory": {
+    "gross_position": 151,
+    "net_exposure": 151,
+    "effective_gross_for_limits": 0,
+    "effective_net_for_limits": 0,
+    "position_limit_scope": "delta_from_start"
+  }
+}

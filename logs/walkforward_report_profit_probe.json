@@ -1,0 +1,1602 @@
+{
+  "base_config": "kalshi_hft/config.paper_profit_probe.json",
+  "inputs_glob": "logs/replay_capture*.jsonl",
+  "files_used": [
+    "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+    "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+    "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+    "logs/replay_capture_active.jsonl",
+    "logs/replay_capture_latest.jsonl",
+    "logs/replay_capture_smoke.jsonl"
+  ],
+  "train_ratio": 0.7,
+  "candidates_tested": 55297,
+  "best": {
+    "name": "candidate",
+    "params": {
+      "strategy.edge_threshold": 0.02,
+      "strategy.min_ev_cents_per_contract": 0.0,
+      "strategy.maker_slippage_cents_per_contract": 0.2,
+      "strategy.mm_half_spread_cents": 2.0,
+      "strategy.max_yes_spread_cents_for_mm": 20.0,
+      "strategy.max_yes_spread_cents_for_snipe": 25.0,
+      "strategy.model_edge_multiplier": 0.1,
+      "strategy.snipe_edge_threshold": 9.0,
+      "strategy.maker_only": true,
+      "strategy.base_order_count": 1,
+      "strategy.max_order_count": 1,
+      "execution.max_orders_per_minute": 2,
+      "risk.max_gross_position": 2,
+      "risk.max_net_exposure": 2
+    },
+    "aggregate": {
+      "train_pnl_cents": -143.71,
+      "train_fills": 27,
+      "train_cost_drag_cents": 6.21,
+      "test_pnl_cents": 45.09,
+      "test_fills": 17,
+      "test_cost_drag_cents": 3.91,
+      "score": 1.8945
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_active.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_latest.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_smoke.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      }
+    ]
+  },
+  "best_with_test_fills": {
+    "name": "candidate",
+    "params": {
+      "strategy.edge_threshold": 0.02,
+      "strategy.min_ev_cents_per_contract": 0.0,
+      "strategy.maker_slippage_cents_per_contract": 0.2,
+      "strategy.mm_half_spread_cents": 2.0,
+      "strategy.max_yes_spread_cents_for_mm": 20.0,
+      "strategy.max_yes_spread_cents_for_snipe": 25.0,
+      "strategy.model_edge_multiplier": 0.1,
+      "strategy.snipe_edge_threshold": 9.0,
+      "strategy.maker_only": true,
+      "strategy.base_order_count": 1,
+      "strategy.max_order_count": 1,
+      "execution.max_orders_per_minute": 2,
+      "risk.max_gross_position": 2,
+      "risk.max_net_exposure": 2
+    },
+    "aggregate": {
+      "train_pnl_cents": -143.71,
+      "train_fills": 27,
+      "train_cost_drag_cents": 6.21,
+      "test_pnl_cents": 45.09,
+      "test_fills": 17,
+      "test_cost_drag_cents": 3.91,
+      "score": 1.8945
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_active.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_latest.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      },
+      {
+        "file": "logs/replay_capture_smoke.jsonl",
+        "train_pnl_cents": 0.0,
+        "train_fills": 0,
+        "test_pnl_cents": 0.0,
+        "test_fills": 0
+      }
+    ]
+  },
+  "top10": [
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    }
+  ],
+  "top10_with_test_fills": [
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 4,
+        "risk.max_net_exposure": 4
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 1,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 10,
+        "risk.max_net_exposure": 10
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "params": {
+        "strategy.edge_threshold": 0.02,
+        "strategy.min_ev_cents_per_contract": 0.0,
+        "strategy.maker_slippage_cents_per_contract": 0.2,
+        "strategy.mm_half_spread_cents": 2.0,
+        "strategy.max_yes_spread_cents_for_mm": 20.0,
+        "strategy.max_yes_spread_cents_for_snipe": 25.0,
+        "strategy.model_edge_multiplier": 0.1,
+        "strategy.snipe_edge_threshold": 9.0,
+        "strategy.maker_only": true,
+        "strategy.base_order_count": 1,
+        "strategy.max_order_count": 2,
+        "execution.max_orders_per_minute": 2,
+        "risk.max_gross_position": 2,
+        "risk.max_net_exposure": 2
+      },
+      "aggregate": {
+        "train_pnl_cents": -143.71,
+        "train_fills": 27,
+        "train_cost_drag_cents": 6.21,
+        "test_pnl_cents": 45.09,
+        "test_fills": 17,
+        "test_cost_drag_cents": 3.91,
+        "score": 1.8945
+      },
+      "per_file": [
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+          "train_pnl_cents": -143.71,
+          "train_fills": 27,
+          "test_pnl_cents": 45.09,
+          "test_fills": 17
+        },
+        {
+          "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_active.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_latest.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        },
+        {
+          "file": "logs/replay_capture_smoke.jsonl",
+          "train_pnl_cents": 0.0,
+          "train_fills": 0,
+          "test_pnl_cents": 0.0,
+          "test_fills": 0
+        }
+      ]
+    }
+  ]
+}

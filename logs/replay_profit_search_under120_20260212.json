@@ -1,0 +1,26 @@
+{
+  "best_all_positive_under_120": {
+    "size": 12,
+    "gross": 120,
+    "rate": 4,
+    "pnl_sum": 160.8,
+    "min_pnl": 80.4,
+    "fills": 20,
+    "max_end": 120,
+    "all_positive": true,
+    "per": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl": 80.4,
+        "fills": 10,
+        "end": 120,
+        "cost": 27.6
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl": 80.4,
+        "fills": 10,
+        "end": 120,
+        "cost": 27.6
+      }
+    }
+  }
+}

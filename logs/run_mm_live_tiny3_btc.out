@@ -1,0 +1,3 @@
+2026-02-12 12:59:23,971 INFO market_roll old=NONE new=KXBTC15M-26FEB121300-00
+2026-02-12 12:59:25,035 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-12 12:59:25,329 WARNING force_flatten ticker=KXBTC15M-26FEB121300-00

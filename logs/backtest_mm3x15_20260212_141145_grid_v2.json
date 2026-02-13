@@ -1,0 +1,2089 @@
+{
+  "capture_dir": "logs/replay_mm3x15_20260212_141145",
+  "market_inputs": {
+    "btc": {
+      "config": "/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/kalshi_hft/config.paper_mm_3x15_btc.json",
+      "replay": "logs/replay_mm3x15_20260212_141145/btc.jsonl",
+      "rows": 691
+    },
+    "eth": {
+      "config": "/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/kalshi_hft/config.paper_mm_3x15_eth.json",
+      "replay": "logs/replay_mm3x15_20260212_141145/eth.jsonl",
+      "rows": 685
+    },
+    "sol": {
+      "config": "/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/kalshi_hft/config.paper_mm_3x15_sol.json",
+      "replay": "logs/replay_mm3x15_20260212_141145/sol.jsonl",
+      "rows": 684
+    }
+  },
+  "grid": {
+    "order_counts": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20,
+      24,
+      30
+    ],
+    "spreads": [
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "tested": 44
+  },
+  "best_overall": {
+    "order_count": 30,
+    "mm_half_spread_cents": 0.5,
+    "sum_pnl_cents": 1250.1,
+    "sum_pnl_dollars": 12.501,
+    "sum_fills": 1,
+    "sum_cost_drag_cents": 9.9,
+    "sum_adv_rate": 0.0,
+    "min_market_pnl_cents": 0.0,
+    "all_markets_positive": false,
+    "per_market": {
+      "btc": {
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "cost_drag_cents": 0.0,
+        "adv_rate": 0.0,
+        "ending_gross": 0
+      },
+      "eth": {
+        "pnl_cents": 1250.1,
+        "fills": 1,
+        "cost_drag_cents": 9.9,
+        "adv_rate": 0.0,
+        "ending_gross": 30
+      },
+      "sol": {
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "cost_drag_cents": 0.0,
+        "adv_rate": 0.0,
+        "ending_gross": 0
+      }
+    }
+  },
+  "best_all_markets_positive": null,
+  "all_results": [
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 1250.1,
+      "sum_pnl_dollars": 12.501,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 9.9,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1250.1,
+          "fills": 1,
+          "cost_drag_cents": 9.9,
+          "adv_rate": 0.0,
+          "ending_gross": 30
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 1250.1,
+      "sum_pnl_dollars": 12.501,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 9.9,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1250.1,
+          "fills": 1,
+          "cost_drag_cents": 9.9,
+          "adv_rate": 0.0,
+          "ending_gross": 30
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 1000.08,
+      "sum_pnl_dollars": 10.0008,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 7.92,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1000.08,
+          "fills": 1,
+          "cost_drag_cents": 7.92,
+          "adv_rate": 0.0,
+          "ending_gross": 24
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 833.4,
+      "sum_pnl_dollars": 8.334,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 6.6,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 833.4,
+          "fills": 1,
+          "cost_drag_cents": 6.6,
+          "adv_rate": 0.0,
+          "ending_gross": 20
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 666.72,
+      "sum_pnl_dollars": 6.6672,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 5.28,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 666.72,
+          "fills": 1,
+          "cost_drag_cents": 5.28,
+          "adv_rate": 0.0,
+          "ending_gross": 16
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 500.04,
+      "sum_pnl_dollars": 5.0004,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 3.96,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 500.04,
+          "fills": 1,
+          "cost_drag_cents": 3.96,
+          "adv_rate": 0.0,
+          "ending_gross": 12
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 416.7,
+      "sum_pnl_dollars": 4.167,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 3.3,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 416.7,
+          "fills": 1,
+          "cost_drag_cents": 3.3,
+          "adv_rate": 0.0,
+          "ending_gross": 10
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 333.36,
+      "sum_pnl_dollars": 3.3336,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 2.64,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 333.36,
+          "fills": 1,
+          "cost_drag_cents": 2.64,
+          "adv_rate": 0.0,
+          "ending_gross": 8
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 250.02,
+      "sum_pnl_dollars": 2.5002,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 1.98,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 250.02,
+          "fills": 1,
+          "cost_drag_cents": 1.98,
+          "adv_rate": 0.0,
+          "ending_gross": 6
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 166.68,
+      "sum_pnl_dollars": 1.6668,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 1.32,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 166.68,
+          "fills": 1,
+          "cost_drag_cents": 1.32,
+          "adv_rate": 0.0,
+          "ending_gross": 4
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 120.48,
+      "sum_pnl_dollars": 1.2048,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 47.52,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 120.48,
+          "fills": 6,
+          "cost_drag_cents": 47.52,
+          "adv_rate": 0.0,
+          "ending_gross": 144
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 100.4,
+      "sum_pnl_dollars": 1.004,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 39.6,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 100.4,
+          "fills": 6,
+          "cost_drag_cents": 39.6,
+          "adv_rate": 0.0,
+          "ending_gross": 120
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 2,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 83.34,
+      "sum_pnl_dollars": 0.8334,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 0.66,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 83.34,
+          "fills": 1,
+          "cost_drag_cents": 0.66,
+          "adv_rate": 0.0,
+          "ending_gross": 2
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 80.4,
+      "sum_pnl_dollars": 0.804,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 39.6,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 80.4,
+          "fills": 4,
+          "cost_drag_cents": 39.6,
+          "adv_rate": 0.0,
+          "ending_gross": 120
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 80.32,
+      "sum_pnl_dollars": 0.8032,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 31.68,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 80.32,
+          "fills": 6,
+          "cost_drag_cents": 31.68,
+          "adv_rate": 0.0,
+          "ending_gross": 96
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 64.32,
+      "sum_pnl_dollars": 0.6432,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 31.68,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 64.32,
+          "fills": 4,
+          "cost_drag_cents": 31.68,
+          "adv_rate": 0.0,
+          "ending_gross": 96
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 60.24,
+      "sum_pnl_dollars": 0.6024,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 23.76,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 60.24,
+          "fills": 6,
+          "cost_drag_cents": 23.76,
+          "adv_rate": 0.0,
+          "ending_gross": 72
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 53.6,
+      "sum_pnl_dollars": 0.536,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 26.4,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 53.6,
+          "fills": 4,
+          "cost_drag_cents": 26.4,
+          "adv_rate": 0.0,
+          "ending_gross": 80
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 50.2,
+      "sum_pnl_dollars": 0.502,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 19.8,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 50.2,
+          "fills": 6,
+          "cost_drag_cents": 19.8,
+          "adv_rate": 0.0,
+          "ending_gross": 60
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 42.88,
+      "sum_pnl_dollars": 0.4288,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 21.12,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 42.88,
+          "fills": 4,
+          "cost_drag_cents": 21.12,
+          "adv_rate": 0.0,
+          "ending_gross": 64
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 1,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 41.67,
+      "sum_pnl_dollars": 0.4167,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 0.33,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 41.67,
+          "fills": 1,
+          "cost_drag_cents": 0.33,
+          "adv_rate": 0.0,
+          "ending_gross": 1
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 40.16,
+      "sum_pnl_dollars": 0.4016,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 15.84,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 40.16,
+          "fills": 6,
+          "cost_drag_cents": 15.84,
+          "adv_rate": 0.0,
+          "ending_gross": 48
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 32.16,
+      "sum_pnl_dollars": 0.3216,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 15.84,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 32.16,
+          "fills": 4,
+          "cost_drag_cents": 15.84,
+          "adv_rate": 0.0,
+          "ending_gross": 48
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 30.12,
+      "sum_pnl_dollars": 0.3012,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 11.88,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 30.12,
+          "fills": 6,
+          "cost_drag_cents": 11.88,
+          "adv_rate": 0.0,
+          "ending_gross": 36
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 26.8,
+      "sum_pnl_dollars": 0.268,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 13.2,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 26.8,
+          "fills": 4,
+          "cost_drag_cents": 13.2,
+          "adv_rate": 0.0,
+          "ending_gross": 40
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 21.44,
+      "sum_pnl_dollars": 0.2144,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 10.56,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 21.44,
+          "fills": 4,
+          "cost_drag_cents": 10.56,
+          "adv_rate": 0.0,
+          "ending_gross": 32
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 20.08,
+      "sum_pnl_dollars": 0.2008,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 7.92,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 20.08,
+          "fills": 6,
+          "cost_drag_cents": 7.92,
+          "adv_rate": 0.0,
+          "ending_gross": 24
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 16.08,
+      "sum_pnl_dollars": 0.1608,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 7.92,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 16.08,
+          "fills": 4,
+          "cost_drag_cents": 7.92,
+          "adv_rate": 0.0,
+          "ending_gross": 24
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 10.72,
+      "sum_pnl_dollars": 0.1072,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 5.28,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 10.72,
+          "fills": 4,
+          "cost_drag_cents": 5.28,
+          "adv_rate": 0.0,
+          "ending_gross": 16
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 2,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 10.04,
+      "sum_pnl_dollars": 0.1004,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 3.96,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 10.04,
+          "fills": 6,
+          "cost_drag_cents": 3.96,
+          "adv_rate": 0.0,
+          "ending_gross": 12
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 2,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 5.36,
+      "sum_pnl_dollars": 0.0536,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 2.64,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 5.36,
+          "fills": 4,
+          "cost_drag_cents": 2.64,
+          "adv_rate": 0.0,
+          "ending_gross": 8
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 1,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 5.02,
+      "sum_pnl_dollars": 0.0502,
+      "sum_fills": 6,
+      "sum_cost_drag_cents": 1.98,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 5.02,
+          "fills": 6,
+          "cost_drag_cents": 1.98,
+          "adv_rate": 0.0,
+          "ending_gross": 6
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 1,
+      "mm_half_spread_cents": 1.5,
+      "sum_pnl_cents": 2.68,
+      "sum_pnl_dollars": 0.0268,
+      "sum_fills": 4,
+      "sum_cost_drag_cents": 1.32,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 2.68,
+          "fills": 4,
+          "cost_drag_cents": 1.32,
+          "adv_rate": 0.0,
+          "ending_gross": 4
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 1,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 2,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    }
+  ],
+  "top": [
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 1250.1,
+      "sum_pnl_dollars": 12.501,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 9.9,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1250.1,
+          "fills": 1,
+          "cost_drag_cents": 9.9,
+          "adv_rate": 0.0,
+          "ending_gross": 30
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 1.0,
+      "sum_pnl_cents": 1250.1,
+      "sum_pnl_dollars": 12.501,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 9.9,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1250.1,
+          "fills": 1,
+          "cost_drag_cents": 9.9,
+          "adv_rate": 0.0,
+          "ending_gross": 30
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 1000.08,
+      "sum_pnl_dollars": 10.0008,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 7.92,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 1000.08,
+          "fills": 1,
+          "cost_drag_cents": 7.92,
+          "adv_rate": 0.0,
+          "ending_gross": 24
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 833.4,
+      "sum_pnl_dollars": 8.334,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 6.6,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 833.4,
+          "fills": 1,
+          "cost_drag_cents": 6.6,
+          "adv_rate": 0.0,
+          "ending_gross": 20
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 666.72,
+      "sum_pnl_dollars": 6.6672,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 5.28,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 666.72,
+          "fills": 1,
+          "cost_drag_cents": 5.28,
+          "adv_rate": 0.0,
+          "ending_gross": 16
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 500.04,
+      "sum_pnl_dollars": 5.0004,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 3.96,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 500.04,
+          "fills": 1,
+          "cost_drag_cents": 3.96,
+          "adv_rate": 0.0,
+          "ending_gross": 12
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 416.7,
+      "sum_pnl_dollars": 4.167,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 3.3,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 416.7,
+          "fills": 1,
+          "cost_drag_cents": 3.3,
+          "adv_rate": 0.0,
+          "ending_gross": 10
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 333.36,
+      "sum_pnl_dollars": 3.3336,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 2.64,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 333.36,
+          "fills": 1,
+          "cost_drag_cents": 2.64,
+          "adv_rate": 0.0,
+          "ending_gross": 8
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 250.02,
+      "sum_pnl_dollars": 2.5002,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 1.98,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 250.02,
+          "fills": 1,
+          "cost_drag_cents": 1.98,
+          "adv_rate": 0.0,
+          "ending_gross": 6
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 0.5,
+      "sum_pnl_cents": 166.68,
+      "sum_pnl_dollars": 1.6668,
+      "sum_fills": 1,
+      "sum_cost_drag_cents": 1.32,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 166.68,
+          "fills": 1,
+          "cost_drag_cents": 1.32,
+          "adv_rate": 0.0,
+          "ending_gross": 4
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    }
+  ],
+  "worst": [
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 2.0,
+      "sum_pnl_cents": 0.0,
+      "sum_pnl_dollars": 0.0,
+      "sum_fills": 0,
+      "sum_cost_drag_cents": 0.0,
+      "sum_adv_rate": 0.0,
+      "min_market_pnl_cents": 0.0,
+      "all_markets_positive": false,
+      "per_market": {
+        "btc": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "eth": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        },
+        "sol": {
+          "pnl_cents": 0.0,
+          "fills": 0,
+          "cost_drag_cents": 0.0,
+          "adv_rate": 0.0,
+          "ending_gross": 0
+        }
+      }
+    }
+  ]
+}

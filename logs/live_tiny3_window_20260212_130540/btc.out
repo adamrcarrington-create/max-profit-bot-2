@@ -1,0 +1,320 @@
+2026-02-12 13:05:40,632 INFO market_roll old=NONE new=KXBTC15M-26FEB121315-15
+2026-02-12 13:05:41,526 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-12 13:05:42,508 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.013 threshold=0.050 price=17 ask=18
+2026-02-12 13:05:42,843 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_live_tiny3_btc.json payload={"as_of":"2026-02-12T18:05:42Z","ticker":"KXBTC15M-26FEB121315-15","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.825,"last_kalshi_implied_yes_probability":0.825,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.2508406186953598,"yes_depth":1114,"no_depth":1860,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.10249710083007812,"book_stale_seconds":0.10244393348693848},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchang
+2026-02-12 13:05:42,843 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.300 depth_ratio=1.86 mid_move=0.50
+2026-02-12 13:05:46,245 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.278 depth_ratio=1.77 mid_move=0.00
+2026-02-12 13:05:46,246 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.013 threshold=0.050 price=16 ask=17
+2026-02-12 13:05:47,595 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 13:05:48,917 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=no action=buy count=1 price=19 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-N-c63e0f2d68","created_time":"2026-02-12T18:05:48.907232Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:05:48.907232Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":19,"no_price_dollars":"0.1900","order_group_id":null,"order_id":"941bf615-60f3-4ccc-9e6e-68e47d5d68a1","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":81,"yes_price_dollars":"0.8100"}}
+2026-02-12 13:05:50,933 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.330 depth_ratio=1.99 mid_move=0.00
+2026-02-12 13:05:51,984 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.109 depth_ratio=1.24 mid_move=2.50
+2026-02-12 13:05:51,985 INFO mm_queue_hold ticker=KXBTC15M-26FEB121315-15 side=no prev=19 new=22 prev_value=0.093 new_value=0.033 improve=-0.060 min_improve=0.100
+2026-02-12 13:05:53,330 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.433 depth_ratio=2.53 mid_move=1.50
+2026-02-12 13:05:57,002 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.171 depth_ratio=1.41 mid_move=0.00
+2026-02-12 13:05:57,002 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=19 ask=21
+2026-02-12 13:05:58,348 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=19 ask=21
+2026-02-12 13:05:59,351 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=19 ask=21
+2026-02-12 13:06:01,027 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.327 depth_ratio=1.97 mid_move=0.00
+2026-02-12 13:06:02,705 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.025 depth_ratio=1.05 mid_move=0.00
+2026-02-12 13:06:02,706 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=19 ask=21
+2026-02-12 13:06:03,036 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.489 depth_ratio=2.91 mid_move=2.50
+2026-02-12 13:06:04,038 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.010 depth_ratio=1.02 mid_move=3.50
+2026-02-12 13:06:04,371 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=no action=buy count=1 price=15 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-N-dbcede1427","created_time":"2026-02-12T18:06:04.3619Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:04.3619Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":15,"no_price_dollars":"0.1500","order_group_id":null,"order_id":"989153ea-f812-49bf-aef8-a3a866af2a6a","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":85,"yes_price_dollars":"0.8500"}}
+2026-02-12 13:06:08,718 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.306 depth_ratio=1.88 mid_move=0.50
+2026-02-12 13:06:12,074 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.178 depth_ratio=1.43 mid_move=0.50
+2026-02-12 13:06:13,068 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=84 ask=86
+2026-02-12 13:06:14,747 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.330 depth_ratio=1.99 mid_move=0.50
+2026-02-12 13:06:16,078 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.225 depth_ratio=1.58 mid_move=0.50
+2026-02-12 13:06:16,078 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=84 ask=86
+2026-02-12 13:06:18,099 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=yes action=buy count=1 price=82 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-Y-23387c6d5c","created_time":"2026-02-12T18:06:18.091354Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:18.091354Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":18,"no_price_dollars":"0.1800","order_group_id":null,"order_id":"40f19976-0354-4dab-b9e2-d3858d6fc850","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":82,"yes_price_dollars":"0.8200"}}
+2026-02-12 13:06:19,148 INFO mm_queue_hold ticker=KXBTC15M-26FEB121315-15 side=yes prev=82 new=83 prev_value=0.053 new_value=0.033 improve=-0.020 min_improve=0.100
+2026-02-12 13:06:20,829 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.327 depth_ratio=1.97 mid_move=2.00
+2026-02-12 13:06:21,837 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.083 depth_ratio=1.18 mid_move=1.00
+2026-02-12 13:06:22,580 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=84 ask=85
+2026-02-12 13:06:25,253 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=83 ask=84
+2026-02-12 13:06:26,603 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.016 threshold=0.050 price=82 ask=83
+2026-02-12 13:06:28,546 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=79 ask=81
+2026-02-12 13:06:30,951 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.398 depth_ratio=2.32 mid_move=0.00
+2026-02-12 13:06:33,348 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.244 depth_ratio=1.65 mid_move=0.50
+2026-02-12 13:06:33,679 WARNING mm_buy_order_error ticker=KXBTC15M-26FEB121315-15 side=yes price=80 count=1 err=http_error status=400 method=POST path=/portfolio/orders body={"error":{"code":"invalid_order","message":"invalid order","details":"post only cross"}}
+2026-02-12 13:06:35,698 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=77 ask=79
+2026-02-12 13:06:36,972 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=80 ask=81
+2026-02-12 13:06:38,371 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=80 ask=81
+2026-02-12 13:06:40,714 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=80 ask=82
+2026-02-12 13:06:40,988 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.329 depth_ratio=1.98 mid_move=1.50
+2026-02-12 13:06:42,713 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.226 depth_ratio=1.58 mid_move=0.00
+2026-02-12 13:06:42,715 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=80 ask=82
+2026-02-12 13:06:44,112 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.363 depth_ratio=2.14 mid_move=0.00
+2026-02-12 13:06:46,036 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.140 depth_ratio=1.33 mid_move=0.00
+2026-02-12 13:06:46,662 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=yes action=buy count=1 price=80 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-Y-ee5fde4295","created_time":"2026-02-12T18:06:46.656265Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:46.656265Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":20,"no_price_dollars":"0.2000","order_group_id":null,"order_id":"26bd6307-6f3f-451f-8414-37f95fa65542","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":80,"yes_price_dollars":"0.8000"}}
+2026-02-12 13:06:51,403 INFO mm_cancel_order_already_gone ticker=KXBTC15M-26FEB121315-15 kind=buy side=yes order_id=26bd6307-6f3f-451f-8414-37f95fa65542
+2026-02-12 13:06:51,404 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.013 threshold=0.050 price=19 ask=20
+2026-02-12 13:06:52,690 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=18 ask=20
+2026-02-12 13:06:54,086 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.468 depth_ratio=2.76 mid_move=1.00
+2026-02-12 13:06:54,721 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.061 depth_ratio=1.13 mid_move=0.00
+2026-02-12 13:06:56,774 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=no action=buy count=1 price=17 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-N-6b609b0217","created_time":"2026-02-12T18:06:56.767188Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:06:56.767188Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":17,"no_price_dollars":"0.1700","order_group_id":null,"order_id":"60c76b45-a4b9-4518-95fc-bb3f07559215","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":83,"yes_price_dollars":"0.8300"}}
+2026-02-12 13:06:58,505 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=14 ask=16
+2026-02-12 13:06:59,844 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=85 ask=86
+2026-02-12 13:07:02,848 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.471 depth_ratio=2.78 mid_move=4.00
+2026-02-12 13:07:04,527 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.150 depth_ratio=1.35 mid_move=0.00
+2026-02-12 13:07:04,881 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=yes action=buy count=1 price=88 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-Y-02b4c2d2ac","created_time":"2026-02-12T18:07:04.870499Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:07:04.870499Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":12,"no_price_dollars":"0.1200","order_group_id":null,"order_id":"8d1a4d52-ae8a-478c-8fb8-3ac498a74456","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":88,"yes_price_dollars":"0.8800"}}
+2026-02-12 13:07:07,639 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.339 depth_ratio=2.03 mid_move=0.50
+2026-02-12 13:07:12,297 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.268 depth_ratio=1.73 mid_move=1.00
+2026-02-12 13:07:12,297 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=93 ask=94
+2026-02-12 13:07:12,940 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.716 depth_ratio=6.04 mid_move=0.50
+2026-02-12 13:07:17,322 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.140 depth_ratio=1.33 mid_move=0.00
+2026-02-12 13:07:17,323 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=92 ask=94
+2026-02-12 13:07:18,325 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=7 ask=9
+2026-02-12 13:07:19,718 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=no value=0.033 threshold=0.050 price=7 ask=9
+2026-02-12 13:07:20,388 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.297 depth_ratio=1.85 mid_move=0.50
+2026-02-12 13:07:22,877 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.263 depth_ratio=1.71 mid_move=1.00
+2026-02-12 13:07:23,337 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.497 depth_ratio=2.97 mid_move=0.00
+2026-02-12 13:07:25,373 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.206 depth_ratio=1.52 mid_move=1.00
+2026-02-12 13:07:27,082 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.397 depth_ratio=2.32 mid_move=0.00
+2026-02-12 13:07:30,366 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.256 depth_ratio=1.69 mid_move=0.50
+2026-02-12 13:07:30,367 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=92 ask=94
+2026-02-12 13:07:32,779 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=yes action=buy count=1 price=91 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-Y-5d8fa831cc","created_time":"2026-02-12T18:07:32.774918Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:07:32.774918Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":9,"no_price_dollars":"0.0900","order_group_id":null,"order_id":"8e293924-0924-4484-8160-b9e9fe5df8ba","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":91,"yes_price_dollars":"0.9100"}}
+2026-02-12 13:07:33,100 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.576 depth_ratio=3.72 mid_move=0.50
+2026-02-12 13:07:35,847 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.276 depth_ratio=1.76 mid_move=0.50
+2026-02-12 13:07:37,828 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.537 depth_ratio=3.32 mid_move=0.50
+2026-02-12 13:07:44,213 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.198 depth_ratio=1.49 mid_move=1.00
+2026-02-12 13:07:44,213 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.033 threshold=0.050 price=93 ask=95
+2026-02-12 13:07:44,894 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.409 depth_ratio=2.38 mid_move=0.50
+2026-02-12 13:07:50,326 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.195 depth_ratio=1.48 mid_move=0.00
+2026-02-12 13:07:50,654 INFO mm_quote ticker=KXBTC15M-26FEB121315-15 side=yes action=buy count=1 price=94 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121315-15-B-Y-729a091345","created_time":"2026-02-12T18:07:50.648119Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:07:50.648119Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":6,"no_price_dollars":"0.0600","order_group_id":null,"order_id":"bd6e7289-e21f-434f-bb58-7f221efe2207","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":94,"yes_price_dollars":"0.9400"}}
+2026-02-12 13:07:53,000 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.393 depth_ratio=2.30 mid_move=0.00
+2026-02-12 13:07:55,067 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=skew imbalance=0.722 depth_ratio=6.19 mid_move=1.50
+2026-02-12 13:07:56,729 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.355 depth_ratio=2.10 mid_move=0.50
+2026-02-12 13:07:57,420 INFO mm_tp_resting ticker=KXBTC15M-26FEB121315-15 side=yes action=sell count=1 price=95 post_only=1 reduce_only=1 order_response={"order":{"action":"sell","client_order_id":"MM-KXBTC15M-26FEB121315-15-S-Y-76788453da","created_time":"2026-02-12T18:07:57.413536Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:07:57.413536Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":5,"no_price_dollars":"0.0500","order_group_id":null,"order_id":"087ff836-860a-440d-86e1-b9170fc4746c","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":95,"yes_price_dollars":"0.9500"}}
+2026-02-12 13:08:06,936 INFO mm_tp_resting ticker=KXBTC15M-26FEB121315-15 side=yes action=sell count=1 price=95 post_only=1 reduce_only=1 order_response={"order":{"action":"sell","client_order_id":"MM-KXBTC15M-26FEB121315-15-S-Y-dc52bb3d04","created_time":"2026-02-12T18:08:06.930324Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:08:06.930324Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":5,"no_price_dollars":"0.0500","order_group_id":null,"order_id":"0e83986d-1f89-4879-84a3-fc291cff9065","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":95,"yes_price_dollars":"0.9500"}}
+2026-02-12 13:08:07,914 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.243 depth_ratio=1.64 mid_move=1.00
+2026-02-12 13:08:09,249 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.288 depth_ratio=1.81 mid_move=0.50
+2026-02-12 13:08:09,530 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=skew imbalance=0.736 depth_ratio=6.58 mid_move=0.50
+2026-02-12 13:08:10,589 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.607 depth_ratio=4.08 mid_move=2.00
+2026-02-12 13:08:18,689 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.051 depth_ratio=1.11 mid_move=0.00
+2026-02-12 13:08:24,714 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.310 depth_ratio=1.90 mid_move=1.00
+2026-02-12 13:08:26,136 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.248 depth_ratio=1.66 mid_move=0.00
+2026-02-12 13:08:27,134 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.417 depth_ratio=2.43 mid_move=0.00
+2026-02-12 13:08:28,787 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.087 depth_ratio=1.19 mid_move=0.00
+2026-02-12 13:08:30,121 INFO mm_queue_skip_low_value ticker=KXBTC15M-26FEB121315-15 side=yes value=0.013 threshold=0.050 price=94 ask=95
+2026-02-12 13:08:30,789 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.360 depth_ratio=2.13 mid_move=0.50
+2026-02-12 13:08:33,466 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.916 depth_ratio=22.74 mid_move=1.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:33,467 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=pause imbalance=0.916 depth_ratio=22.74 mid_move=1.50
+2026-02-12 13:08:35,587 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.935 depth_ratio=29.70 mid_move=1.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:36,753 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.937 depth_ratio=30.71 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:37,819 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.939 depth_ratio=31.80 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:39,491 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.939 depth_ratio=31.56 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:40,813 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.951 depth_ratio=40.16 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:42,165 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.952 depth_ratio=40.91 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:44,172 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.958 depth_ratio=46.15 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:45,498 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.911 depth_ratio=21.42 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:45,781 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.015 depth_ratio=1.03 mid_move=0.50
+2026-02-12 13:08:46,852 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.918 depth_ratio=23.34 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:46,852 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=pause imbalance=0.918 depth_ratio=23.34 mid_move=0.50
+2026-02-12 13:08:48,182 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.921 depth_ratio=24.27 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:49,862 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.943 depth_ratio=33.79 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:51,537 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.906 depth_ratio=20.18 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:52,873 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.906 depth_ratio=20.26 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:54,551 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.905 depth_ratio=20.06 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:55,829 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.916 depth_ratio=22.80 mid_move=0.50 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:57,901 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.929 depth_ratio=27.27 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:58,227 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.232 depth_ratio=1.61 mid_move=0.50
+2026-02-12 13:08:58,907 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.904 depth_ratio=19.85 mid_move=1.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:08:58,907 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=pause imbalance=0.904 depth_ratio=19.85 mid_move=1.00
+2026-02-12 13:09:00,304 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.926 depth_ratio=25.85 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:09:02,981 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.928 depth_ratio=26.91 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:09:03,640 INFO mm_tp_resting ticker=KXBTC15M-26FEB121315-15 side=yes action=sell count=1 price=95 post_only=1 reduce_only=1 order_response={"order":{"action":"sell","client_order_id":"MM-KXBTC15M-26FEB121315-15-S-Y-aaeba00593","created_time":"2026-02-12T18:09:03.635114Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:09:03.635114Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":5,"no_price_dollars":"0.0500","order_group_id":null,"order_id":"6d6a3531-5032-4010-8503-bdecad07f4bb","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":95,"yes_price_dollars":"0.9500"}}
+2026-02-12 13:09:04,704 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.898 depth_ratio=18.68 mid_move=0.50 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:09:05,648 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.100 depth_ratio=1.22 mid_move=0.50
+2026-02-12 13:09:07,714 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.901 depth_ratio=19.28 mid_move=0.00 spreads=2/2 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:09:07,715 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=pause imbalance=0.901 depth_ratio=19.28 mid_move=0.00
+2026-02-12 13:09:08,398 WARNING mm_tp_resting_error ticker=KXBTC15M-26FEB121315-15 side=yes price=95 count=1 err=http_error status=400 method=POST path=/portfolio/orders body={"error":{"code":"invalid_order","message":"invalid order","details":"post only cross"}}
+2026-02-12 13:09:09,048 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.640 depth_ratio=4.56 mid_move=0.50
+2026-02-12 13:09:09,409 INFO mm_tp_ioc ticker=KXBTC15M-26FEB121315-15 side=yes action=sell count=1 price=95 reduce_only=1 order_response={"order":{"action":"sell","client_order_id":"MM-KXBTC15M-26FEB121315-15-IOC-Y-6064c9743a","created_time":"2026-02-12T18:09:09.400407Z","expiration_time":null,"fill_count":1,"fill_count_fp":"1.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:09:09.400407Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":5,"no_price_dollars":"0.0500","order_group_id":null,"order_id":"875ca05b-bf25-4d6a-821a-6ec2d45e1e86","queue_position":0,"remaining_count":0,"remaining_count_fp":"0.00","side":"yes","status":"executed","subaccount_number":0,"taker_fees":1,"taker_fees_dollars":"0.0100","taker_fill_cost":5,"taker_fill_cost_dollars":"0.0500","ticker":"KXBTC15M-26FEB121315-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":9
+2026-02-12 13:09:09,409 INFO mm_toxic_hold ticker=KXBTC15M-26FEB121315-15 pause_left=1.67s
+2026-02-12 13:09:10,124 INFO mm_toxic_hold ticker=KXBTC15M-26FEB121315-15 pause_left=0.59s
+2026-02-12 13:09:12,400 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.084 depth_ratio=1.18 mid_move=0.50
+2026-02-12 13:09:15,150 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=skew imbalance=0.736 depth_ratio=6.57 mid_move=1.00
+2026-02-12 13:09:16,757 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.400 depth_ratio=2.33 mid_move=0.50
+2026-02-12 13:09:22,169 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.227 depth_ratio=1.59 mid_move=0.00
+2026-02-12 13:09:22,782 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.647 depth_ratio=4.67 mid_move=0.50
+2026-02-12 13:09:24,179 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=skew imbalance=0.755 depth_ratio=7.18 mid_move=0.00
+2026-02-12 13:09:25,512 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.451 depth_ratio=2.64 mid_move=0.50
+2026-02-12 13:09:31,543 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.189 depth_ratio=1.47 mid_move=0.00
+2026-02-12 13:09:31,818 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.461 depth_ratio=2.71 mid_move=0.00
+2026-02-12 13:09:32,879 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.211 depth_ratio=1.53 mid_move=0.00
+2026-02-12 13:09:34,832 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.717 depth_ratio=6.06 mid_move=0.00
+2026-02-12 13:09:48,008 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.192 depth_ratio=1.47 mid_move=0.00
+2026-02-12 13:09:51,411 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.297 depth_ratio=1.84 mid_move=0.00
+2026-02-12 13:09:56,096 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.062 depth_ratio=1.13 mid_move=0.00
+2026-02-12 13:09:57,151 WARNING mm_toxic_pause ticker=KXBTC15M-26FEB121315-15 pause=3.0s imbalance=0.909 depth_ratio=20.91 mid_move=0.00 spreads=1/1 triggers=move:0 imbalance:1 depth:1
+2026-02-12 13:09:57,151 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=pause imbalance=0.909 depth_ratio=20.91 mid_move=0.00
+2026-02-12 13:09:58,493 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.284 depth_ratio=1.79 mid_move=0.00
+2026-02-12 13:09:58,493 INFO mm_toxic_hold ticker=KXBTC15M-26FEB121315-15 pause_left=1.66s
+2026-02-12 13:10:05,135 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.482 depth_ratio=2.86 mid_move=0.50
+2026-02-12 13:10:08,211 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.007 depth_ratio=1.01 mid_move=0.00
+2026-02-12 13:10:08,536 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.467 depth_ratio=2.75 mid_move=1.50
+2026-02-12 13:10:10,605 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.162 depth_ratio=1.39 mid_move=0.00
+2026-02-12 13:10:11,221 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.327 depth_ratio=1.97 mid_move=0.50
+2026-02-12 13:10:13,290 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.219 depth_ratio=1.56 mid_move=0.00
+2026-02-12 13:10:14,296 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.603 depth_ratio=4.04 mid_move=1.00
+2026-02-12 13:10:20,792 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.242 depth_ratio=1.64 mid_move=0.00
+2026-02-12 13:10:23,334 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.551 depth_ratio=3.45 mid_move=0.50
+2026-02-12 13:10:24,335 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.061 depth_ratio=1.13 mid_move=0.50
+2026-02-12 13:10:26,400 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.288 depth_ratio=1.81 mid_move=0.00
+2026-02-12 13:10:27,456 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.274 depth_ratio=1.76 mid_move=0.00
+2026-02-12 13:10:28,798 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.638 depth_ratio=4.52 mid_move=0.50
+2026-02-12 13:10:30,822 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.275 depth_ratio=1.76 mid_move=0.00
+2026-02-12 13:10:32,475 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.604 depth_ratio=4.05 mid_move=0.00
+2026-02-12 13:10:40,486 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:41,463 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:42,524 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:43,852 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:44,470 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:45,475 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:47,532 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:10:52,574 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.138 depth_ratio=1.32 mid_move=0.00
+2026-02-12 13:10:56,561 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.315 depth_ratio=1.92 mid_move=1.00
+2026-02-12 13:10:59,640 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.279 depth_ratio=1.77 mid_move=0.00
+2026-02-12 13:11:02,044 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.345 depth_ratio=2.06 mid_move=1.00
+2026-02-12 13:11:05,046 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.052 depth_ratio=1.11 mid_move=0.50
+2026-02-12 13:11:12,856 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.647 depth_ratio=4.66 mid_move=1.00
+2026-02-12 13:11:14,544 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.006 depth_ratio=1.01 mid_move=0.50
+2026-02-12 13:11:20,914 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.300 depth_ratio=1.86 mid_move=0.00
+2026-02-12 13:11:21,874 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.166 depth_ratio=1.40 mid_move=0.00
+2026-02-12 13:11:25,298 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.449 depth_ratio=2.63 mid_move=0.00
+2026-02-12 13:11:26,905 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.218 depth_ratio=1.56 mid_move=0.50
+2026-02-12 13:11:30,328 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.498 depth_ratio=2.99 mid_move=0.00
+2026-02-12 13:11:33,404 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:34,414 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:36,105 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=normal imbalance=0.249 depth_ratio=1.66 mid_move=0.00
+2026-02-12 13:11:37,443 INFO mm_toxic_regime ticker=KXBTC15M-26FEB121315-15 regime=widen imbalance=0.298 depth_ratio=1.85 mid_move=0.00
+2026-02-12 13:11:38,419 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:39,447 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:41,860 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:42,416 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:43,426 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:44,829 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:46,450 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:47,479 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:48,462 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:49,885 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:50,508 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:51,483 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:52,493 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=97/99 no=1/3
+2026-02-12 13:11:53,897 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:54,561 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:55,504 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:56,542 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:57,513 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:58,601 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:11:59,927 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:00,543 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:01,549 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:02,939 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:03,551 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:04,555 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:06,495 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:06,573 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:07,643 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:08,611 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:09,593 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:10,599 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:12,339 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:12,691 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:14,737 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:15,721 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:24,854 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:28,877 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:30,282 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:30,897 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:31,907 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:33,301 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:33,984 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:34,929 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:35,966 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:36,943 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:38,340 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:38,981 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:39,956 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:40,966 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:42,366 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:43,024 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:43,978 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:45,012 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:45,996 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:47,061 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:48,398 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:49,020 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:50,030 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:51,433 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:52,040 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:53,097 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:54,086 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:55,126 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:56,066 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:57,106 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:58,132 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:12:59,145 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:00,125 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:01,111 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:02,117 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:03,855 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:04,137 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:05,146 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:06,174 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:07,158 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:08,552 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:09,204 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:10,184 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:11,191 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:12,596 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:13,247 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:14,207 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:15,242 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:16,297 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:17,236 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:18,635 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:19,256 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:20,321 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:21,296 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:22,276 INFO mm_skip_pinned ticker=KXBTC15M-26FEB121315-15 yes=98/99 no=1/2
+2026-02-12 13:13:45,479 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:13:48,192 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:13:50,994 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:13:53,780 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:13:56,300 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:13:59,002 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:01,806 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:04,235 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:07,022 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:09,460 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:12,272 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:14,992 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:17,762 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:19,824 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:23,292 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:26,352 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:29,571 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:32,700 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:35,799 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:38,919 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:42,065 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:45,147 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:48,303 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:51,377 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:54,509 WARNING force_flatten ticker=KXBTC15M-26FEB121315-15
+2026-02-12 13:14:57,258 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-12 13:15:03,697 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-12 13:15:09,794 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-12 13:15:15,877 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-12 13:15:21,977 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-12 13:15:28,096 INFO market_roll old=NONE new=KXBTC15M-26FEB121330-30
+2026-02-12 13:15:30,154 INFO mm_quote ticker=KXBTC15M-26FEB121330-30 side=yes action=buy count=1 price=47 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121330-30-B-Y-a891518a8b","created_time":"2026-02-12T18:15:30.146483Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:15:30.146483Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":53,"no_price_dollars":"0.5300","order_group_id":null,"order_id":"693e732b-87c6-4834-ae82-06fadffe8a79","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":47,"yes_price_dollars":"0.4700"}}
+2026-02-12 13:15:35,556 INFO mm_queue_hold ticker=KXBTC15M-26FEB121330-30 side=yes prev=47 new=48 prev_value=0.073 new_value=0.053 improve=-0.020 min_improve=0.100
+2026-02-12 13:15:36,622 INFO mm_queue_hold ticker=KXBTC15M-26FEB121330-30 side=yes prev=47 new=49 prev_value=0.073 new_value=0.033 improve=-0.040 min_improve=0.100
+2026-02-12 13:15:38,977 INFO mm_quote ticker=KXBTC15M-26FEB121330-30 side=no action=buy count=1 price=45 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXBTC15M-26FEB121330-30-B-N-0619f38d7a","created_time":"2026-02-12T18:15:38.969543Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-12T18:15:38.969543Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":45,"no_price_dollars":"0.4500","order_group_id":null,"order_id":"2ad68595-99b4-4944-8c09-cb586670175c","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB121330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":55,"yes_price_dollars":"0.5500"}}
+2026-02-12 13:15:40,102 INFO mm_queue_hold ticker=KXBTC15M-26FEB121330-30 side=no prev=45 new=46 prev_value=0.053 new_value=0.033 improve=-0.020 min_improve=0.100
+2026-02-12 13:15:41,109 INFO runtime limit reached; exiting.
+2026-02-12 13:15:41,917 WARNING cancel_all_orders result={"canceled":1,"errors":["http_error status=404 method=DELETE path=/portfolio/orders/d950512f-9dec-4006-8e75-6b21796f8e04 body={\"error\":{\"code\":\"not_found\",\"message\":\"not found\",\"service\":\"exchange\"}}"]}

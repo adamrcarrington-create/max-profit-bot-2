@@ -1,0 +1,798 @@
+{
+  "grid_files": [
+    "logs/backtest_mm3x15_20260212_115015_grid_v3.json",
+    "logs/backtest_mm3x15_20260212_135829_grid_v3.json",
+    "logs/backtest_mm3x15_20260212_141145_grid_v3.json"
+  ],
+  "filters": {
+    "min_window_pnl_cents": 1.0,
+    "min_informative_windows": 2,
+    "min_window_fills_informative": 20,
+    "min_market_pnl_cents": -150.0,
+    "min_total_fills": 120,
+    "min_btc_fills": 20,
+    "min_eth_fills": 20,
+    "max_btc_adverse_rate": 0.35,
+    "btc_min_fills_for_adv": 5
+  },
+  "combos_tested": 44,
+  "robust_count": 7,
+  "best_robust": {
+    "order_count": 12,
+    "mm_half_spread_cents": 1.5,
+    "total_pnl_cents": 1083.38,
+    "total_pnl_dollars": 10.8338,
+    "informative_windows": 2,
+    "min_window_pnl_cents": 400.8,
+    "min_market_pnl_cents": -139.32,
+    "total_fills": 193,
+    "btc_fills": 29,
+    "eth_fills": 117,
+    "max_btc_adv_rate": 0.1786,
+    "btc_adv_rate_qualified_windows": 1,
+    "windows": [
+      {
+        "sum_pnl_cents": 682.58,
+        "sum_fills": 173,
+        "informative": true,
+        "min_market_pnl_cents": 180.26,
+        "eth_fills": 115,
+        "btc_fills": 28,
+        "btc_adv_rate": 0.1786
+      },
+      {
+        "sum_pnl_cents": 400.8,
+        "sum_fills": 20,
+        "informative": true,
+        "min_market_pnl_cents": -139.32,
+        "eth_fills": 2,
+        "btc_fills": 1,
+        "btc_adv_rate": 1.0
+      },
+      {
+        "sum_pnl_cents": 32.16,
+        "sum_fills": 4,
+        "informative": false,
+        "min_market_pnl_cents": 0.0,
+        "eth_fills": 4,
+        "btc_fills": 0,
+        "btc_adv_rate": 0.0
+      }
+    ]
+  },
+  "top_robust": [
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1083.38,
+      "total_pnl_dollars": 10.8338,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 400.8,
+      "min_market_pnl_cents": -139.32,
+      "total_fills": 193,
+      "btc_fills": 29,
+      "eth_fills": 117,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 682.58,
+          "sum_fills": 173,
+          "informative": true,
+          "min_market_pnl_cents": 180.26,
+          "eth_fills": 115,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 400.8,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -139.32,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 32.16,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1068.0,
+      "total_pnl_dollars": 10.68,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 334.0,
+      "min_market_pnl_cents": -116.1,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 734.0,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 187.6,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 334.0,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -116.1,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 26.8,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 8,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 854.4,
+      "total_pnl_dollars": 8.544,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 267.2,
+      "min_market_pnl_cents": -92.88,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 587.2,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 150.08,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 267.2,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -92.88,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 21.44,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 6,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 640.8,
+      "total_pnl_dollars": 6.408,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 200.4,
+      "min_market_pnl_cents": -69.66,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 440.4,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 112.56,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 200.4,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -69.66,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 16.08,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 4,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 427.2,
+      "total_pnl_dollars": 4.272,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 133.6,
+      "min_market_pnl_cents": -46.44,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 293.6,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 75.04,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 133.6,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -46.44,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 10.72,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 2,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 213.6,
+      "total_pnl_dollars": 2.136,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 66.8,
+      "min_market_pnl_cents": -23.22,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 146.8,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 37.52,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 66.8,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -23.22,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 5.36,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 1,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 106.8,
+      "total_pnl_dollars": 1.068,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 33.4,
+      "min_market_pnl_cents": -11.61,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 73.4,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 18.76,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 33.4,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -11.61,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 2.68,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    }
+  ],
+  "top_all": [
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 2580.38,
+      "total_pnl_dollars": 25.8038,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 801.6,
+      "min_market_pnl_cents": -278.64,
+      "total_fills": 251,
+      "btc_fills": 46,
+      "eth_fills": 117,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1778.78,
+          "sum_fills": 231,
+          "informative": true,
+          "min_market_pnl_cents": 420.66,
+          "eth_fills": 115,
+          "btc_fills": 45,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 801.6,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -278.64,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 64.32,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1818.26,
+      "total_pnl_dollars": 18.1826,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 668.0,
+      "min_market_pnl_cents": -232.2,
+      "total_fills": 199,
+      "btc_fills": 29,
+      "eth_fills": 123,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1150.26,
+          "sum_fills": 179,
+          "informative": true,
+          "min_market_pnl_cents": 313.06,
+          "eth_fills": 121,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 668.0,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -232.2,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 53.6,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 30,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1771.18,
+      "total_pnl_dollars": 17.7118,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 769.18,
+      "min_market_pnl_cents": -348.3,
+      "total_fills": 344,
+      "btc_fills": 109,
+      "eth_fills": 110,
+      "max_btc_adv_rate": 0.1852,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 769.18,
+          "sum_fills": 324,
+          "informative": true,
+          "min_market_pnl_cents": 33.06,
+          "eth_fills": 108,
+          "btc_fills": 108,
+          "btc_adv_rate": 0.1852
+        },
+        {
+          "sum_pnl_cents": 1002.0,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -348.3,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 80.4,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 20,
+      "mm_half_spread_cents": 1.0,
+      "total_pnl_cents": 1479.18,
+      "total_pnl_dollars": 14.7918,
+      "informative_windows": 1,
+      "min_window_pnl_cents": 1479.18,
+      "min_market_pnl_cents": 333.06,
+      "total_fills": 264,
+      "btc_fills": 99,
+      "eth_fills": 121,
+      "max_btc_adv_rate": 0.2632,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1479.18,
+          "sum_fills": 264,
+          "informative": true,
+          "min_market_pnl_cents": 333.06,
+          "eth_fills": 121,
+          "btc_fills": 99,
+          "btc_adv_rate": 0.2632
+        },
+        {
+          "sum_pnl_cents": 194.4,
+          "sum_fills": 16,
+          "informative": false,
+          "min_market_pnl_cents": -685.8,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 100.4,
+          "sum_fills": 6,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 6,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1409.22,
+      "total_pnl_dollars": 14.0922,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 534.4,
+      "min_market_pnl_cents": -185.76,
+      "total_fills": 209,
+      "btc_fills": 29,
+      "eth_fills": 133,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 874.82,
+          "sum_fills": 189,
+          "informative": true,
+          "min_market_pnl_cents": 205.06,
+          "eth_fills": 131,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 534.4,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -185.76,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 42.88,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 16,
+      "mm_half_spread_cents": 1.0,
+      "total_pnl_cents": 1270.18,
+      "total_pnl_dollars": 12.7018,
+      "informative_windows": 1,
+      "min_window_pnl_cents": 1270.18,
+      "min_market_pnl_cents": 253.06,
+      "total_fills": 202,
+      "btc_fills": 38,
+      "eth_fills": 131,
+      "max_btc_adv_rate": 0.2632,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1270.18,
+          "sum_fills": 202,
+          "informative": true,
+          "min_market_pnl_cents": 253.06,
+          "eth_fills": 131,
+          "btc_fills": 38,
+          "btc_adv_rate": 0.2632
+        },
+        {
+          "sum_pnl_cents": 155.52,
+          "sum_fills": 16,
+          "informative": false,
+          "min_market_pnl_cents": -548.64,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 80.32,
+          "sum_fills": 6,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 6,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 2.0,
+      "total_pnl_cents": 1231.54,
+      "total_pnl_dollars": 12.3154,
+      "informative_windows": 1,
+      "min_window_pnl_cents": 1231.54,
+      "min_market_pnl_cents": -63.36,
+      "total_fills": 146,
+      "btc_fills": 8,
+      "eth_fills": 115,
+      "max_btc_adv_rate": 0.375,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1231.54,
+          "sum_fills": 146,
+          "informative": true,
+          "min_market_pnl_cents": -63.36,
+          "eth_fills": 115,
+          "btc_fills": 8,
+          "btc_adv_rate": 0.375
+        },
+        {
+          "sum_pnl_cents": 1801.2,
+          "sum_fills": 15,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 0,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 0.0,
+          "sum_fills": 0,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 0,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 24,
+      "mm_half_spread_cents": 1.0,
+      "total_pnl_cents": 1114.78,
+      "total_pnl_dollars": 11.1478,
+      "informative_windows": 1,
+      "min_window_pnl_cents": 1114.78,
+      "min_market_pnl_cents": 117.06,
+      "total_fills": 340,
+      "btc_fills": 115,
+      "eth_fills": 115,
+      "max_btc_adv_rate": 0.2647,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 1114.78,
+          "sum_fills": 340,
+          "informative": true,
+          "min_market_pnl_cents": 117.06,
+          "eth_fills": 115,
+          "btc_fills": 115,
+          "btc_adv_rate": 0.2647
+        },
+        {
+          "sum_pnl_cents": 233.28,
+          "sum_fills": 16,
+          "informative": false,
+          "min_market_pnl_cents": -822.96,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 120.48,
+          "sum_fills": 6,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 6,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 12,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1083.38,
+      "total_pnl_dollars": 10.8338,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 400.8,
+      "min_market_pnl_cents": -139.32,
+      "total_fills": 193,
+      "btc_fills": 29,
+      "eth_fills": 117,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 682.58,
+          "sum_fills": 173,
+          "informative": true,
+          "min_market_pnl_cents": 180.26,
+          "eth_fills": 115,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 400.8,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -139.32,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 32.16,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_count": 10,
+      "mm_half_spread_cents": 1.5,
+      "total_pnl_cents": 1068.0,
+      "total_pnl_dollars": 10.68,
+      "informative_windows": 2,
+      "min_window_pnl_cents": 334.0,
+      "min_market_pnl_cents": -116.1,
+      "total_fills": 140,
+      "btc_fills": 29,
+      "eth_fills": 64,
+      "max_btc_adv_rate": 0.1786,
+      "btc_adv_rate_qualified_windows": 1,
+      "windows": [
+        {
+          "sum_pnl_cents": 734.0,
+          "sum_fills": 120,
+          "informative": true,
+          "min_market_pnl_cents": 187.6,
+          "eth_fills": 62,
+          "btc_fills": 28,
+          "btc_adv_rate": 0.1786
+        },
+        {
+          "sum_pnl_cents": 334.0,
+          "sum_fills": 20,
+          "informative": true,
+          "min_market_pnl_cents": -116.1,
+          "eth_fills": 2,
+          "btc_fills": 1,
+          "btc_adv_rate": 1.0
+        },
+        {
+          "sum_pnl_cents": 26.8,
+          "sum_fills": 4,
+          "informative": false,
+          "min_market_pnl_cents": 0.0,
+          "eth_fills": 4,
+          "btc_fills": 0,
+          "btc_adv_rate": 0.0
+        }
+      ]
+    }
+  ]
+}

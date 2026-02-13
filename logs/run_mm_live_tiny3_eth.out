@@ -1,0 +1,3 @@
+2026-02-12 12:59:23,971 INFO market_roll old=NONE new=KXETH15M-26FEB121300-00
+2026-02-12 12:59:25,000 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-12 12:59:25,329 WARNING force_flatten ticker=KXETH15M-26FEB121300-00

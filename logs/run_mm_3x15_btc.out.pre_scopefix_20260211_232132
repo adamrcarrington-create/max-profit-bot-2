@@ -1,0 +1,5 @@
+2026-02-11 23:20:25,735 INFO market_roll old=NONE new=KXBTC15M-26FEB112330-30
+2026-02-11 23:20:26,654 INFO position_baseline_set scope=account gross=139 net=139
+2026-02-11 23:20:27,320 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 23:20:27,320 CRITICAL kill_switch_triggered reason=max_gross_position_exceeded gross=139 limit=48 raw_gross=139
+2026-02-11 23:20:27,663 WARNING cancel_all_orders result={"canceled":0,"errors":[]}

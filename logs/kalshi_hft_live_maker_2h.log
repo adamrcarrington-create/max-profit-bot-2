@@ -1,0 +1,612 @@
+2026-02-11 17:02:12,253 INFO market_roll old=NONE new=KXBTC15M-26FEB111715-15
+2026-02-11 17:02:12,476 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-11 17:02:12,962 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T22:02:12Z","ticker":"KXBTC15M-26FEB111715-15","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.482677,"last_kalshi_implied_yes_probability":0.495,"edge_threshold":0.1,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":3,"spread_no":3,"imbalance":0.9405766911522859,"yes_depth":17700,"no_depth":542,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.04326510429382324,"book_stale_seconds":0.04320693016052246},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67769.0275,"perp_price":null,"coinbase_price":67762.2
+2026-02-11 17:02:43,948 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=52 edge=0.1135 real_yes=0.6285 implied_yes=0.5150 ev_cents=10.472 order_response={"order":{"action":"buy","client_order_id":"52184970cdca4b36b8cd0ca37ea143aa","created_time":"2026-02-11T22:02:43.976963Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:02:43.976963Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":48,"no_price_dollars":"0.4800","order_group_id":null,"order_id":"101600b2-966f-45c6-a3d5-ddab71768509","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":52,"yes_price_dollars":"0.5200"}}
+2026-02-11 17:02:46,178 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=52 edge=0.1079 real_yes=0.6229 implied_yes=0.5150 ev_cents=9.907 order_response={"order":{"action":"buy","client_order_id":"d48f12b13168443193ff6708782c11bb","created_time":"2026-02-11T22:02:46.137862Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:02:46.137862Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":48,"no_price_dollars":"0.4800","order_group_id":null,"order_id":"4821c116-4428-45ab-ab3a-dd4b309b48e9","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":52,"yes_price_dollars":"0.5200"}}
+2026-02-11 17:03:12,681 INFO runtime limit reached; exiting.
+2026-02-11 17:03:12,860 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 17:07:11,138 INFO market_roll old=NONE new=KXBTC15M-26FEB111715-15
+2026-02-11 17:07:11,401 INFO position_baseline_set scope=delta_from_start gross=141 net=141
+2026-02-11 17:07:11,915 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T22:07:11Z","ticker":"KXBTC15M-26FEB111715-15","series_ticker":"KXBTC15M","window_minutes":15,"wins":2,"losses":0,"fill_count":2,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":2,"adverse_selection_rate":0.0,"last_real_yes_probability":0.503059,"last_kalshi_implied_yes_probability":0.515,"edge_threshold":0.1,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":3,"spread_no":3,"imbalance":-0.5373699148533586,"yes_depth":978,"no_depth":3250,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.001569986343383789,"book_stale_seconds":0.0015277862548828125},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67780.8775,"perp_price":null,"coinbase_price":6777
+2026-02-11 17:08:47,224 INFO market_roll old=NONE new=KXBTC15M-26FEB111715-15
+2026-02-11 17:08:47,416 INFO position_baseline_set scope=delta_from_start gross=141 net=141
+2026-02-11 17:08:47,827 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T22:08:47Z","ticker":"KXBTC15M-26FEB111715-15","series_ticker":"KXBTC15M","window_minutes":15,"wins":2,"losses":0,"fill_count":2,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":2,"adverse_selection_rate":0.0,"last_real_yes_probability":0.542354,"last_kalshi_implied_yes_probability":0.575,"edge_threshold":0.1,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":3,"spread_no":3,"imbalance":0.16775133559980573,"yes_depth":6011,"no_depth":4284,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.0027010440826416016,"book_stale_seconds":0.002611875534057617},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67803.8275,"perp_price":null,"coinbase_price":678
+2026-02-11 17:09:02,762 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=no mode=mm count=1 price=38 edge=-0.1069 real_yes=0.5081 implied_yes=0.6150 ev_cents=10.808 order_response={"order":{"action":"buy","client_order_id":"3f900f5182e040a893cfc8df5e374126","created_time":"2026-02-11T22:09:02.792623Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:09:02.792623Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":38,"no_price_dollars":"0.3800","order_group_id":null,"order_id":"a96d8ba9-273c-4b00-8b6f-c5a2a094c067","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":62,"yes_price_dollars":"0.6200"}}
+2026-02-11 17:09:03,843 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=no mode=mm count=1 price=38 edge=-0.1069 real_yes=0.5081 implied_yes=0.6150 ev_cents=10.808 order_response={"order":{"action":"buy","client_order_id":"6cffb0178aaf4e11811849750110ca97","created_time":"2026-02-11T22:09:03.871629Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:09:03.871629Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":38,"no_price_dollars":"0.3800","order_group_id":null,"order_id":"d70d19e8-fdfa-4266-a9be-15975a55e684","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":62,"yes_price_dollars":"0.6200"}}
+2026-02-11 17:10:24,068 WARNING order_error ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm tif=good_till_canceled post_only=True err=http_error status=400 method=POST path=/portfolio/orders body={"error":{"code":"invalid_order","message":"invalid order","details":"post only cross"}}
+2026-02-11 17:10:24,968 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=18 edge=0.1633 real_yes=0.3433 implied_yes=0.1800 ev_cents=15.946 order_response={"order":{"action":"buy","client_order_id":"4b53291c678d4e2582452fcc60570cf2","created_time":"2026-02-11T22:10:24.980339Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:10:24.980339Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":82,"no_price_dollars":"0.8200","order_group_id":null,"order_id":"c8b179e6-e676-4887-921f-c73965b44a44","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":18,"yes_price_dollars":"0.1800"}}
+2026-02-11 17:10:25,978 WARNING order_error ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm tif=good_till_canceled post_only=True err=http_error status=400 method=POST path=/portfolio/orders body={"error":{"code":"invalid_order","message":"invalid order","details":"post only cross"}}
+2026-02-11 17:10:27,298 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=16 edge=0.2076 real_yes=0.3726 implied_yes=0.1650 ev_cents=20.881 order_response={"order":{"action":"buy","client_order_id":"89b9b05cb49e46158f03a752ba9e3347","created_time":"2026-02-11T22:10:27.32501Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:10:27.32501Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":84,"no_price_dollars":"0.8400","order_group_id":null,"order_id":"5906d2f5-61e8-4f57-8791-eb90b24d42a5","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":16,"yes_price_dollars":"0.1600"}}
+2026-02-11 17:11:25,165 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=14 edge=0.1575 real_yes=0.2975 implied_yes=0.1400 ev_cents=15.372 order_response={"order":{"action":"buy","client_order_id":"edb7f78b2114480880030cefc3643f2e","created_time":"2026-02-11T22:11:25.194145Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:11:25.194145Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":86,"no_price_dollars":"0.8600","order_group_id":null,"order_id":"b43e29e9-4dbc-4275-8524-c6752c0d69e4","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":14,"yes_price_dollars":"0.1400"}}
+2026-02-11 17:11:28,192 INFO trade_signal ticker=KXBTC15M-26FEB111715-15 side=yes mode=mm count=1 price=11 edge=0.2367 real_yes=0.3517 implied_yes=0.1150 ev_cents=23.791 order_response={"order":{"action":"buy","client_order_id":"4fd92375b94147c895f0101d8f907c2a","created_time":"2026-02-11T22:11:28.221649Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:11:28.221649Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":89,"no_price_dollars":"0.8900","order_group_id":null,"order_id":"39d63461-d8f4-49af-8324-155a4aa4985d","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111715-15","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":11,"yes_price_dollars":"0.1100"}}
+2026-02-11 17:13:30,575 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:31,865 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:33,245 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:34,582 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:35,927 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:37,232 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:38,559 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:39,842 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:41,190 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:42,513 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:43,848 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:45,112 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:46,547 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:47,825 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:49,117 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:50,430 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:51,784 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:53,064 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:54,393 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:55,691 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:57,127 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:58,440 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:13:59,762 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:01,087 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:02,513 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:03,859 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:05,147 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:06,499 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:07,826 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:09,187 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:10,584 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:11,881 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:13,246 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:14,609 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:15,885 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:17,175 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:18,584 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:19,869 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:21,169 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:22,496 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:23,914 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:25,214 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:26,530 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:27,818 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:29,163 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:30,523 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:31,838 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:33,208 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:34,585 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:35,900 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:37,214 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:38,546 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:39,898 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:41,180 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:42,522 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:43,803 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:45,243 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:46,609 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:47,910 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:49,227 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:50,679 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:51,950 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:53,244 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:54,607 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:56,051 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:57,367 WARNING force_flatten ticker=KXBTC15M-26FEB111715-15
+2026-02-11 17:14:58,625 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:15:05,266 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:15:11,363 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:15:14,440 INFO market_roll old=NONE new=KXBTC15M-26FEB111730-30
+2026-02-11 17:15:14,647 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.145 ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:15:15,946 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:16,884 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:17,915 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:18,902 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:19,947 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:20,940 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:21,929 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:22,909 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:23,992 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:24,981 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:25,940 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:26,962 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:27,941 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:28,965 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:30,167 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:30,975 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:32,043 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:33,019 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:33,985 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:34,995 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:15:41,090 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:02,177 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:03,310 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:04,178 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:05,263 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:06,525 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:07,209 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:08,324 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:11,324 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:12,531 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:13,323 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:14,273 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:15,409 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:16,335 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:17,299 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:18,636 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:19,325 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:20,310 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:16:33,511 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:42,851 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:45,548 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:47,540 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:48,586 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:49,505 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:16:50,502 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:17:17,662 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:19,741 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:22,679 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:25,711 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:26,696 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:27,783 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:28,751 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:38,914 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:39,825 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:40,807 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:41,834 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:42,857 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:43,951 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:17:44,819 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:18:59,273 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:00,362 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:01,345 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:02,275 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:03,436 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:06,390 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:07,358 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:08,325 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:19:29,594 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=59 edge=0.1030 real_yes=0.6930 implied_yes=0.5900 ev_cents=9.924 order_response={"order":{"action":"buy","client_order_id":"a0f462b85c31410182cad90d5bc8fa33","created_time":"2026-02-11T22:19:29.615869Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:19:29.615869Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":41,"no_price_dollars":"0.4100","order_group_id":null,"order_id":"45df44e7-3fdd-4eef-80bd-aeee0bfa4b42","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":59,"yes_price_dollars":"0.5900"}}
+2026-02-11 17:19:30,680 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=57 edge=0.1338 real_yes=0.7088 implied_yes=0.5750 ev_cents=13.504 order_response={"order":{"action":"buy","client_order_id":"09b0ba2af2b440b8860c88f0fc69b4eb","created_time":"2026-02-11T22:19:30.709519Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:19:30.709519Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":43,"no_price_dollars":"0.4300","order_group_id":null,"order_id":"757a1f57-4e89-48c2-ae8b-d9bc1518f939","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":57,"yes_price_dollars":"0.5700"}}
+2026-02-11 17:20:37,019 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=no mode=mm count=1 price=68 edge=-0.1146 real_yes=0.2104 implied_yes=0.3250 ev_cents=10.578 order_response={"order":{"action":"buy","client_order_id":"19f321a9ba1e41028c69f021415d0291","created_time":"2026-02-11T22:20:37.050791Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:20:37.050791Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":68,"no_price_dollars":"0.6800","order_group_id":null,"order_id":"195f710d-5dea-47c5-8a99-f81ac28700c0","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":32,"yes_price_dollars":"0.3200"}}
+2026-02-11 17:20:37,958 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=no mode=mm count=1 price=66 edge=-0.1315 real_yes=0.2035 implied_yes=0.3350 ev_cents=13.268 order_response={"order":{"action":"buy","client_order_id":"fb2a6055c989450797db2a9a7ae6c2bb","created_time":"2026-02-11T22:20:37.987508Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:20:37.987508Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":66,"no_price_dollars":"0.6600","order_group_id":null,"order_id":"17aa65ba-9504-47d4-8a3a-0e49b62c3dcd","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":34,"yes_price_dollars":"0.3400"}}
+2026-02-11 17:21:47,518 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=31 edge=0.1205 real_yes=0.4355 implied_yes=0.3150 ev_cents=12.167 order_response={"order":{"action":"buy","client_order_id":"0b3947f4a867435d89c49e5fe3e27ec8","created_time":"2026-02-11T22:21:47.550564Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:21:47.550564Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"920124a0-e45a-4257-ab2b-eb136a371d51","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":31,"yes_price_dollars":"0.3100"}}
+2026-02-11 17:21:48,494 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=31 edge=0.1415 real_yes=0.4515 implied_yes=0.3100 ev_cents=13.775 order_response={"order":{"action":"buy","client_order_id":"b85d007ad824432b9b7f8f277a3fa99f","created_time":"2026-02-11T22:21:48.523354Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:21:48.523354Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"b70e782b-7f22-4369-960d-9fd5b21c7ce2","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":31,"yes_price_dollars":"0.3100"}}
+2026-02-11 17:22:47,861 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=31 edge=0.1447 real_yes=0.4547 implied_yes=0.3100 ev_cents=14.095 order_response={"order":{"action":"buy","client_order_id":"18d014b58ee54500a004ab18c3f8b8ae","created_time":"2026-02-11T22:22:47.889239Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:22:47.889239Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"4cfc6e46-bfc0-4e3b-ad0c-761b87ab2289","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":31,"yes_price_dollars":"0.3100"}}
+2026-02-11 17:22:48,850 WARNING order_error ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm tif=good_till_canceled post_only=True err=http_error status=400 method=POST path=/portfolio/orders body={"error":{"code":"invalid_order","message":"invalid order","details":"post only cross"}}
+2026-02-11 17:22:49,781 INFO trade_signal ticker=KXBTC15M-26FEB111730-30 side=yes mode=mm count=1 price=31 edge=0.1189 real_yes=0.4289 implied_yes=0.3100 ev_cents=11.511 order_response={"order":{"action":"buy","client_order_id":"979aba39309c49e0b149aaaa61a493fb","created_time":"2026-02-11T22:22:49.809703Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:22:49.809703Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":69,"no_price_dollars":"0.6900","order_group_id":null,"order_id":"32f8362b-811c-4af9-b1de-3d523e93ee40","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111730-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":31,"yes_price_dollars":"0.3100"}}
+2026-02-11 17:23:48,232 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T22:23:48Z","ticker":"KXBTC15M-26FEB111730-30","series_ticker":"KXBTC15M","window_minutes":15,"wins":2,"losses":6,"fill_count":8,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":7,"adverse_selection_rate":0.0,"last_real_yes_probability":0.258717,"last_kalshi_implied_yes_probability":0.205,"edge_threshold":0.1,"order_attempts":17,"order_failures":3,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.11223750905141203,"yes_depth":3065,"no_depth":3840,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.01181483268737793,"book_stale_seconds":0.011727094650268555},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67509.85250000001,"perp_price":null,"coinbase_pri
+2026-02-11 17:23:55,074 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:03,244 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:04,162 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:05,158 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:06,275 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:07,259 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:08,240 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:09,373 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:12,368 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:18,407 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:19,294 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:20,228 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:21,355 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:22,247 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:24,396 WARNING flash_spike_guard_active pause_remaining=5.00s reason=cross_exchange_divergence diff_pct=0.001430 threshold=0.001000 source=median_coinbase_kraken diff_pct=0.001430
+2026-02-11 17:24:29,735 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:30,555 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:31,649 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:32,579 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:33,593 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:34,667 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:35,672 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:36,577 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:37,740 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:38,624 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:39,600 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:40,692 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:41,756 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:42,622 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:43,719 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:44,642 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:45,640 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:46,858 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:47,762 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:48,710 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:49,746 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:50,714 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:51,745 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:52,772 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:53,727 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:24:54,682 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:00,750 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:01,800 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:02,765 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:03,834 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:04,847 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:05,799 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:06,825 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:07,853 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:08,825 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:09,832 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:18,831 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:24,888 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:25,996 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:26,931 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:27,909 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:28,976 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:30,005 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:30,916 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:31,896 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:32,923 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:33,901 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:34,991 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:36,048 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:36,984 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:38,013 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:38,960 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:39,946 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:40,997 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:42,012 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:42,979 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:43,974 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:45,067 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:46,147 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:46,985 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:48,059 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:49,012 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:50,015 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:51,137 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:52,117 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:53,101 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:54,075 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:55,139 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:56,043 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:57,145 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:58,134 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:25:59,051 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:00,090 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:01,242 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:02,174 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:03,127 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:04,190 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:05,108 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:06,126 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:07,295 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:08,126 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:09,254 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:10,240 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:11,181 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:12,276 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:13,250 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:14,206 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:15,541 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:16,468 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:17,326 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:18,299 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:19,458 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:20,264 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:21,240 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:22,538 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:23,313 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:24,312 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:25,557 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:26,262 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:27,347 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:28,396 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:29,415 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:30,307 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:31,376 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:32,374 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:33,391 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:34,628 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:35,362 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:36,338 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:37,656 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:38,399 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:39,377 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:40,592 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:42,525 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:43,496 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:44,411 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:45,456 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:46,532 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:47,385 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:48,495 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:49,643 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:50,474 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:51,561 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:52,497 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:53,431 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:54,521 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:55,516 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:56,448 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:57,470 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:58,574 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:26:59,469 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:27:49,830 WARNING flash_spike_guard_active pause_remaining=5.00s reason=cross_exchange_divergence diff_pct=0.001051 threshold=0.001000 source=median_coinbase_kraken diff_pct=0.001051
+2026-02-11 17:28:30,194 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:31,675 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:33,149 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:34,576 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:35,951 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:37,348 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:38,689 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:40,087 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:41,447 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:42,799 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:44,171 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:45,450 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:46,858 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:48,288 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:49,712 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:50,995 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:52,436 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:53,719 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:55,134 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:56,490 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:57,877 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:28:59,176 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:00,645 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:01,982 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:03,412 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:04,748 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:06,061 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:07,510 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:08,910 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:10,330 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:11,618 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:13,064 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:14,433 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:15,775 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:17,182 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:18,500 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:19,945 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:21,313 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:22,685 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:24,026 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:25,506 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:26,910 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:28,277 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:29,616 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:31,073 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:32,426 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:33,770 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:35,076 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:36,411 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:37,838 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:39,143 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:40,577 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:41,982 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:43,381 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:44,679 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:46,129 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:47,635 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:48,927 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:50,297 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:51,591 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:52,980 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:54,412 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:55,701 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:56,994 WARNING force_flatten ticker=KXBTC15M-26FEB111730-30
+2026-02-11 17:29:58,242 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:30:04,744 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:30:10,835 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 17:30:16,956 INFO market_roll old=NONE new=KXBTC15M-26FEB111745-45
+2026-02-11 17:30:17,168 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.151 ticker=KXBTC15M-26FEB111745-45
+2026-02-11 17:30:18,544 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:19,424 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:20,425 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:21,525 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:22,478 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:23,467 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:24,432 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:25,576 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:26,553 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:27,523 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:28,441 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:29,505 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:30,464 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:31,495 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:32,586 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:33,507 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:34,563 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:35,550 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:36,517 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:37,646 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:38,581 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:39,547 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:40,557 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:41,576 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:42,714 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:43,573 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:44,625 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:45,594 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:46,604 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:30:47,725 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:48,627 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:49,622 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:50,917 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:51,628 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:52,623 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:53,746 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:55,663 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:56,683 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:57,680 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:58,747 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:30:59,766 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:00,685 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:01,702 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:02,729 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:03,713 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:04,799 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:05,758 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:06,807 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:07,736 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:08,779 INFO inventory_block side=no net=143 gross=143
+2026-02-11 17:31:09,748 WARNING flash_spike_guard_active pause_remaining=5.00s reason=cross_exchange_divergence diff_pct=0.001034 threshold=0.001000 source=median_coinbase_kraken diff_pct=0.001034
+2026-02-11 17:31:15,839 WARNING flash_spike_guard_active pause_remaining=5.00s reason=cross_exchange_divergence diff_pct=0.001029 threshold=0.001000 source=median_coinbase_kraken diff_pct=0.001029
+2026-02-11 17:31:21,231 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:22,002 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:23,065 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:24,117 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:25,014 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:26,015 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:27,230 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:28,057 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:29,044 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:30,169 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:31,143 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:32,128 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:33,191 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:34,123 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:35,087 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:36,236 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:37,167 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:31:38,146 INFO inventory_block side=yes net=143 gross=143
+2026-02-11 17:32:57,742 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:32:58,651 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:32:59,658 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:00,731 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:05,707 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:21,830 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:22,801 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:23,828 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:24,906 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:38,918 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:40,012 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:40,940 INFO inventory_block side=no net=139 gross=139
+2026-02-11 17:33:52,139 INFO trade_signal ticker=KXBTC15M-26FEB111745-45 side=yes mode=mm count=1 price=42 edge=0.1002 real_yes=0.5152 implied_yes=0.4150 ev_cents=9.140 order_response={"order":{"action":"buy","client_order_id":"917d011f2d6a44e6a0268073cead8c6d","created_time":"2026-02-11T22:33:52.168397Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:33:52.168397Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":58,"no_price_dollars":"0.5800","order_group_id":null,"order_id":"74490738-5084-41ef-9371-8bbd1f7a3c9d","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111745-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":42,"yes_price_dollars":"0.4200"}}
+2026-02-11 17:34:13,227 INFO trade_signal ticker=KXBTC15M-26FEB111745-45 side=no mode=mm count=1 price=62 edge=-0.1091 real_yes=0.2759 implied_yes=0.3850 ev_cents=10.030 order_response={"order":{"action":"buy","client_order_id":"1a5d2a0761f44b1da0c91e21dad037ff","created_time":"2026-02-11T22:34:13.253621Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:34:13.253621Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":62,"no_price_dollars":"0.6200","order_group_id":null,"order_id":"a07d6540-c187-4b88-9229-b05a8be99de6","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111745-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":38,"yes_price_dollars":"0.3800"}}
+2026-02-11 17:34:55,466 INFO trade_signal ticker=KXBTC15M-26FEB111745-45 side=yes mode=mm count=1 price=53 edge=0.1237 real_yes=0.6487 implied_yes=0.5250 ev_cents=11.493 order_response={"order":{"action":"buy","client_order_id":"8896b492f624448b97132ec62803d4ca","created_time":"2026-02-11T22:34:55.495353Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:34:55.495353Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":47,"no_price_dollars":"0.4700","order_group_id":null,"order_id":"6d849771-6093-4203-bdfc-5677399efbec","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111745-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":53,"yes_price_dollars":"0.5300"}}
+2026-02-11 17:35:19,634 INFO trade_signal ticker=KXBTC15M-26FEB111745-45 side=yes mode=mm count=1 price=46 edge=0.1135 real_yes=0.5785 implied_yes=0.4650 ev_cents=11.467 order_response={"order":{"action":"buy","client_order_id":"f1f72b4481ae43898c3cde16288dc7f7","created_time":"2026-02-11T22:35:19.662336Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T22:35:19.662336Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":54,"no_price_dollars":"0.5400","order_group_id":null,"order_id":"3404f836-e84d-4fe7-b3ce-ced1047bb784","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111745-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":46,"yes_price_dollars":"0.4600"}}
+2026-02-11 17:35:22,698 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 17:35:22,699 CRITICAL kill_switch_triggered reason=hourly_drawdown=0.021 threshold=0.020 regime=calm
+2026-02-11 17:35:22,902 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 18:36:41,812 INFO market_roll old=NONE new=KXBTC15M-26FEB111845-45
+2026-02-11 18:36:42,120 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-11 18:36:42,728 INFO trade_signal ticker=KXBTC15M-26FEB111845-45 side=yes mode=mm count=1 price=6 edge=0.1483 real_yes=0.2133 implied_yes=0.0650 ev_cents=14.950 order_response={"order":{"action":"buy","client_order_id":"3f1facfec7b2436ca56558fa10e1cb13","created_time":"2026-02-11T23:36:42.758657Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:36:42.758657Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":94,"no_price_dollars":"0.9400","order_group_id":null,"order_id":"8a79a57e-6f3e-4a90-9336-75da2373c5fa","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111845-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":6,"yes_price_dollars":"0.0600"}}
+2026-02-11 18:36:42,803 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T23:36:42Z","ticker":"KXBTC15M-26FEB111845-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.213302,"last_kalshi_implied_yes_probability":0.065,"edge_threshold":0.12,"order_attempts":1,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":0.9611349309225469,"yes_depth":88507,"no_depth":1754,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.13271093368530273,"book_stale_seconds":0.13261890411376953},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":66757.16500000001,"perp_price":null,"coinbase_price
+2026-02-11 18:37:42,745 INFO trade_signal ticker=KXBTC15M-26FEB111845-45 side=yes mode=mm count=1 price=10 edge=0.1580 real_yes=0.2630 implied_yes=0.1050 ev_cents=15.920 order_response={"order":{"action":"buy","client_order_id":"3339b7c56e184f318bd213d490bd14fe","created_time":"2026-02-11T23:37:42.770738Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:37:42.770738Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":90,"no_price_dollars":"0.9000","order_group_id":null,"order_id":"6bc065a3-4e66-4920-96fc-67dd844a906f","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111845-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":10,"yes_price_dollars":"0.1000"}}
+2026-02-11 18:38:42,871 INFO trade_signal ticker=KXBTC15M-26FEB111845-45 side=yes mode=mm count=1 price=23 edge=0.2697 real_yes=0.4997 implied_yes=0.2300 ev_cents=26.592 order_response={"order":{"action":"buy","client_order_id":"d585c745a6c74a588a800fbb4ac8626a","created_time":"2026-02-11T23:38:42.901693Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:38:42.901693Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":77,"no_price_dollars":"0.7700","order_group_id":null,"order_id":"dd756179-74db-41a0-acae-ff0238099565","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111845-45","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":23,"yes_price_dollars":"0.2300"}}
+2026-02-11 18:39:45,958 INFO inventory_block side=yes net=141 gross=141
+2026-02-11 18:39:46,826 WARNING flash_spike_guard_active pause_remaining=5.00s reason=cross_exchange_divergence diff_pct=0.001374 threshold=0.001000 source=median_coinbase_kraken diff_pct=0.001374
+2026-02-11 18:41:04,442 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:05,260 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:06,250 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:07,411 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:08,277 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:09,252 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:10,381 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:11,258 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:12,275 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:13,569 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:14,294 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:15,272 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:16,412 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:17,323 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:18,287 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:19,437 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:20,288 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:21,288 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:22,476 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:23,279 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:24,316 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:25,516 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:26,319 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:27,306 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:28,455 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:29,312 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:30,329 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:31,570 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:32,363 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:33,332 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:34,479 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:35,330 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:36,351 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:37,514 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:38,349 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:39,365 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:40,551 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:41,350 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:42,357 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:46,504 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:55,600 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:56,412 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:57,407 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:58,597 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:41:59,411 INFO inventory_block side=no net=141 gross=141
+2026-02-11 18:43:30,680 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:32,227 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:33,456 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:34,687 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:36,018 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:37,297 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:38,523 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:39,858 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:41,076 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:42,442 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:43,731 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:44,936 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:46,288 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:47,610 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:48,825 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:50,159 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:51,427 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:52,729 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:54,052 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:55,332 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:56,554 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:57,926 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:43:59,228 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:00,524 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:01,776 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:03,228 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:04,461 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:05,674 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:07,044 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:08,335 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:09,565 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:10,925 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:12,156 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:13,541 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:14,801 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:16,138 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:17,356 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:18,708 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:19,994 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:21,209 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:22,492 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:23,856 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:25,072 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:26,461 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:27,769 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:29,137 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:30,416 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:31,651 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:32,961 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:34,309 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:35,531 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:36,879 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:38,165 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:39,521 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:40,731 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:42,066 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:43,262 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:44,545 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:45,894 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:47,110 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:48,399 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:49,739 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:50,936 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:52,218 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:53,483 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:54,741 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:56,045 WARNING force_flatten ticker=KXBTC15M-26FEB111845-45
+2026-02-11 18:44:57,215 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 18:45:03,748 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 18:45:09,822 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 18:45:15,907 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 18:45:21,977 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 18:45:25,054 INFO market_roll old=NONE new=KXBTC15M-26FEB111900-00
+2026-02-11 18:45:25,340 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.225 ticker=KXBTC15M-26FEB111900-00
+2026-02-11 18:45:26,716 INFO trade_signal ticker=KXBTC15M-26FEB111900-00 side=yes mode=mm count=1 price=54 edge=0.3150 real_yes=0.8500 implied_yes=0.5350 ev_cents=30.620 order_response={"order":{"action":"buy","client_order_id":"fa32e20517204617a90a12ed9ba0d0e7","created_time":"2026-02-11T23:45:26.749293Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:45:26.749293Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":46,"no_price_dollars":"0.4600","order_group_id":null,"order_id":"5d700e48-066c-43b4-aa8f-1c4dd81b6faf","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111900-00","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":54,"yes_price_dollars":"0.5400"}}
+2026-02-11 18:46:51,976 INFO trade_signal ticker=KXBTC15M-26FEB111900-00 side=yes mode=mm count=1 price=41 edge=0.1398 real_yes=0.5548 implied_yes=0.4150 ev_cents=14.098 order_response={"order":{"action":"buy","client_order_id":"8203ccac1e2f4f2ea8b72c7099230d3d","created_time":"2026-02-11T23:46:52.008595Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:46:52.008595Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":59,"no_price_dollars":"0.5900","order_group_id":null,"order_id":"2ae477d0-01ed-4627-b00a-50286b40ce92","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111900-00","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":41,"yes_price_dollars":"0.4100"}}
+2026-02-11 18:54:26,220 INFO market_roll old=NONE new=KXBTC15M-26FEB111900-00
+2026-02-11 18:54:26,429 INFO position_baseline_set scope=delta_from_start gross=141 net=141
+2026-02-11 18:54:27,202 INFO trade_signal ticker=KXBTC15M-26FEB111900-00 side=yes mode=mm count=1 price=29 edge=0.1363 real_yes=0.4263 implied_yes=0.2900 ev_cents=13.247 order_response={"order":{"action":"buy","client_order_id":"434613387a0741f589b22cb01a30a7df","created_time":"2026-02-11T23:54:27.236384Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":1,"initial_count_fp":"1.00","last_update_time":"2026-02-11T23:54:27.236384Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":71,"no_price_dollars":"0.7100","order_group_id":null,"order_id":"d01decac-a836-405c-8ac6-b0d3cee896fb","queue_position":0,"remaining_count":1,"remaining_count_fp":"1.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXBTC15M-26FEB111900-00","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":29,"yes_price_dollars":"0.2900"}}
+2026-02-11 18:54:27,279 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-11T23:54:27Z","ticker":"KXBTC15M-26FEB111900-00","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":2,"fill_count":2,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":2,"adverse_selection_rate":0.0,"last_real_yes_probability":0.426267,"last_kalshi_implied_yes_probability":0.29,"edge_threshold":0.12,"order_attempts":1,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":2,"spread_no":2,"imbalance":0.7149171270718232,"yes_depth":3104,"no_depth":516,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.19081807136535645,"book_stale_seconds":0.19072890281677246},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":66934.0275,"perp_price":null,"coinbase_price":66932.25
+2026-02-11 19:07:07,923 INFO market_roll old=NONE new=KXBTC15M-26FEB111915-15
+2026-02-11 19:07:08,160 INFO position_baseline_set scope=delta_from_start gross=139 net=139
+2026-02-11 19:07:08,840 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_live_maker_2h.json payload={"as_of":"2026-02-12T00:07:08Z","ticker":"KXBTC15M-26FEB111915-15","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.817736,"last_kalshi_implied_yes_probability":0.825,"edge_threshold":0.12,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":0.6235571878279118,"yes_depth":6189,"no_depth":1435,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.15915703773498535,"book_stale_seconds":0.1590898036956787},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67138.0375,"perp_price":null,"coinbase_price":67148.1
+2026-02-11 19:08:08,378 INFO runtime limit reached; exiting.
+2026-02-11 19:08:08,576 WARNING cancel_all_orders result={"canceled":0,"errors":[]}

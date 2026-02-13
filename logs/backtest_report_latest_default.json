@@ -1,0 +1,26 @@
+{
+  "rows_total": 299,
+  "signals": 204,
+  "fills": 1,
+  "fill_rate": 0.004901960784313725,
+  "pnl_cents_mark_to_market": -115.99,
+  "fees_cents": 0.49,
+  "slippage_cents": 108.5,
+  "adverse_selection_count": 0,
+  "adverse_selection_total": 1,
+  "adverse_selection_rate": 0.0,
+  "ending_inventory": {
+    "yes": 0,
+    "no": 7,
+    "gross": 7,
+    "net": -7
+  },
+  "per_regime": {
+    "calm": {
+      "signals": 204,
+      "fills": 1,
+      "fill_rate": 0.004901960784313725,
+      "expected_ev_cents": 1236.561
+    }
+  }
+}

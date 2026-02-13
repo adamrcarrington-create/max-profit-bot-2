@@ -1,0 +1,61 @@
+{
+  "archived_mm_logs": {
+    "mm_KXBTC15M.log.zip": {
+      "samples": 4838,
+      "last_pnl_dollars": 7.31,
+      "max_pnl_dollars": 15.39,
+      "min_pnl_dollars": -25.76,
+      "peak_line_number": 4447,
+      "peak_line": "[STATE] tl=563s pnl=+15.39 cf=+10.99 m2m=+4.40 posYES=10 posNO=0 gross=10 net=10 sizeYES=0 sizeNO=2 avgYES=33 avgNO=42 bookYES=44/45 bookNO=55/56 buyYES=- buyNO=55 sumBuy=99"
+    },
+    "mm_KXETH15M.log.zip": {
+      "samples": 4903,
+      "last_pnl_dollars": 2.32,
+      "max_pnl_dollars": 28.12,
+      "min_pnl_dollars": -11.49,
+      "peak_line_number": 1136,
+      "peak_line": "[STATE] tl=377s pnl=+28.12 cf=+18.52 m2m=+9.60 posYES=10 posNO=0 gross=10 net=10 sizeYES=0 sizeNO=2 avgYES=91 avgNO=None bookYES=96/97 bookNO=3/4 buyYES=- buyNO=3 sumBuy=99"
+    },
+    "mm_KXSOL15M.log.zip": {
+      "samples": 5103,
+      "last_pnl_dollars": -15.25,
+      "max_pnl_dollars": 49.78,
+      "min_pnl_dollars": -15.25,
+      "peak_line_number": 1249,
+      "peak_line": "[STATE] tl=184s pnl=+49.78 cf=+44.08 m2m=+5.70 posYES=6 posNO=0 gross=6 net=6 sizeYES=0 sizeNO=2 avgYES=91 avgNO=None bookYES=95/96 bookNO=4/5 buyYES=- buyNO=4 sumBuy=99"
+    }
+  },
+  "combined": {
+    "sum_of_individual_peaks_dollars": 93.29,
+    "max_single_series_peak_dollars": 49.78
+  },
+  "source_archives": [
+    "/Users/adamcarrington/Documents/kalshi-bot/logs/mm_KXBTC15M.log.zip",
+    "/Users/adamcarrington/Documents/kalshi-bot/logs/mm_KXETH15M.log.zip",
+    "/Users/adamcarrington/Documents/kalshi-bot/logs/mm_KXSOL15M.log.zip"
+  ],
+  "replay_profit_cap_best_overall": {
+    "pnl_sum_dollars": 17.4,
+    "pnl_sum_cents": 1740.0,
+    "fills_sum": 50,
+    "max_ending_gross": 1600,
+    "params": {
+      "size": 40,
+      "gross": 1600,
+      "spread": 1.5,
+      "min_ev": 0.4,
+      "rate": 4
+    }
+  },
+  "replay_profit_cap_800": {
+    "pnl_sum_dollars": 10.04,
+    "fills_sum": 30,
+    "params": {
+      "size": 40,
+      "gross": 800,
+      "spread": 1.5,
+      "min_ev": 0.4,
+      "rate": 4
+    }
+  }
+}

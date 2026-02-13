@@ -1,0 +1,181 @@
+2026-02-11 20:20:41,514 INFO market_roll old=NONE new=KXBTC15M-26FEB112030-30
+2026-02-11 20:20:42,236 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=68 edge=0.0000 real_yes=0.3150 implied_yes=0.3150 ev_cents=0.270 dry_run=1
+2026-02-11 20:20:42,236 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_paper_robust.json payload={"as_of":"2026-02-12T01:20:42Z","ticker":"KXBTC15M-26FEB112030-30","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.315,"last_kalshi_implied_yes_probability":0.315,"edge_threshold":0.0,"order_attempts":1,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.1296551724137931,"yes_depth":631,"no_depth":819,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.015625953674316406,"book_stale_seconds":0.01559901237487793},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67572.62,"perp_price":null,"coinbase_price":67570.54,"kr
+2026-02-11 20:20:42,845 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=68 edge=0.0000 real_yes=0.3150 implied_yes=0.3150 ev_cents=0.270 dry_run=1
+2026-02-11 20:20:43,904 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=67 edge=0.0000 real_yes=0.3200 implied_yes=0.3200 ev_cents=0.770 dry_run=1
+2026-02-11 20:20:44,896 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=68 edge=0.0000 real_yes=0.3050 implied_yes=0.3050 ev_cents=1.270 dry_run=1
+2026-02-11 20:20:46,167 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=73 edge=0.0000 real_yes=0.2600 implied_yes=0.2600 ev_cents=0.770 dry_run=1
+2026-02-11 20:20:46,933 INFO trade_signal ticker=KXBTC15M-26FEB112030-30 side=no mode=mm count=1 price=74 edge=0.0000 real_yes=0.2550 implied_yes=0.2550 ev_cents=0.270 dry_run=1
+2026-02-11 20:21:41,977 INFO runtime limit reached; exiting.
+2026-02-11 20:42:56,475 INFO market_roll old=NONE new=KXBTC15M-26FEB112045-45
+2026-02-11 20:42:57,299 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_paper_robust.json payload={"as_of":"2026-02-12T01:42:57Z","ticker":"KXBTC15M-26FEB112045-45","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.978422,"last_kalshi_implied_yes_probability":0.99,"edge_threshold":0.0,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":null,"spread_no":null,"imbalance":1.0,"yes_depth":26086,"no_depth":0,"pinned_state":true,"zero_spread_state":false,"book_age_seconds":0.008165836334228516,"book_stale_seconds":0.008025646209716797},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67915.4925,"perp_price":null,"coinbase_price":67915.985,"kraken_
+2026-02-11 20:43:30,246 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:31,333 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:32,503 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:33,709 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:34,870 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:36,165 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:37,265 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:38,420 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:39,649 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:40,791 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:41,946 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:43,351 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:44,520 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:45,664 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:46,854 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:48,186 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:49,424 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:50,518 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:51,615 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:52,843 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:53,974 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:55,202 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:56,288 WARNING force_flatten ticker=KXBTC15M-26FEB112045-45
+2026-02-11 20:43:57,294 INFO runtime limit reached; exiting.
+2026-02-11 20:54:07,135 INFO market_roll old=NONE new=KXBTC15M-26FEB112100-00
+2026-02-11 20:54:07,892 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.655 ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:54:08,994 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=4 edge=0.0055 real_yes=0.0455 implied_yes=0.0400 ev_cents=0.319 dry_run=1
+2026-02-11 20:54:08,998 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_paper_robust.json payload={"as_of":"2026-02-12T01:54:08Z","ticker":"KXBTC15M-26FEB112100-00","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.045491,"last_kalshi_implied_yes_probability":0.04,"edge_threshold":0.0,"order_attempts":1,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":2,"spread_no":2,"imbalance":-0.5019193553504013,"yes_depth":7850,"no_depth":23671,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.13175702095031738,"book_stale_seconds":0.13162875175476074},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67598.2975,"perp_price":null,"coinbase_price":67609.
+2026-02-11 20:54:10,056 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=-0.156 min_ev=0.200
+2026-02-11 20:54:11,019 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=4 edge=0.0055 real_yes=0.0455 implied_yes=0.0400 ev_cents=0.319 dry_run=1
+2026-02-11 20:54:12,121 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=4 edge=0.0050 real_yes=0.0450 implied_yes=0.0400 ev_cents=0.266 dry_run=1
+2026-02-11 20:54:13,130 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=0.125 min_ev=0.200
+2026-02-11 20:54:14,192 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=0.125 min_ev=0.200
+2026-02-11 20:54:15,289 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=0.125 min_ev=0.200
+2026-02-11 20:54:16,013 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=4 edge=0.0033 real_yes=0.0483 implied_yes=0.0450 ev_cents=0.600 dry_run=1
+2026-02-11 20:54:17,051 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=4 edge=0.0037 real_yes=0.0487 implied_yes=0.0450 ev_cents=0.636 dry_run=1
+2026-02-11 20:54:18,469 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=0.125 min_ev=0.200
+2026-02-11 20:54:19,008 INFO ev_reject ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm ev=0.125 min_ev=0.200
+2026-02-11 20:54:20,141 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=3 edge=0.0038 real_yes=0.0388 implied_yes=0.0350 ev_cents=0.650 dry_run=1
+2026-02-11 20:55:26,276 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0056 real_yes=0.0256 implied_yes=0.0200 ev_cents=1.329 dry_run=1
+2026-02-11 20:55:28,247 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0063 real_yes=0.0263 implied_yes=0.0200 ev_cents=1.399 dry_run=1
+2026-02-11 20:55:29,542 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0057 real_yes=0.0257 implied_yes=0.0200 ev_cents=1.340 dry_run=1
+2026-02-11 20:55:30,539 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0047 real_yes=0.0247 implied_yes=0.0200 ev_cents=1.242 dry_run=1
+2026-02-11 20:56:26,472 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0100 real_yes=0.0300 implied_yes=0.0200 ev_cents=1.773 dry_run=1
+2026-02-11 20:56:27,526 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0100 real_yes=0.0300 implied_yes=0.0200 ev_cents=1.773 dry_run=1
+2026-02-11 20:56:28,448 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0103 real_yes=0.0253 implied_yes=0.0150 ev_cents=1.298 dry_run=1
+2026-02-11 20:56:29,682 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0103 real_yes=0.0253 implied_yes=0.0150 ev_cents=1.298 dry_run=1
+2026-02-11 20:56:34,479 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0103 real_yes=0.0253 implied_yes=0.0150 ev_cents=1.296 dry_run=1
+2026-02-11 20:56:35,706 INFO trade_signal ticker=KXBTC15M-26FEB112100-00 side=yes mode=mm count=1 price=1 edge=0.0103 real_yes=0.0253 implied_yes=0.0150 ev_cents=1.296 dry_run=1
+2026-02-11 20:58:30,928 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:33,267 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:35,424 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:37,716 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:39,910 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:42,175 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:44,556 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:46,730 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:48,935 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:51,235 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:53,481 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:55,742 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:58:57,939 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:00,486 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:02,653 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:05,014 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:07,548 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:09,700 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:12,229 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:13,305 WARNING data_stale_guard ref_age=0.000 book_age=2.632 book_stale=2.631 ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:14,587 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:16,767 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:19,452 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:21,838 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:24,196 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:26,551 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:28,921 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:31,250 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:33,616 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:34,702 WARNING data_stale_guard ref_age=0.000 book_age=2.914 book_stale=2.914 ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:36,301 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:38,478 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:39,792 WARNING data_stale_guard ref_age=0.000 book_age=3.333 book_stale=3.333 ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:40,869 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:43,405 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:44,506 WARNING data_stale_guard ref_age=0.000 book_age=2.882 book_stale=2.882 ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:45,628 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:48,164 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:50,532 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:52,699 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:55,389 WARNING force_flatten ticker=KXBTC15M-26FEB112100-00
+2026-02-11 20:59:57,501 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:00:04,188 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:00:10,264 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:00:13,322 INFO market_roll old=NONE new=KXBTC15M-26FEB112115-15
+2026-02-11 21:00:13,782 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.276 ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:00:14,861 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=53 edge=0.0193 real_yes=0.5343 implied_yes=0.5150 ev_cents=0.203 dry_run=1
+2026-02-11 21:00:15,869 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=53 edge=0.0193 real_yes=0.5343 implied_yes=0.5150 ev_cents=0.203 dry_run=1
+2026-02-11 21:00:16,919 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=52 edge=0.0199 real_yes=0.5249 implied_yes=0.5050 ev_cents=0.263 dry_run=1
+2026-02-11 21:00:17,873 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.212 min_ev=0.200
+2026-02-11 21:00:18,933 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=51 edge=0.0199 real_yes=0.5199 implied_yes=0.5000 ev_cents=0.757 dry_run=1
+2026-02-11 21:00:19,904 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=51 edge=0.0203 real_yes=0.5153 implied_yes=0.4950 ev_cents=0.303 dry_run=1
+2026-02-11 21:00:20,896 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=51 edge=0.0206 real_yes=0.5156 implied_yes=0.4950 ev_cents=0.333 dry_run=1
+2026-02-11 21:01:15,421 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=64 edge=-0.0028 real_yes=0.3522 implied_yes=0.3550 ev_cents=0.553 dry_run=1
+2026-02-11 21:01:16,252 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=35 edge=0.0003 real_yes=0.3553 implied_yes=0.3550 ev_cents=0.296 dry_run=1
+2026-02-11 21:01:17,288 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=63 edge=-0.0002 real_yes=0.3648 implied_yes=0.3650 ev_cents=0.294 dry_run=1
+2026-02-11 21:01:19,275 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=no mode=mm ev=0.128 min_ev=0.200
+2026-02-11 21:01:20,528 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=64 edge=-0.0024 real_yes=0.3526 implied_yes=0.3550 ev_cents=0.513 dry_run=1
+2026-02-11 21:01:21,294 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=63 edge=-0.0015 real_yes=0.3635 implied_yes=0.3650 ev_cents=0.420 dry_run=1
+2026-02-11 21:01:22,314 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=63 edge=-0.0015 real_yes=0.3635 implied_yes=0.3650 ev_cents=0.420 dry_run=1
+2026-02-11 21:02:15,621 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=31 edge=0.0011 real_yes=0.3161 implied_yes=0.3150 ev_cents=0.381 dry_run=1
+2026-02-11 21:02:16,500 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=31 edge=0.0011 real_yes=0.3161 implied_yes=0.3150 ev_cents=0.381 dry_run=1
+2026-02-11 21:02:17,543 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.144 min_ev=0.200
+2026-02-11 21:02:18,628 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=31 edge=0.0018 real_yes=0.3168 implied_yes=0.3150 ev_cents=0.446 dry_run=1
+2026-02-11 21:02:20,754 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.052 min_ev=0.200
+2026-02-11 21:02:21,534 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.052 min_ev=0.200
+2026-02-11 21:02:22,541 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.052 min_ev=0.200
+2026-02-11 21:02:23,566 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.052 min_ev=0.200
+2026-02-11 21:02:24,554 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.128 min_ev=0.200
+2026-02-11 21:02:25,561 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.128 min_ev=0.200
+2026-02-11 21:02:26,776 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.041 min_ev=0.200
+2026-02-11 21:02:27,639 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.041 min_ev=0.200
+2026-02-11 21:02:28,582 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=68 edge=-0.0009 real_yes=0.3141 implied_yes=0.3150 ev_cents=0.361 dry_run=1
+2026-02-11 21:02:29,598 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=no mode=mm count=1 price=68 edge=-0.0009 real_yes=0.3141 implied_yes=0.3150 ev_cents=0.361 dry_run=1
+2026-02-11 21:02:30,576 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=31 edge=0.0013 real_yes=0.3163 implied_yes=0.3150 ev_cents=0.404 dry_run=1
+2026-02-11 21:03:15,790 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=30 edge=0.0045 real_yes=0.3045 implied_yes=0.3000 ev_cents=0.220 dry_run=1
+2026-02-11 21:03:16,769 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=30 edge=0.0045 real_yes=0.3045 implied_yes=0.3000 ev_cents=0.220 dry_run=1
+2026-02-11 21:03:18,804 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:19,790 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.072 min_ev=0.200
+2026-02-11 21:03:20,841 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.114 min_ev=0.200
+2026-02-11 21:03:21,800 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.112 min_ev=0.200
+2026-02-11 21:03:22,853 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.112 min_ev=0.200
+2026-02-11 21:03:23,835 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.112 min_ev=0.200
+2026-02-11 21:03:24,921 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.112 min_ev=0.200
+2026-02-11 21:03:25,829 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=0.112 min_ev=0.200
+2026-02-11 21:03:26,851 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=29 edge=0.0042 real_yes=0.2992 implied_yes=0.2950 ev_cents=0.687 dry_run=1
+2026-02-11 21:03:28,844 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:29,848 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:30,837 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:31,939 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:33,066 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.020 min_ev=0.200
+2026-02-11 21:03:33,862 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=28 edge=0.0018 real_yes=0.2868 implied_yes=0.2850 ev_cents=0.455 dry_run=1
+2026-02-11 21:03:34,961 INFO ev_reject ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm ev=-0.070 min_ev=0.200
+2026-02-11 21:03:35,879 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=28 edge=0.0012 real_yes=0.2862 implied_yes=0.2850 ev_cents=0.386 dry_run=1
+2026-02-11 21:03:36,871 INFO trade_signal ticker=KXBTC15M-26FEB112115-15 side=yes mode=mm count=1 price=28 edge=0.0002 real_yes=0.2852 implied_yes=0.2850 ev_cents=0.285 dry_run=1
+2026-02-11 21:04:07,922 INFO runtime limit reached; exiting.
+2026-02-11 21:14:34,144 INFO market_roll old=NONE new=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:34,988 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:37,582 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:40,080 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:42,436 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:45,046 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:47,290 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:49,909 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:52,638 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:54,801 WARNING force_flatten ticker=KXBTC15M-26FEB112115-15
+2026-02-11 21:14:55,826 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:15:02,113 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:15:08,213 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:15:14,290 WARNING market_roll_gap series=KXBTC15M err=no_active_markets_for_series=KXBTC15M
+2026-02-11 21:15:20,399 INFO market_roll old=NONE new=KXBTC15M-26FEB112130-30
+2026-02-11 21:15:20,979 WARNING data_stale_guard ref_age=0.000 book_age=inf book_stale=0.143 ticker=KXBTC15M-26FEB112130-30
+2026-02-11 21:15:22,049 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=47 edge=0.0157 real_yes=0.4807 implied_yes=0.4650 ev_cents=0.841 dry_run=1
+2026-02-11 21:15:22,112 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_paper_robust.json payload={"as_of":"2026-02-12T02:15:22Z","ticker":"KXBTC15M-26FEB112130-30","series_ticker":"KXBTC15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.48071,"last_kalshi_implied_yes_probability":0.465,"edge_threshold":0.0,"order_attempts":1,"order_failures":0,"last_401_epoch":0.0,"regime":"calm","microstructure":{"spread_yes":3,"spread_no":3,"imbalance":-0.06408345752608048,"yes_depth":314,"no_depth":357,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.27544403076171875,"book_stale_seconds":0.27542686462402344},"reference":{"source":"median_coinbase_kraken","last_error":"","spot_price":67448.96,"perp_price":null,"coinbase_price":67440.82,"
+2026-02-11 21:15:23,345 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=49 edge=0.0151 real_yes=0.4951 implied_yes=0.4800 ev_cents=0.279 dry_run=1
+2026-02-11 21:15:24,136 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=48 edge=0.0152 real_yes=0.4902 implied_yes=0.4750 ev_cents=0.790 dry_run=1
+2026-02-11 21:15:25,075 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=48 edge=0.0155 real_yes=0.4904 implied_yes=0.4750 ev_cents=0.815 dry_run=1
+2026-02-11 21:15:26,425 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=49 edge=0.0150 real_yes=0.5050 implied_yes=0.4900 ev_cents=1.270 dry_run=1
+2026-02-11 21:15:27,148 INFO trade_signal ticker=KXBTC15M-26FEB112130-30 side=yes mode=mm count=1 price=49 edge=0.0150 real_yes=0.5050 implied_yes=0.4900 ev_cents=1.270 dry_run=1
+2026-02-11 21:15:30,121 WARNING data_stale_guard ref_age=0.000 book_age=2.626 book_stale=2.626 ticker=KXBTC15M-26FEB112130-30
+2026-02-11 21:15:34,141 INFO runtime limit reached; exiting.

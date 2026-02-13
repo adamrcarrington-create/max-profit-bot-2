@@ -1,0 +1,4 @@
+2026-02-11 23:20:26,673 INFO market_roll old=NONE new=KXETH15M-26FEB112330-30
+2026-02-11 23:20:27,622 INFO position_baseline_set scope=account gross=139 net=139
+2026-02-11 23:20:28,284 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 23:20:28,284 CRITICAL kill_switch_triggered reason=max_gross_position_exceeded gross=139 limit=48 raw_gross=139

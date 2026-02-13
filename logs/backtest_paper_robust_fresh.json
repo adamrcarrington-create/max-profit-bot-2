@@ -1,0 +1,61 @@
+{
+  "rows_total": 199,
+  "signals": 199,
+  "fills": 31,
+  "fill_rate": 0.15577889447236182,
+  "pnl_cents_mark_to_market": 148.37,
+  "fees_cents": 0.93,
+  "slippage_cents": 6.2,
+  "raw_pnl_before_costs_cents": 155.5,
+  "cost_drag_cents": 7.13,
+  "adverse_selection_count": 2,
+  "adverse_selection_total": 30,
+  "adverse_selection_rate": 0.06666666666666667,
+  "signal_quality": {
+    "mean_edge": -0.001824,
+    "mean_abs_edge": 0.002408,
+    "positive_edge_signals": 64,
+    "negative_edge_signals": 135,
+    "expected_raw_ev_signal_cents": 125.4272,
+    "expected_net_ev_signal_cents": 79.6572,
+    "expected_raw_ev_fill_cents": 31.5498,
+    "expected_net_ev_fill_cents": 24.4198
+  },
+  "pair_arb": {
+    "signals": 0,
+    "fills": 0,
+    "expected_ev_cents": 0.0
+  },
+  "mode_attribution": {
+    "mm": {
+      "fills": 31,
+      "contracts": 31.0,
+      "raw_pnl_before_costs_cents": 155.5,
+      "fees_cents": 0.93,
+      "slippage_cents": 6.2,
+      "net_pnl_cents": 148.37
+    },
+    "snipe": {
+      "fills": 0,
+      "contracts": 0.0,
+      "raw_pnl_before_costs_cents": 0.0,
+      "fees_cents": 0.0,
+      "slippage_cents": 0.0,
+      "net_pnl_cents": 0.0
+    }
+  },
+  "ending_inventory": {
+    "yes": 0,
+    "no": 31,
+    "gross": 31,
+    "net": -31
+  },
+  "per_regime": {
+    "calm": {
+      "signals": 199,
+      "fills": 31,
+      "fill_rate": 0.15577889447236182,
+      "expected_ev_cents": 99.1295
+    }
+  }
+}

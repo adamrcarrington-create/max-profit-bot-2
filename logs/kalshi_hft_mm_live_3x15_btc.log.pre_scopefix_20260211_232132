@@ -1,0 +1,6 @@
+2026-02-11 23:20:06,296 ERROR cancel_all_orders_failed err=network_error method=GET path=/portfolio/orders: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/portfolio/orders?limit=200&status=resting (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101a8e1c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2026-02-11 23:20:25,735 INFO market_roll old=NONE new=KXBTC15M-26FEB112330-30
+2026-02-11 23:20:26,654 INFO position_baseline_set scope=account gross=139 net=139
+2026-02-11 23:20:27,320 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
+2026-02-11 23:20:27,320 CRITICAL kill_switch_triggered reason=max_gross_position_exceeded gross=139 limit=48 raw_gross=139
+2026-02-11 23:20:27,663 WARNING cancel_all_orders result={"canceled":0,"errors":[]}

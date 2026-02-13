@@ -1,0 +1,373 @@
+started_at=2026-02-11 07:32:34 hours=5 log=reports/live_20260211_073233.log start_balance_cents=18695 profit_floor_cents=-2000 profit_lock_cents=600
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=68
+elapsed_seconds=583.3
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=1187
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=149
+orders_canceled=91
+orders_canceled_on_exit=0
+flatten_orders_submitted=1
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=3
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=68
+orders_submitted=18
+orders_canceled=9
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=11
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=68
+orders_submitted=45
+orders_canceled=28
+post_only_reprices=1
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=16
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=68
+orders_submitted=87
+orders_canceled=54
+post_only_reprices=5
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=24
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=3
+elapsed_seconds=17.5
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=0
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=0
+orders_canceled=0
+orders_canceled_on_exit=0
+flatten_orders_submitted=0
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=0
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event_next
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=3
+elapsed_seconds=17.7
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=0
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=0
+orders_canceled=0
+orders_canceled_on_exit=0
+flatten_orders_submitted=0
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=0
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event_next
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=3
+elapsed_seconds=17.6
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=0
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=0
+orders_canceled=0
+orders_canceled_on_exit=0
+flatten_orders_submitted=0
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=0
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event_next
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=3
+elapsed_seconds=17.5
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=0
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=0
+orders_canceled=0
+orders_canceled_on_exit=0
+flatten_orders_submitted=0
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=0
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event_next
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376
+mode=sandbox requested_markets=KXBTC15M,KXETH15M,KXSOL15M resolved_markets=KXBTC15M-26FEB110745-45,KXETH15M-26FEB110745-45,KXSOL15M-26FEB110745-45
+submit_orders=True
+base_url=https://api.elections.kalshi.com
+pss_salt_mode=digest
+--- runtime ---
+cycles=3
+elapsed_seconds=17.6
+stop_reason=no_trade_window
+session_stop_loss_cents=2200
+session_take_profit_cents=600
+session_drawdown_cents=0
+preclose_guard_seconds=180.0
+no_new_entries_before_close_seconds=180.0
+no_trade_window_cycle_limit=3
+min_requote_seconds=8.0
+max_orders_per_market=90
+min_market_spread=0.03
+min_quote_edge=0.005
+orders_submitted=0
+orders_canceled=0
+orders_canceled_on_exit=0
+flatten_orders_submitted=0
+preclose_flatten_warnings=0
+flatten_errors=0
+flatten_residual_markets=0
+errors=0
+resolution requested=KXBTC15M resolved=KXBTC15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXETH15M resolved=KXETH15M-26FEB110745-45 method=series_or_event_next
+resolution requested=KXSOL15M resolved=KXSOL15M-26FEB110745-45 method=series_or_event_next
+--- market KXBTC15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXETH15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+--- market KXSOL15M-26FEB110745-45 ---
+cycles=3
+orders_submitted=0
+orders_canceled=0
+post_only_reprices=0
+post_only_rejects=0
+preclose_flatten_calls=3
+max_abs_position=0
+final_position=0
+last_reason=preclose_guard
+report=/Users/adamcarrington/Documents/kalshi bot 2.10.26/reports/latest_report.json
+run_exit_code=0
+session_balance_check start=18695 current=18319 delta_cents=-376

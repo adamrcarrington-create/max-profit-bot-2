@@ -1,0 +1,128 @@
+{
+  "files": [
+    "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+    "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+    "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+    "logs/replay_capture_active.jsonl",
+    "logs/replay_capture_latest.jsonl",
+    "logs/replay_capture_smoke.jsonl"
+  ],
+  "baseline_example": {
+    "aggregate": {
+      "pnl_cents": -11973.25,
+      "fills": 244,
+      "signals": 507,
+      "raw_pnl_before_costs_cents": -562.0,
+      "cost_drag_cents": 11411.249999999998
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+        "pnl_cents": 142.48,
+        "fills": 6,
+        "signals": 34,
+        "raw_pnl_before_costs_cents": 148.0,
+        "cost_drag_cents": 5.52
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+        "pnl_cents": -8574.56,
+        "fills": 145,
+        "signals": 145,
+        "raw_pnl_before_costs_cents": 1010.0,
+        "cost_drag_cents": 9584.56
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+        "pnl_cents": -2292.3,
+        "fills": 85,
+        "signals": 91,
+        "raw_pnl_before_costs_cents": -593.0,
+        "cost_drag_cents": 1699.3
+      },
+      {
+        "file": "logs/replay_capture_active.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      },
+      {
+        "file": "logs/replay_capture_latest.jsonl",
+        "pnl_cents": -115.99,
+        "fills": 1,
+        "signals": 204,
+        "raw_pnl_before_costs_cents": -7.0,
+        "cost_drag_cents": 108.99
+      },
+      {
+        "file": "logs/replay_capture_smoke.jsonl",
+        "pnl_cents": -1132.88,
+        "fills": 7,
+        "signals": 33,
+        "raw_pnl_before_costs_cents": -1120.0,
+        "cost_drag_cents": 12.88
+      }
+    ]
+  },
+  "paper_profit_probe": {
+    "aggregate": {
+      "pnl_cents": 32.57,
+      "fills": 41,
+      "signals": 121,
+      "raw_pnl_before_costs_cents": 42.0,
+      "cost_drag_cents": 9.43
+    },
+    "per_file": [
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837515.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111430-30_1770837582.jsonl",
+        "pnl_cents": 32.57,
+        "fills": 41,
+        "signals": 121,
+        "raw_pnl_before_costs_cents": 42.0,
+        "cost_drag_cents": 9.43
+      },
+      {
+        "file": "logs/replay_capture_KXBTC15M-26FEB111445-45_1770838279.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      },
+      {
+        "file": "logs/replay_capture_active.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      },
+      {
+        "file": "logs/replay_capture_latest.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      },
+      {
+        "file": "logs/replay_capture_smoke.jsonl",
+        "pnl_cents": 0.0,
+        "fills": 0,
+        "signals": 0,
+        "raw_pnl_before_costs_cents": 0.0,
+        "cost_drag_cents": 0.0
+      }
+    ]
+  }
+}

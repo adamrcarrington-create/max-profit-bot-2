@@ -1,0 +1,109 @@
+{
+  "base_config": "/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/kalshi_hft/config.paper_robust.json",
+  "replay_files": [
+    "replay_capture_profit_probe_fresh.jsonl",
+    "replay_capture_profit_probe_run2_frozen.jsonl"
+  ],
+  "common_overrides": {
+    "strategy.edge_threshold": 0.0,
+    "strategy.model_edge_multiplier": 0.0,
+    "strategy.maker_only": true,
+    "strategy.snipe_edge_threshold": 9.0,
+    "strategy.cross_side_arb_enabled": true,
+    "strategy.cross_side_arb_min_edge_cents": 0.6,
+    "strategy.cross_side_arb_max_count": 1,
+    "strategy.inventory_exit_enabled": true,
+    "strategy.inventory_exit_min_edge_cents": -0.5,
+    "strategy.max_yes_spread_cents_for_mm": 20.0
+  },
+  "results": {
+    "made_money_defaults": {
+      "pnl_sum_cents": 14.72,
+      "pnl_sum_dollars": 0.1472,
+      "fills_sum": 18,
+      "max_ending_gross": 18,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 4.86,
+          "fills": 9,
+          "cost_drag_cents": 4.14,
+          "ending_gross": 18,
+          "adverse_selection_rate": 0.1111
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 9.86,
+          "fills": 9,
+          "cost_drag_cents": 4.14,
+          "ending_gross": 18,
+          "adverse_selection_rate": 0.1111
+        }
+      }
+    },
+    "safer_notes_defaults": {
+      "pnl_sum_cents": 17.4,
+      "pnl_sum_dollars": 0.174,
+      "fills_sum": 20,
+      "max_ending_gross": 10,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 9.7,
+          "fills": 10,
+          "cost_drag_cents": 2.3,
+          "ending_gross": 10,
+          "adverse_selection_rate": 0.1
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 7.7,
+          "fills": 10,
+          "cost_drag_cents": 2.3,
+          "ending_gross": 10,
+          "adverse_selection_rate": 0.1
+        }
+      }
+    },
+    "scaled_profit_proof": {
+      "pnl_sum_cents": 196.8,
+      "pnl_sum_dollars": 1.968,
+      "fills_sum": 10,
+      "max_ending_gross": 120,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 224.4,
+          "fills": 5,
+          "cost_drag_cents": 27.6,
+          "ending_gross": 120,
+          "adverse_selection_rate": 0.2
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": -27.6,
+          "fills": 5,
+          "cost_drag_cents": 27.6,
+          "ending_gross": 120,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    },
+    "scaled_extreme_profit_proof": {
+      "pnl_sum_cents": 1025.0,
+      "pnl_sum_dollars": 10.25,
+      "fills_sum": 42,
+      "max_ending_gross": 1600,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl_cents": 572.0,
+          "fills": 27,
+          "cost_drag_cents": 368.0,
+          "ending_gross": 1600,
+          "adverse_selection_rate": 0.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl_cents": 453.0,
+          "fills": 15,
+          "cost_drag_cents": 207.0,
+          "ending_gross": 900,
+          "adverse_selection_rate": 0.0
+        }
+      }
+    }
+  }
+}

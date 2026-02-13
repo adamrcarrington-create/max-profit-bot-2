@@ -1,0 +1,2 @@
+2026-02-12 00:24:35,528 INFO market_roll old=NONE new=KXETH15M-26FEB120030-30
+2026-02-12 00:24:36,499 INFO position_baseline_set scope=delta_from_start gross=139 net=139

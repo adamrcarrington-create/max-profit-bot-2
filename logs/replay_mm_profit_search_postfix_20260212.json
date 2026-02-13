@@ -1,0 +1,765 @@
+{
+  "tested": 396,
+  "files": [
+    "replay_capture_profit_probe_fresh.jsonl",
+    "replay_capture_profit_probe_run2_frozen.jsonl"
+  ],
+  "best_overall": {
+    "params": {
+      "size": 60,
+      "gross": 1600,
+      "rate": 6
+    },
+    "pnl_sum_cents": 1025.0,
+    "pnl_sum_dollars": 10.25,
+    "min_file_pnl_cents": 453.0,
+    "fills_sum": 42,
+    "max_ending_gross": 1600,
+    "cost_drag_cents": 575.0,
+    "all_positive": true,
+    "per_file": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl": 572.0,
+        "fills": 27,
+        "end_gross": 1600,
+        "cost_drag": 368.0
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl": 453.0,
+        "fills": 15,
+        "end_gross": 900,
+        "cost_drag": 207.0
+      }
+    }
+  },
+  "best_all_positive": {
+    "params": {
+      "size": 60,
+      "gross": 1600,
+      "rate": 6
+    },
+    "pnl_sum_cents": 1025.0,
+    "pnl_sum_dollars": 10.25,
+    "min_file_pnl_cents": 453.0,
+    "fills_sum": 42,
+    "max_ending_gross": 1600,
+    "cost_drag_cents": 575.0,
+    "all_positive": true,
+    "per_file": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl": 572.0,
+        "fills": 27,
+        "end_gross": 1600,
+        "cost_drag": 368.0
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl": 453.0,
+        "fills": 15,
+        "end_gross": 900,
+        "cost_drag": 207.0
+      }
+    }
+  },
+  "top25": [
+    {
+      "params": {
+        "size": 60,
+        "gross": 1600,
+        "rate": 6
+      },
+      "pnl_sum_cents": 1025.0,
+      "pnl_sum_dollars": 10.25,
+      "min_file_pnl_cents": 453.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1600,
+      "cost_drag_cents": 575.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 572.0,
+          "fills": 27,
+          "end_gross": 1600,
+          "cost_drag": 368.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 453.0,
+          "fills": 15,
+          "end_gross": 900,
+          "cost_drag": 207.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 60,
+        "gross": 1600,
+        "rate": 20
+      },
+      "pnl_sum_cents": 1025.0,
+      "pnl_sum_dollars": 10.25,
+      "min_file_pnl_cents": 453.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1600,
+      "cost_drag_cents": 575.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 572.0,
+          "fills": 27,
+          "end_gross": 1600,
+          "cost_drag": 368.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 453.0,
+          "fills": 15,
+          "end_gross": 900,
+          "cost_drag": 207.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 60,
+        "gross": 1600,
+        "rate": 60
+      },
+      "pnl_sum_cents": 1025.0,
+      "pnl_sum_dollars": 10.25,
+      "min_file_pnl_cents": 453.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1600,
+      "cost_drag_cents": 575.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 572.0,
+          "fills": 27,
+          "end_gross": 1600,
+          "cost_drag": 368.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 453.0,
+          "fills": 15,
+          "end_gross": 900,
+          "cost_drag": 207.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 60,
+        "gross": 1600,
+        "rate": 120
+      },
+      "pnl_sum_cents": 1025.0,
+      "pnl_sum_dollars": 10.25,
+      "min_file_pnl_cents": 453.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1600,
+      "cost_drag_cents": 575.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 572.0,
+          "fills": 27,
+          "end_gross": 1600,
+          "cost_drag": 368.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 453.0,
+          "fills": 15,
+          "end_gross": 900,
+          "cost_drag": 207.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1200,
+        "rate": 6
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1200,
+        "rate": 20
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1200,
+        "rate": 60
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1200,
+        "rate": 120
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1600,
+        "rate": 6
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1600,
+        "rate": 20
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1600,
+        "rate": 60
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 1600,
+        "rate": 120
+      },
+      "pnl_sum_cents": 908.0,
+      "pnl_sum_dollars": 9.08,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 70,
+      "max_ending_gross": 1020,
+      "cost_drag_cents": 322.0,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 615.4,
+          "fills": 51,
+          "end_gross": 1020,
+          "cost_drag": 234.6
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 800,
+        "rate": 6
+      },
+      "pnl_sum_cents": 768.6,
+      "pnl_sum_dollars": 7.686,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 59,
+      "max_ending_gross": 800,
+      "cost_drag_cents": 271.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 476.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost_drag": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 800,
+        "rate": 20
+      },
+      "pnl_sum_cents": 768.6,
+      "pnl_sum_dollars": 7.686,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 59,
+      "max_ending_gross": 800,
+      "cost_drag_cents": 271.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 476.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost_drag": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 800,
+        "rate": 60
+      },
+      "pnl_sum_cents": 768.6,
+      "pnl_sum_dollars": 7.686,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 59,
+      "max_ending_gross": 800,
+      "cost_drag_cents": 271.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 476.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost_drag": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 800,
+        "rate": 120
+      },
+      "pnl_sum_cents": 768.6,
+      "pnl_sum_dollars": 7.686,
+      "min_file_pnl_cents": 292.6,
+      "fills_sum": 59,
+      "max_ending_gross": 800,
+      "cost_drag_cents": 271.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 476.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost_drag": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1200,
+        "rate": 6
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1200,
+        "rate": 20
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1200,
+        "rate": 60
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1200,
+        "rate": 120
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1600,
+        "rate": 6
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1600,
+        "rate": 20
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1600,
+        "rate": 60
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 40,
+        "gross": 1600,
+        "rate": 120
+      },
+      "pnl_sum_cents": 673.6,
+      "pnl_sum_dollars": 6.736,
+      "min_file_pnl_cents": 302.0,
+      "fills_sum": 42,
+      "max_ending_gross": 1080,
+      "cost_drag_cents": 386.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 371.6,
+          "fills": 27,
+          "end_gross": 1080,
+          "cost_drag": 248.4
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 302.0,
+          "fills": 15,
+          "end_gross": 600,
+          "cost_drag": 138.0
+        }
+      }
+    },
+    {
+      "params": {
+        "size": 20,
+        "gross": 500,
+        "rate": 6
+      },
+      "pnl_sum_cents": 567.6,
+      "pnl_sum_dollars": 5.676,
+      "min_file_pnl_cents": 275.0,
+      "fills_sum": 44,
+      "max_ending_gross": 500,
+      "cost_drag_cents": 202.4,
+      "all_positive": true,
+      "per_file": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 275.0,
+          "fills": 25,
+          "end_gross": 500,
+          "cost_drag": 115.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 292.6,
+          "fills": 19,
+          "end_gross": 380,
+          "cost_drag": 87.4
+        }
+      }
+    }
+  ]
+}

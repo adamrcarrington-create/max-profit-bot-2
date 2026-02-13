@@ -1,0 +1,788 @@
+{
+  "tested": 1800,
+  "files": [
+    "replay_capture_profit_probe_fresh.jsonl",
+    "replay_capture_profit_probe_run2_frozen.jsonl",
+    "replay_capture_latest.jsonl"
+  ],
+  "best": {
+    "score": 597.5,
+    "pnl_sum": 870.0,
+    "min_pnl": 0.0,
+    "fills": 50,
+    "max_end": 800,
+    "all_pos": false,
+    "params": {
+      "strategy.base_order_count": 20,
+      "strategy.max_order_count": 20,
+      "strategy.mm_half_spread_cents": 1.5,
+      "execution.max_orders_per_minute": 4,
+      "risk.max_gross_position": 8,
+      "risk.max_net_exposure": 8,
+      "strategy.min_ev_cents_per_contract": 0.4
+    },
+    "per": {
+      "replay_capture_profit_probe_fresh.jsonl": {
+        "pnl": 716.0,
+        "fills": 40,
+        "end_gross": 800,
+        "cost": 184.0
+      },
+      "replay_capture_profit_probe_run2_frozen.jsonl": {
+        "pnl": 154.0,
+        "fills": 10,
+        "end_gross": 200,
+        "cost": 46.0
+      },
+      "replay_capture_latest.jsonl": {
+        "pnl": 0.0,
+        "fills": 0,
+        "end_gross": 0,
+        "cost": 0.0
+      }
+    }
+  },
+  "best_all_positive": null,
+  "top20": [
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 8,
+        "risk.max_net_exposure": 8,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 8,
+        "risk.max_net_exposure": 8,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 16,
+        "risk.max_net_exposure": 16,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 16,
+        "risk.max_net_exposure": 16,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 60,
+        "risk.max_net_exposure": 60,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 60,
+        "risk.max_net_exposure": 60,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 100,
+        "risk.max_net_exposure": 100,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 4,
+        "risk.max_gross_position": 100,
+        "risk.max_net_exposure": 100,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 8,
+        "risk.max_net_exposure": 8,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 8,
+        "risk.max_net_exposure": 8,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 16,
+        "risk.max_net_exposure": 16,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 16,
+        "risk.max_net_exposure": 16,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 30,
+        "risk.max_net_exposure": 30,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 60,
+        "risk.max_net_exposure": 60,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 60,
+        "risk.max_net_exposure": 60,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 100,
+        "risk.max_net_exposure": 100,
+        "strategy.min_ev_cents_per_contract": 0.4
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "score": 597.5,
+      "pnl_sum": 870.0,
+      "min_pnl": 0.0,
+      "fills": 50,
+      "max_end": 800,
+      "all_pos": false,
+      "params": {
+        "strategy.base_order_count": 20,
+        "strategy.max_order_count": 20,
+        "strategy.mm_half_spread_cents": 1.5,
+        "execution.max_orders_per_minute": 6,
+        "risk.max_gross_position": 100,
+        "risk.max_net_exposure": 100,
+        "strategy.min_ev_cents_per_contract": 0.6
+      },
+      "per": {
+        "replay_capture_profit_probe_fresh.jsonl": {
+          "pnl": 716.0,
+          "fills": 40,
+          "end_gross": 800,
+          "cost": 184.0
+        },
+        "replay_capture_profit_probe_run2_frozen.jsonl": {
+          "pnl": 154.0,
+          "fills": 10,
+          "end_gross": 200,
+          "cost": 46.0
+        },
+        "replay_capture_latest.jsonl": {
+          "pnl": 0.0,
+          "fills": 0,
+          "end_gross": 0,
+          "cost": 0.0
+        }
+      }
+    }
+  ]
+}

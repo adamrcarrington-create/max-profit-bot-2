@@ -1,0 +1,94 @@
+2026-02-11 23:23:45,480 INFO market_roll old=NONE new=KXETH15M-26FEB112330-30
+2026-02-11 23:23:46,425 INFO position_baseline_set scope=delta_from_start gross=145 net=145
+2026-02-11 23:23:46,751 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:47,154 INFO performance_write path=/Users/adamcarrington/Documents/3.0 bot/kalshi bot 2.10.26/logs/performance_mm_live_3x15_eth.json payload={"as_of":"2026-02-12T04:23:47Z","ticker":"KXETH15M-26FEB112330-30","series_ticker":"KXETH15M","window_minutes":15,"wins":0,"losses":0,"fill_count":0,"slippage_cents":0.0,"adverse_selection_count":0,"adverse_selection_total":0,"adverse_selection_rate":0.0,"last_real_yes_probability":0.025,"last_kalshi_implied_yes_probability":0.025,"edge_threshold":0.08,"order_attempts":0,"order_failures":0,"last_401_epoch":0.0,"regime":"mm","microstructure":{"spread_yes":1,"spread_no":1,"imbalance":-0.15958046689974062,"yes_depth":3726,"no_depth":5141,"pinned_state":false,"zero_spread_state":false,"book_age_seconds":0.7236270904541016,"book_stale_seconds":0.9819979667663574},"reference":{"source":"","last_error":"","spot_price":null,"perp_price":null,"coinbase_price":null,"kraken_price":null,"cross_exchang
+2026-02-11 23:23:47,430 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:48,467 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:49,435 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:50,436 WARNING data_stale_guard ref_age=inf book_age=3.419 book_stale=3.419 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:23:52,999 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:53,930 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:54,961 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:55,940 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:57,350 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:57,975 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:58,952 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:23:59,955 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:24:00,999 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:24:02,367 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:24:02,964 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:24:03,990 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=2/3 no=97/98
+2026-02-11 23:24:05,716 INFO mm_quote ticker=KXETH15M-26FEB112330-30 side=yes action=buy count=6 price=2 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB112330-30-B-Y-8706e8bba1","created_time":"2026-02-12T04:24:05.727579Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":6,"initial_count_fp":"6.00","last_update_time":"2026-02-12T04:24:05.727579Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":98,"no_price_dollars":"0.9800","order_group_id":null,"order_id":"77ca5ca2-ec6c-4d0c-a44b-a8f09bde32a9","queue_position":0,"remaining_count":6,"remaining_count_fp":"6.00","side":"yes","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB112330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":2,"yes_price_dollars":"0.0200"}}
+2026-02-11 23:24:06,045 INFO mm_quote ticker=KXETH15M-26FEB112330-30 side=no action=buy count=6 price=92 post_only=1 order_response={"order":{"action":"buy","client_order_id":"MM-KXETH15M-26FEB112330-30-B-N-7df6e6c9fe","created_time":"2026-02-12T04:24:06.060214Z","expiration_time":null,"fill_count":0,"fill_count_fp":"0.00","initial_count":6,"initial_count_fp":"6.00","last_update_time":"2026-02-12T04:24:06.060214Z","maker_fees":0,"maker_fill_cost":0,"maker_fill_cost_dollars":"","no_price":92,"no_price_dollars":"0.9200","order_group_id":null,"order_id":"2d9b73d6-4ef7-4dbb-9a46-c37ccb60ab57","queue_position":0,"remaining_count":6,"remaining_count_fp":"6.00","side":"no","status":"resting","subaccount_number":0,"taker_fees":0,"taker_fill_cost":0,"taker_fill_cost_dollars":"","ticker":"KXETH15M-26FEB112330-30","type":"limit","user_id":"9527e599-009b-4f8e-9db2-774476f31dd7","yes_price":8,"yes_price_dollars":"0.0800"}}
+2026-02-11 23:24:44,255 INFO mm_cancel_order_already_gone ticker=KXETH15M-26FEB112330-30 kind=buy side=yes order_id=77ca5ca2-ec6c-4d0c-a44b-a8f09bde32a9
+2026-02-11 23:24:44,256 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:44,901 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:45,836 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:46,865 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:47,908 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:48,920 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:49,889 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:50,860 WARNING data_stale_guard ref_age=inf book_age=3.001 book_stale=3.001 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:24:51,934 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:53,674 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:53,942 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:54,946 WARNING data_stale_guard ref_age=inf book_age=3.918 book_stale=3.918 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:24:56,059 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:57,029 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:58,433 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:24:59,073 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:00,043 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:01,048 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:02,461 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:03,151 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:04,061 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:05,099 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:06,068 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:07,147 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:08,488 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:09,080 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:10,081 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:11,554 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:12,091 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:13,096 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:14,506 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:15,102 WARNING data_stale_guard ref_age=inf book_age=3.336 book_stale=3.336 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:16,249 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:17,206 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:18,186 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:19,246 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:20,659 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:21,198 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:22,204 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:23,228 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:24,610 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:25,215 WARNING data_stale_guard ref_age=inf book_age=3.270 book_stale=3.269 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:26,310 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:27,288 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:28,365 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:29,689 INFO mm_skip_pinned ticker=KXETH15M-26FEB112330-30 yes=1/2 no=98/99
+2026-02-11 23:25:30,296 WARNING data_stale_guard ref_age=inf book_age=3.451 book_stale=3.450 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:40,455 WARNING data_stale_guard ref_age=inf book_age=3.408 book_stale=3.408 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:44,944 WARNING data_stale_guard ref_age=inf book_age=4.288 book_stale=4.288 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:49,329 WARNING data_stale_guard ref_age=inf book_age=8.673 book_stale=8.673 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:53,513 WARNING data_stale_guard ref_age=inf book_age=12.857 book_stale=12.857 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:25:57,693 WARNING data_stale_guard ref_age=inf book_age=17.037 book_stale=17.037 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:05,085 WARNING data_stale_guard ref_age=inf book_age=3.118 book_stale=3.118 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:09,262 WARNING data_stale_guard ref_age=inf book_age=7.296 book_stale=7.296 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:13,368 WARNING data_stale_guard ref_age=inf book_age=3.079 book_stale=3.079 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:18,159 WARNING data_stale_guard ref_age=inf book_age=7.870 book_stale=7.870 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:22,355 WARNING data_stale_guard ref_age=inf book_age=12.066 book_stale=12.066 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:28,742 WARNING data_stale_guard ref_age=inf book_age=3.419 book_stale=3.419 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:35,880 WARNING data_stale_guard ref_age=inf book_age=3.067 book_stale=3.067 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:42,364 WARNING data_stale_guard ref_age=inf book_age=3.177 book_stale=3.177 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:46,844 WARNING data_stale_guard ref_age=inf book_age=7.657 book_stale=7.657 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:51,328 WARNING data_stale_guard ref_age=inf book_age=12.141 book_stale=12.141 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:26:55,431 WARNING data_stale_guard ref_age=inf book_age=3.076 book_stale=3.076 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:05,235 WARNING data_stale_guard ref_age=inf book_age=4.387 book_stale=4.387 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:13,605 WARNING data_stale_guard ref_age=inf book_age=3.213 book_stale=3.213 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:17,813 WARNING data_stale_guard ref_age=inf book_age=7.422 book_stale=7.421 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:25,604 WARNING data_stale_guard ref_age=inf book_age=3.155 book_stale=3.155 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:30,793 WARNING data_stale_guard ref_age=inf book_age=3.236 book_stale=3.236 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:43,728 WARNING data_stale_guard ref_age=inf book_age=3.211 book_stale=3.210 ticker=KXETH15M-26FEB112330-30
+2026-02-11 23:27:46,077 INFO runtime limit reached; exiting.
+2026-02-11 23:27:47,145 WARNING cancel_all_orders result={"canceled":0,"errors":[]}
